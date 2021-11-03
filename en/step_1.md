@@ -26,10 +26,24 @@ Look at these examples. Think about your background and think about whether your
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/e9898dc6c0?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
+
+**Lost in space:** [See inside](https://trinket.io/python/ff931d5dd5){:target="_blank"}
+
+<div class="trinket">
+<iframe src="https://trinket.io/embed/python/ff931d5dd5?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
+**All the fruit!:** [See inside](https://trinket.io/python/30c1eef9d3){:target="_blank"}
 
+<div class="trinket">
+<iframe src="https://trinket.io/embed/python/30c1eef9d3?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</div>
 
+**African inspired art:** [See inside](https://trinket.io/python/6067bf289c){:target="_blank"}
+
+<div class="trinket">
+<iframe src="https://trinket.io/embed/python/6067bf289c?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</div>
 
 --- /task ---
 
