@@ -1,23 +1,46 @@
-## Share
+## Encode a message
 
-If you are in a club, why not share your project with friends?
-
-You could also show your family how your project works.
-
-If you have a Scratch account, you can share your project through Scratch. You can send a link to people you know, and the whole Scratch community will be able to find your project and try it out.
-
-[[[share-scratch]]]
-
-Why not invite your friends to create a project? Let them know how you had fun.
-
-If you have a Scratch account, and have shared your 'Don't fall in' project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Ignore any comments that are unhelpful or irrelevant.
-
-[[[comments-feedback-scratch]]]
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+Add an introductory sentence. What will learners achieve by the end of this step?
+</div>
+<div>
+Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
 
-To submit your project to our ['Don't fall in - Community'](https://scratch.mit.edu/studios/29601182){:target="_blank"} Scratch studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+[[[working-offline]]]
 
 --- /task ---
+
+--- task ---
+
+Step content... 
+Can use:
+**Test:**
+**Choose:**
+**Tip:**
+
+--- /task ---
+
+--- task ---
+
+**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+
+--- collapse ---
+
+---
+title: Each debug in a collapse or ingredient
+---
+
+Each debug in a collapse or ingredient
+
+--- /collapse ---
+
+--- /task ---
+
+--- save ---
