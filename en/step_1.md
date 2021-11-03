@@ -2,10 +2,6 @@
 
 Create a piece of encoded artwork based on the user's name. Each letter is encoded to a shape that is displayed at random on the screen.
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Encoded artwork**</span> can be created by linking a letter with a shape. Shapes can then be drawn on the screen to create a full piece of artwork based on what a user has typed in. 
-</p>
-
 In this project you will:
 + Use a dictionary to encode letters with a variety of shapes
 + Use functions with parameters to add customisation to shapes
