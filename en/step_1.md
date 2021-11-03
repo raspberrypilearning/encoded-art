@@ -13,60 +13,24 @@ In this project you will:
 
 ![A selection of screenshots take of the example encoded art projects that can be accessed in the tasks below.](images/example-projects.png)
 
---- no-print ---
+### Get inspiration
+
+You are going to make some design decisions about the kind of artwork that will be produced when the user enters their name. 
 
 --- task ---
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
+Look at these examples. Think about your background and think about whether your design will include shapes, patterns, images or a combination. 
 
-### Try it 
+**Circles, squares and triangles:** [See inside](https://trinket.io/python/e9898dc6c0){:target="_blank"}
 
-Description of what to do or think about when looking at the example.
-
+<div class="trinket">
+<iframe src="https://trinket.io/embed/python/e9898dc6c0?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
-<div>
-**Gobo watching**: [See inside](https://scratch.mit.edu/projects/495141114/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495141114/?autostart=false" frameborder="0"></iframe>
 </div>
 
-</div>
+
+
 
 --- /task ---
 
-### Get inspiration 
-
-You are going to make some design decisions to ...
-
---- task ---
-
-Explore these example projects to get more ideas:
-
-**Don't eat donut**: [See inside](https://scratch.mit.edu/projects/495865093/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865093/?autostart=false" frameborder="0"></iframe>
-</div>
-
-**Under the sea**: [See inside](https://scratch.mit.edu/projects/495866460/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495866460/?autostart=false" frameborder="0"></iframe>
-</div>
-
-**Sporg**: [See inside](https://scratch.mit.edu/projects/495865892/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865892/?autostart=false" frameborder="0"></iframe>
-</div>
---- /task ---
---- /no-print ---
-
---- print-only ---
-
-### Get inspiration 
-
-You are going to make some design decisions to create your character. See inside example projects in [Scratch 1: Googly eye character - Examples](https://scratch.mit.edu/studios/29029028/){:target="_blank"} Scratch studio.
-
-<mark>one image file per example</mark>
-
---- /print-only ---
 
