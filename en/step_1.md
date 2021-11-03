@@ -6,16 +6,16 @@ Create a piece of encoded artwork based on the user's name. Each letter is encod
 <span style="color: #0faeb0">**Encoded artwork**</span> can be created by linking a letter with a shape. Shapes can then be drawn on the screen to create a full piece of artwork based on what a user has typed in. 
 </p>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**QR codes**</span> are like a little piece of encoded artwork. They are used to represent data, such as website addresses. They are made up of black and white squares that are used to represent letters or numbers. The black and white patterns can be read and decoded by computers.   
-</p>
-
 In this project you will:
 + Use a dictionary to encode letters with a variety of shapes
 + Use functions with parameters to add customisation to shapes
 + Create a unique piece of digital art using encoded letters
 
-<mark>Image of many different examples in a strip</mark>
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**QR codes**</span> are like a little piece of encoded artwork. They are used to represent data, such as website addresses. They are made up of black and white squares that are used to represent letters or numbers. The black and white patterns can be read and decoded by computers.   
+</p>
+
+![A selection of screenshots take of the example encoded art projects that can be accessed in the tasks below.](images/example-projects.png)
 
 --- no-print ---
 
