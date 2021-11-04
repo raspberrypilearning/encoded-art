@@ -213,7 +213,7 @@ line_highlights:
 
 --- collapse ---
 ---
-title: Error: `shape_1() takes exactly 2 arguments (1 given)`
+title: Error about arguments in the function
 ---
 + When you defined your function you decided how many parameters it needed. You need to make sure that when you call the function, it has the same number of parameters.
 
