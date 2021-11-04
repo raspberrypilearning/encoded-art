@@ -185,7 +185,6 @@ run()
 **Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
 --- collapse ---
-
 ---
 title: I've updated my size and colour but the output area stays the same
 ---
@@ -197,7 +196,6 @@ Make sure you have a call to `run()` at the very end of your script outside of a
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: I've tried different numbers but the background colour doesn't change 
 ---
