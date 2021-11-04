@@ -11,8 +11,39 @@ Set up your shape functions so that you can use them in your encoded artwork.
 
 --- task ---
 
-
+Decide how many unique **shapes** you would like your artwork to have. The example projects have **three** unique shapes. These are then modified using the parameters of the function. You might like to have more than three, the decision is yours!
 
 --- /task ---
+
+--- task ---
+
+Define each shape function in preparation for adding in the code that will be needed to draw each shape. 
+
+--- collapse ---
+---
+title: Defining a function
+---
+You can define your functions in the following way:
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+def shape_1():
+   
+def shape_2():
+
+def shape_3():
+
+--- /code ---
+
+
+--- /collapse ---
+
+--- /task ---
+
 
 --- save ---
