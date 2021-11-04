@@ -177,6 +177,36 @@ for item in message:
 
 --- /code ---
 
+--- /collapse ---
+
+--- task ---
+
+**Test** your code to see if it displays your chosen images on the screen. At this point they should all appear spread around the window.
+
+![A screenshot of the output of the example project. There is a dark blue background, blue squares, blue circles and orange triangles. The text input reads example text here](images/shape-functions3.PNG)
+
+--- /task ---
+
+--- task ---
+
+**Debug:**
+
+--- collapse ---
+---
+title: I'm getting an error about '`name` referenced before assignment'
+---
+Make sure you have `name` set up as a `global` variable in your draw function.
 
 --- /collapse ---
+
+--- collapse ---
+---
+title: My art looks weird!
+---
+Make sure your parameters are being called in the right order in your functions.
+
+--- /collapse ---
+
+--- /task ---
+
 --- save ---
