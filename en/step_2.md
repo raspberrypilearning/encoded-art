@@ -9,7 +9,7 @@ Have you got some ideas about what sort of art you would like to make? In this s
 </div>
 </div>
 
---- task ------ task ---
+--- task ---
 
 Open the [starter project](https://trinket.io/python/c4cbf837f8){:target="_blank"}. Trinket will open in another browser tab.
 
@@ -95,6 +95,7 @@ draw():
     red = color(255,0,0)
     grn = color(0,255,0)
     blu = color(0,0,255)
+    
 --- /code ---
 
 --- /collapse ---
