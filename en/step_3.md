@@ -204,9 +204,36 @@ line_highlights:
 
 ![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle and an orange triangle.](images/shape-functions.PNG)
 
+--- /task ---
+
+--- task ---
+
 **Debug:** 
 
+--- collapse ---
+---
+title: Error: `shape_1() takes exactly 2 arguments (1 given)`
+---
++ When you defined your function you decided how many parameters it needed. You need to make sure that when you call the function, it has the same number of parameters.
 
+--- /collapse ---
+
+--- collapse ---
+---
+title: Only one shape appears
+---
++ Check that you have **called** each shape function
++ The shapes might be there, but on top of each other. To change this you could call one function at a time by commented out the other two function calls with a hashtag `#`
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: The drawings are not the right shape/size
+---
++ Check that you have entered your parameters the right way round. 
+
+--- /collapse ---
 
 --- /task ---
 
