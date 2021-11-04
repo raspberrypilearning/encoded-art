@@ -9,6 +9,7 @@ steps:
   - title: Introduction
   - title: Choose a theme
   - title: Draw your shapes
+  - title: Add randomisation
   - title: Build your dictionary
   - title: Encode a message
   - title: Reflection
