@@ -224,7 +224,7 @@ title: You see an error about arguments
 title: Only one shape appears
 ---
 + Check that you have **called** each shape function
-+ The shapes might be there, but on top of each other. To change this you could call one function at a time by commented out the other two function calls with a hashtag `#`
++ The shapes might be there, but on top of each other. To change this you could call one function at a time by commenting out the other two function calls with a hashtag `#`
 
 --- /collapse ---
 
