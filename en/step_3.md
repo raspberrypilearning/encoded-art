@@ -128,7 +128,7 @@ def shape_2(colour, size):
 title: Loading images
 ---
 
-The [Lost in Space](https://trinket.io/python/ff931d5dd5){:target="_blank"}) example project loads images to create the encoded artwork. 
+The [Lost in Space](https://trinket.io/python/ff931d5dd5){:target="_blank"} example project loads images to create the encoded artwork. 
 
 **Remember** that you will need code to display the image:
 
@@ -166,10 +166,35 @@ def setup():
   
   # Load the images needed into variables
   purple_planet = load_image('purple_planet.png')
-  
+
 --- /code ---
 
 --- /collapse ---
+
+--- /task ---
+
+--- task ---
+
+In order to **test** that your shape functions work correctly you will need to **call** them from the `draw()` function. 
+
+Make sure that you add in the values for your chosen parameters!
+
+Here is an example of what your function calls might look like:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+  shape_1(primary_2, 100)
+  shape_2(primary_2, 100)
+  shape_3(complementary_2, 100)
+--- /code ---
+
+**Notice** that the variable names for the chosen `colour` have been placed in the first parameter and some values have been added for the chosen `size` in the second parameter. 
 
 --- /task ---
 
