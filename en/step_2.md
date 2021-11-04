@@ -162,11 +162,11 @@ def draw():
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 27
+line_number_start: 28
 line_highlights: 28
 ---
-
 run()
+
 --- /code ---
 
 --- /task ---
