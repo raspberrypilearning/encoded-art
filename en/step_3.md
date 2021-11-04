@@ -13,6 +13,11 @@ Set up your shape functions so that you can use them in your encoded artwork.
 
 Decide how many unique **shapes** you would like your artwork to have. The example projects have **three** unique shapes. These are then modified using the parameters of the function. You might like to have more than three, the decision is yours!
 
+Here are some ideas:
++ Three shape functions that load images of either butterflies, snails or birds. 
++ Three shape functions that draw squares, circles and triangles
++ Five shape functions, each one draws a unique animal
+
 --- /task ---
 
 --- task ---
@@ -51,6 +56,7 @@ def shape_3():
 Decide which **parameters** your functions will need. Here are some ideas:
 + A `colour` parameter to allow you to modify the colour of the shapes that you have created
 + A `size` parameter to allow you to adjust the size of the shape or image 
++ An `outline` parameter that adds a different colour to the edge of a drawing
 
 --- /task ---
 
@@ -84,6 +90,7 @@ def shape_3(size, colour):
 --- /collapse ---
 
 --- /task ---
+
 
 
 --- save ---
