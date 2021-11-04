@@ -24,6 +24,7 @@ Define each shape function in preparation for adding in the code that will be ne
 title: Defining a function
 ---
 You can define your functions in the following way:
+
 --- code ---
 ---
 language: python
