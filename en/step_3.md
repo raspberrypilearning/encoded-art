@@ -46,5 +46,44 @@ def shape_3():
 
 --- /task ---
 
+--- task ---
+
+Decide which **parameters** your functions will need. Here are some ideas:
++ A `colour` parameter to allow you to modify the colour of the shapes that you have created
++ A `size` parameter to allow you to adjust the size of the shape or image 
+
+--- /task ---
+
+--- task ---
+
+Add your chosen **parameters** inside the curved brackets of each of your **shape** functions.
+
+--- collapse ---
+---
+title: Adding parameters to functions
+---
+You can add parameters to your functions in the following way:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+def shape_1(size, colour):
+   
+def shape_2(size, colour):
+
+def shape_3(size, colour):
+
+--- /code ---
+
+
+--- /collapse ---
+
+--- /task ---
+
 
 --- save ---
