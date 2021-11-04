@@ -165,11 +165,11 @@ title: Fixing syntax errors
 
 If your code has syntax errors then look very carefully at the structure of your dictionary. There should be:
 + Curly brackets `{}` at the start and end of the dictionary
-+ Apostrophies `'` surround the keys (letters of the alphabet)
++ Apostrophies `'` surrounding the keys (letters of the alphabet)
 + A colon `:` between the key and the list
 + The list should have a square bracket `[]` on either side
 + Each list item should be separated by a comma `,`
-+ There should be a comma at the end of each **key pairing**
++ There should be a comma `,` at the end of each **key pairing**
 
 You can double check your syntax by taking a look at the example code in **Pairing a list with your dictionary keys** above. 
 
