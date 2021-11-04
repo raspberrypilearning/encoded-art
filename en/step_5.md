@@ -13,6 +13,10 @@ Create the dictionary that will encode each letter of the alphabet with a shape.
 
 **Define** your **dictionary** in the `draw()` function. Make sure that you give it a suitable name and place the dictionary below your colour palette.  
 
+--- collapse ---
+---
+title: Defining a dictionary
+---
 Here is some example code of a dictionary being defined:
 
 --- code ---
@@ -28,6 +32,8 @@ code = {
   }
 
 --- /code ---
+
+--- /collapse ---
 
 --- /task ---
 
