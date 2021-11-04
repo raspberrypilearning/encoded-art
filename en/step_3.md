@@ -232,7 +232,7 @@ title: Only one shape appears
 ---
 title: The drawings are not the right shape/size
 ---
-+ Check that you have entered your parameters the right way round. 
++ Check that you have entered your **arguments** in the function call in the same order as the **parameters** in the function. 
 
 --- /collapse ---
 
