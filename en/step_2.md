@@ -130,6 +130,8 @@ def draw_background(colour):
 
 --- /code ---
 
+Then create a call to it in `draw()`:
+
 --- code ---
 ---
 language: python
