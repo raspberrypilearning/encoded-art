@@ -41,8 +41,8 @@ title: Setting the screen size when your programme starts
 language: python
 filename: main.py - setup()
 line_numbers: true
-line_number_start: 6
-line_highlights: 7
+line_number_start:6
+line_highlights:7
 ---
 def setup():   
     size(400, 400) #400 by 400 works well for an art canvas
@@ -87,7 +87,7 @@ Colour tuples can be stored in variables by assigning them values in the format 
 language: python
 filename: main.py - draw()
 line_numbers: true
-line_number_start: 12
+line_number_start:12
 line_highlights: 
 ---
 draw():
@@ -136,8 +136,8 @@ Then create a call to it in `draw()`:
 language: python
 filename: main.py - draw()
 line_numbers: true
-line_number_start: 18
-line_highlights: 24-25
+line_number_start:18
+line_highlights:24-25
 ---
 def draw():
 
@@ -163,8 +163,8 @@ def draw():
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 28
-line_highlights: 28
+line_number_start:28
+line_highlights:28
 ---
 run()
 
