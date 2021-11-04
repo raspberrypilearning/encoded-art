@@ -128,7 +128,46 @@ def shape_2(colour, size):
 title: Loading images
 ---
 
+The [Lost in Space](https://trinket.io/python/ff931d5dd5){:target="_blank"}) example project loads images to create the encoded artwork. 
 
+**Remember** that you will need code to display the image:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 4
+---def shape_1(size, colour): 
+  
+  if colour == 'purple':
+    image(purple_planet, 400, 400, size, size)
+
+--- /code ---
+
+You will also need code to **load** the image in the `setup()` function:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 10 
+---
+def setup():
+  
+  # Allow other functions to access the images
+  global purple_planet
+  
+  frame_rate(10)
+  size(400, 400)
+  
+  # Load the images needed into variables
+  purple_planet = load_image('purple_planet.png')
+  
+--- /code ---
 
 --- /collapse ---
 
