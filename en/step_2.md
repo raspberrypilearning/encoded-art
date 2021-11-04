@@ -1,6 +1,6 @@
 ## Choose a theme
 
-<div style="display: flex; flex-wrap: wrap">
+<div style="display: flex; flex-wrap: wrap;">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Have you got some ideas about what sort of art you would like to make? In this step we will plan your art and set up your background.
 </div>
@@ -95,7 +95,7 @@ draw():
     red = color(255,0,0)
     grn = color(0,255,0)
     blu = color(0,0,255)
-    
+
 --- /code ---
 
 --- /collapse ---
@@ -155,18 +155,16 @@ def draw():
 
 --- task ---
 
-**Create** a call to `run()` at the very end of your script, to run the program:
+**Create** a call to `run()` at the very end of your script (with no indent!) to run the program:
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 25
+line_number_start: 27
 line_highlights: 28
 ---
-    draw_background(red)
-
 
 run()
 --- /code ---
