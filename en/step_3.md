@@ -22,7 +22,7 @@ Here are some ideas:
 
 --- task ---
 
-Define each shape function in preparation for adding in the code that will be needed to draw each shape. 
+**Define** each shape function in preparation for adding in the code that will be needed to draw each shape. 
 
 --- collapse ---
 ---
@@ -62,7 +62,7 @@ Decide which **parameters** your functions will need. Here are some ideas:
 
 --- task ---
 
-Add your chosen **parameters** inside the curved brackets of each of your **shape** functions.
+**Add** your chosen **parameters** inside the curved brackets of each of your **shape** functions.
 
 --- collapse ---
 ---
@@ -91,6 +91,48 @@ def shape_3(size, colour):
 
 --- /task ---
 
+--- task ---
+
+**Add** in the code for each of your shape functions so that the drawing or image will appear when the function is **called**.
+
+--- collapse ---
+---
+title: Drawing your shape
+---
+
+In the [make a face project](https://projects.raspberrypi.org/en/projects/make-a-face/0){:target="_blank"} you learnt how to use a group of geometric shapes to create some fun faces. You can use your skills from that project to help you draw your images. 
+
+Here is some sample code for drawing a square:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+def shape_2(colour, size):
+
+  fill(colour)   
+  rect(200, 200, size, size)
+
+--- /code ---
+
+**Notice** that the parameters that are defined in the function above are then used to draw the shape. 
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Loading images
+---
+
+
+
+--- /collapse ---
+
+--- /task ---
 
 
 --- save ---
