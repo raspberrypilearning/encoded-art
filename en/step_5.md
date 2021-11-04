@@ -33,9 +33,61 @@ code = {
 
 --- task ---
 
+**Add** all of the letters of the alphabet as **keys** in the dictionary. Be careful with the syntax that you use. It is very easy to miss out a colon `:` or a comma `,`.
 
+--- collapse ---
+---
+title: Adding keys to a dictionary
+---
+Here is some example code showing **keys** being added to a **dictionary**:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+code = {
+  'a': ,
+  'b': ,
+  'c': ,
+  'd': ,
+  'e': ,
+  'f': ,
+  'g': ,
+  'h': ,
+  'i': ,
+  'j': ,
+  'k': ,
+  'l': ,
+  'm': ,
+  'n': ,
+  'o': ,
+  'p': ,
+  'q': ,
+  'r': ,
+  's': ,
+  't': ,
+  'u': ,
+  'v': ,
+  'w': ,
+  'x': ,
+  'y': ,
+  'z': ,
+  ' ': ,
+    
+  }
+--- /code ---
+
+**Notice** that the data pairing has not been entered yet. You will do this in the next task. 
+
+--- /collapse ---
 
 --- /task ---
+
+
 
 
 --- save ---
