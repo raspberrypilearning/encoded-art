@@ -107,7 +107,6 @@ draw():
 **Create** a function that will draw a background shape using your colour palette and add a function call to your `draw()` function.
 
 --- collapse ---
-
 ---
 title: Setting the background colours when your programme starts
 ---
