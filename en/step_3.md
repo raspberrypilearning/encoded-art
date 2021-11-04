@@ -192,6 +192,7 @@ line_highlights:
   shape_1(primary_2, 100)
   shape_2(primary_2, 100)
   shape_3(complementary_2, 100)
+
 --- /code ---
 
 **Notice** that the variable names for the chosen `colour` have been placed in the first parameter and some values have been added for the chosen `size` in the second parameter. 
