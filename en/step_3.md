@@ -215,7 +215,7 @@ line_highlights:
 ---
 title: You see an error about arguments
 ---
-+ When you defined your function you decided how many parameters it needed. You need to make sure that when you call the function, it has the same number of parameters.
++ When you **defined** your function you decided how many **parameters** it needed. You need to make sure that when you call the function, it has the same number of **arguments**.
 
 --- /collapse ---
 
