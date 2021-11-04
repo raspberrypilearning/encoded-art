@@ -9,6 +9,27 @@ Create the dictionary that will encode each letter of the alphabet with a shape.
 </div>
 </div>
 
+--- task ---
+
+**Define** your dictionary in the `draw()` function. Make sure that you give it a suitable name and place the dictionary below your colour palette.  
+
+Here is some example code of a dictionary being defined:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+code = {
+    
+  }
+
+--- /code ---
+
+--- /task ---
 
 
 --- save ---
