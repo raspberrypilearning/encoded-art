@@ -198,5 +198,17 @@ line_highlights:
 
 --- /task ---
 
+--- task ---
+
+**Test** your code to see if it displays your chosen images on the screen. At this point they might all appear on top of each other. You could **call** each function separately to see them more clearly. 
+
+![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle and an orange triangle.](images/shape-functions.PNG)
+
+**Debug:** 
+
+
+
+--- /task ---
+
 
 --- save ---
