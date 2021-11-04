@@ -177,7 +177,7 @@ def setup():
 
 In order to **test** that your shape functions work correctly you will need to **call** them from the `draw()` function. 
 
-Make sure that you add in the values for your chosen parameters!
+Make sure that you add in the arguments for your chosen parameters!
 
 Here is an example of what your function calls might look like:
 
