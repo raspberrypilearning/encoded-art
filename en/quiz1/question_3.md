@@ -36,9 +36,9 @@ line_highlights:
 red = color(255, 0, 0)
 
 shape_1(red)
+--- /code ---
 
 Why does he get an error message when he runs this code?
---- /code ---
 
 --- choices ---
 
