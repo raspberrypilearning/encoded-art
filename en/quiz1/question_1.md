@@ -52,7 +52,7 @@ Not quite, this is the name of the **key** that has been accessed on **line 7**.
 - (x) 
 `Green`
   --- feedback ---
-Correct! A new lists called `instructions` is created that will hold the items `'Green'` and `4`. The print function is then used to print the first item in that list, which is `Green`.
+Correct! A new list called `instructions` is created that will hold the items `'Green'` and `4`. The print function is then used to print the first item in that list, which is `Green`.
   --- /feedback ---
 
 - ( ) 
