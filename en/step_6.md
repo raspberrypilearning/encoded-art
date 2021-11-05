@@ -78,6 +78,8 @@ run()
 
 --- /collapse ---
 
+--- /task ---
+
 --- task ---
 
 At the end of your `draw()` function (after your dictionary), call the global variable you just declared and convert it to a single case to avoid typecase errors. 
