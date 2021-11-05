@@ -1,18 +1,40 @@
 ## Upgrade your project
 
-If you have time you can upgrade to your project. 
+If you have time you can upgrade your project. 
 
 Here are some ideas you could try:
-- ...
-- ...
 
-<mark> Optional </mark>Each example project in the [Introduction](.) has a ‘See Inside’ link for you to open the project in Scratch and look at the code to get ideas and see how they work.
+--- task ---
 
-**Sporg**: [See inside](https://scratch.mit.edu/projects/495865892/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865892/?autostart=false" frameborder="0"></iframe>
-</div>
+Enable your project to translate punctuation and numerals by adding dictionary entries for these extra characters.
 
-Take a look at our [Googly eye character Scratch studio](https://scratch.mit.edu/studios/29120534){:target="_blank"} to see projects created by community members.
+--- /task ---
 
+--- task ---
+
+Add more shapes to your artwork by creating new functions that make new and different objects to go on your canvas.
+
+--- /task ---
+
+--- task ---
+
+Give the user some choice over customisation of the artwork by asking them for their favourite colour and using it more often in the drawing.
+
+--- /task ---
+
+--- task ---
+
+Give the user the option to redraw the artwork slightly differently, using the same text input. You will need to create an extra input call after drawing, asking if the user is happy with the artwork. If the answer is 'no'; change the `seed` value and redraw, then ask again. Repeat until the answer is 'yes'.
+
+--- /task ---
+
+--- collapse ---
+
+---
+title: Completed project
+---
+
+You can view the [completed project here](https://trinket.io/python/e9898dc6c0){:target="_blank"}.
+
+--- /collapse ---
 --- save ---
