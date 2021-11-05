@@ -80,7 +80,7 @@ run()
 
 --- task ---
 
-At the end of your `draw()` function (after your dictionary), call the global variable `name` and convert it to a single case to avoid typecase errors. 
+At the end of your `draw()` function (after your dictionary), call the global variable you just declared and convert it to a single case to avoid typecase errors. 
 
 --- collapse ---
 ---
@@ -110,7 +110,12 @@ If your dictionary is in lowercase you should use `name.lower()`, but if you ent
 
 --- task ---
 
-**Create** a list called `message` to hold the series of letters in the message ready to encode, then populate the list by using `append` to add the coded dictionary values for each letter:
+**Create** a list to hold the series of letters in the message ready to encode, then populate the list by using `append` to add the coded dictionary values for each letter.
+
+--- collapse ---
+---
+title: Encode and Append to a list
+---
 
 --- code ---
 ---
@@ -131,9 +136,18 @@ for letter in name:
     message.append(code[letter])
 --- /code ---
 
+--- /collapse ---
+
 --- /task ---
 
-**Create** a `for` loop which will sort the `message` list of coded values based on the first term in each entry, then pass the information into your shape functions to draw a shape for each letter and place it on your canvas.
+--- task ---
+
+**Create** a `for` loop which will sort the list of coded values based on the first term in each entry, then pass the information into your shape functions to draw a shape for each letter and place it on your canvas.
+
+--- collapse ---
+---
+title: Drawing a shape for each letter 
+---
 
 --- code ---
 ---
@@ -152,6 +166,8 @@ for item in message:
     shape_3(item[1], item[2])
 
 --- /code ---
+
+--- /collapse ---
 
 --- collapse ---
 ---
@@ -191,9 +207,9 @@ for item in message:
 
 --- task ---
 
-**Test** your code to see if it displays your chosen images on the screen. At this point they should all appear spread around the window.
+**Test** your code to see if it displays your chosen images on the screen. At this point they should all appear in the way you expect.
 
-![A screenshot of the output of the example project. There is a dark blue background, blue squares, blue circles and orange triangles. The text input reads example text here](images/shape-functions3.PNG)
+![A screenshot of the output of the example project. There is a dark blue background, blue squares, blue circles and orange triangles. The text input reads example text here](images/shape-functions3.png)
 
 --- /task ---
 
