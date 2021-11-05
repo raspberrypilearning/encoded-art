@@ -5,7 +5,7 @@
 Have you got some ideas about what sort of art you would like to make? In this step we will plan your art and set up your background.
 </div>
 <div>
-![Image showing the different output of a prototype project when using different text](images/output_shots.PNG)
+![Image showing the different output of a prototype project when using different text](images/output_shots.png)
 </div>
 </div>
 
