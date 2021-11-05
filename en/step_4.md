@@ -11,115 +11,13 @@ Now that you have repeatable shapes for your artwork, you need to place them on 
 
 --- task ---
 
-**Choose:** How will you place your shapes on the canvas? Will it be randomly, or will they have specific coordinates?
-
---- /task ---
-
---- task ---
-
-From the `random` library, import `randint` and `seed` at the top of your script.
-
-[[[using-seed-in-python]]]
-
---- /task ---
-
---- task ---
-
-**Add** a call to `seed()` in your `draw()` function below `draw_background()`. You will need to enter an argument for the seed, which can be any number:
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-draw_background(red)
-seed(32)
-
---- /code ---
-
-
---- /task ---
-
---- task ---
-
-Within your shape functions, change the shape calls so they use random numbers as x and y coordinates rather than absolute values:
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 6 
-line_highlights: 
----
-def shape_1(colour, size):
-  
-  fill(colour)   
-  ellipse(200, 200, size, size)
---- /code ---
-
-Becomes:
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 6
-line_highlights: 8-9, 11
----
-def shape_1(colour, size):
-  
-  x = randint(0, 400)
-  y = randint(0, 400)
-  fill(colour)   
-  ellipse(x, y, size, size)
---- /code ---
-
---- collapse ---
----
-title: Shapes which require declared points
----
-Some shapes in the `p5` library require all their corners to be declared, specifically `triangles` and `quads`. To randomise their position, you have to do some quick maths. 
-
-For example:
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-triangle(200, 200, 250, 100, 300, 200)
-
---- /code ---
-
-Becomes:
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-triangle(x, y, x+50, y-100, x+100, y)
-
---- /code ---
-
---- /collapse ---
+**Choose:** How will you place your shapes on the canvas? Will it be randomly, or will they have a specific pattern?
 
 --- /task ---
 
 --- collapse ---
 ---
-title: How *African Inspired Art* does linear shape placement
+title: Creating a specific pattern like *African Inspired Art*
 ---
 
 If you take a look at **African inspired art:**, you will notice that it places the shapes across the page and then down, like text:
@@ -212,6 +110,113 @@ def size_check():
 
 --- task ---
 
+**Decide** where you want your shapes to appear in the window. They could appear:
+
++ Randomly around the window
++ In sequence from left to right
++ In the same place every time
++ To another set pattern 
+
+--- collapse ---
+---
+title: Placing shapes randomly 
+---
+
+From the `random` library, import `randint` and `seed` at the top of your script.
+
+
+
+**Add** a call to `seed()` in your `draw()` function below `draw_background()`. You will need to enter an argument for the seed, which can be any number:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+draw_background(red)
+seed(32)
+
+--- /code ---
+
+Change your shape functions to set random coordinates for each shape when drawing:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 6 
+line_highlights: 
+---
+def shape_1(colour, size):
+  
+  fill(colour)   
+  ellipse(200, 200, size, size)
+--- /code ---
+
+Becomes:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 6
+line_highlights: 8-9, 11
+---
+def shape_1(colour, size):
+  
+  x = randint(0, 400)
+  y = randint(0, 400)
+  fill(colour)   
+  ellipse(x, y, size, size)
+--- /code ---
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Shapes which require declared points
+---
+Some shapes in the `p5` library require all their corners to be declared, specifically `triangles` and `quads`. To randomise their position, you have to do some quick maths. 
+
+For example:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+triangle(200, 200, 250, 100, 300, 200)
+
+--- /code ---
+
+Becomes:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+triangle(x, y, x+50, y-100, x+100, y)
+
+--- /code ---
+
+--- /collapse ---
+
+--- /task ---
+
+--- task ---
+
 **Test** your code to see if it displays your chosen images on the screen. At this point they should all appear spread around the window. **Experiment** with the `seed()` value to see the pattern change. 
 
 ![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle and an orange triangle.](images/shape-functions2.png)
@@ -247,6 +252,5 @@ Make sure you have included a call to `seed()` in your `draw()` function, which 
 --- /collapse ---
 
 --- /task ---
-
 
 --- save ---
