@@ -40,13 +40,13 @@ print(instructions[0])
 - ( )
 `'Green, 4'`
   --- feedback ---
-Almost, the value in the square brackets `[]` represents a single item from a list. 
+Almost, the value in the square brackets `[]` on **line 9** represents a single item from a list. 
   --- /feedback ---
 
 - ( )
 `a`
   --- feedback ---
-Not quite, this is the name of the **key** that has been accessed on line 7. Think about the data that is **paired** with the key. 
+Not quite, this is the name of the **key** that has been accessed on **line 7**. Think about the data that is **paired** with the key. 
   --- /feedback ---
 
 - (x) 
