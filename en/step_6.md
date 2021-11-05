@@ -89,7 +89,6 @@ At the end of your `draw()` function (after your dictionary), call the global va
 title: Matching the case of the input to your dictionary keys 
 ---
 
-
 --- code ---
 ---
 language: python
