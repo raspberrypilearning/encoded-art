@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now that we have repeatable shapes for our artwork, we need to place them on the canvas.
+Now that you have repeatable shapes for our artwork, you need to place them on the canvas.
 </div>
 <div>
 ![Image showing the output of the project with an astronaut and small planets in space](images/random-output.png){:width="300px"}
