@@ -15,99 +15,6 @@ Now that you have repeatable shapes for your artwork, you need to place them on 
 
 --- /task ---
 
---- collapse ---
----
-title: Creating a specific pattern like *African Inspired Art*
----
-
-If you take a look at **African inspired art:**, you will notice that it places the shapes across the page and then down, like text:
-
-[See inside](https://trinket.io/python/6067bf289c){:target="_blank"}
-
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/6067bf289c?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
-
-This can be achieved by creating global variables in your draw loop called `startx` and `starty`, then setting them both to `0`:
-
---- code ---
----
-language: python
-filename: main.py - draw()
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-global startx, starty
-startx = 0
-starty = 0
-
---- /code ---
-
-These variables will be used to iterate the `x` and `y` values for each shape in the main menu function you will write later. Inside each of your shape functions, change the `x` and `y` values to use these global variables.
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-def shape_2(colour, size):
-
-  x = randint(0, 400)
-  y = randint(0, 400)
-  fill(colour)   
-  rect(x, y, size, size)
---- /code ---
-
-Becomes:
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-def shape_2(colour, size): 
-
-  global startx
-  global starty
-  x = startx
-  y = starty
-  fill(colour)   
-  rect(x, y, size, size)
---- /code ---
-
-Because you need to detect whether the shapes will go 'off the side' of the canvas, create a function to check the initial `x` coordinate of the next shape is less than your window size and set it back to 0 if it is, while also moving it down the window by increasing the initial `y` coordinate of the shape. 
-
-**Define** a new function called `size_check()` now:
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-def size_check():
-
-  global startx
-  global starty
-  if startx >= 400:
-    startx = 0
-    starty +=80
-
---- /code ---
-
-**Tip:** Look for more instructions on calling this function when coding the input loop, during the **Encode a message** step!
-
---- /collapse ---
-
 --- task ---
 
 **Decide** where you want your shapes to appear in the window. They could appear:
@@ -210,6 +117,100 @@ line_highlights:
 triangle(x, y, x+50, y-100, x+100, y)
 
 --- /code ---
+
+--- /collapse ---
+
+
+--- collapse ---
+---
+title: Creating a specific pattern like *African Inspired Art*
+---
+
+If you take a look at **African inspired art:**, you will notice that it places the shapes across the page and then down, like text:
+
+[See inside](https://trinket.io/python/6067bf289c){:target="_blank"}
+
+<div class="trinket">
+<iframe src="https://trinket.io/embed/python/6067bf289c?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</div>
+
+This can be achieved by creating global variables in your draw loop called `startx` and `starty`, then setting them both to `0`:
+
+--- code ---
+---
+language: python
+filename: main.py - draw()
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+global startx, starty
+startx = 0
+starty = 0
+
+--- /code ---
+
+These variables will be used to iterate the `x` and `y` values for each shape in the main menu function you will write later. Inside each of your shape functions, change the `x` and `y` values to use these global variables.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+def shape_2(colour, size):
+
+  x = randint(0, 400)
+  y = randint(0, 400)
+  fill(colour)   
+  rect(x, y, size, size)
+--- /code ---
+
+Becomes:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+def shape_2(colour, size): 
+
+  global startx
+  global starty
+  x = startx
+  y = starty
+  fill(colour)   
+  rect(x, y, size, size)
+--- /code ---
+
+Because you need to detect whether the shapes will go 'off the side' of the canvas, create a function to check the initial `x` coordinate of the next shape is less than your window size and set it back to 0 if it is, while also moving it down the window by increasing the initial `y` coordinate of the shape. 
+
+**Define** a new function called `size_check()` now:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+def size_check():
+
+  global startx
+  global starty
+  if startx >= 400:
+    startx = 0
+    starty +=80
+
+--- /code ---
+
+**Tip:** Look for more instructions on calling this function when coding the input loop, during the **Encode a message** step!
 
 --- /collapse ---
 
