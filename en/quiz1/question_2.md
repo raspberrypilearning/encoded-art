@@ -5,7 +5,7 @@
 legend: Question 2 of 3
 ---
 
-You Encoded Art project used parameters in functions to create customisations of shapes. The code below also uses a function with parameters. What will be the output of this code when it is run?
+Your Encoded Art project used parameters in functions to create customisations of shapes. The code below also uses a function with parameters. What will be the output of this code when it is run?
 
 --- code ---
 ---
