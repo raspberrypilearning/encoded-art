@@ -5,7 +5,7 @@
 Now that we have repeatable shapes for our artwork, we need to place them on the canvas.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/random-output.png){:width="300px"}
+[Image showing the output of the project with an astronaut and small planets in space](images/random-output.png){:width="300px"}
 </div>
 </div>
 
