@@ -206,6 +206,8 @@ for item in message:
 
 --- /collapse ---
 
+--- /task ---
+
 --- task ---
 
 **Test** your code to see if it displays your chosen images on the screen. At this point they should all appear in the way you expect.
