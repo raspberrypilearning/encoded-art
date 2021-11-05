@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap;">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Have you got some ideas about what sort of art you would like to make? In this step we will plan your art and set up your background.
+Have you got some ideas about what sort of art you would like to make? In this step you will plan your art and set up your background.
 </div>
 <div>
 ![Image showing the different output of a prototype project when using different text](images/output_shots.png)
@@ -25,15 +25,15 @@ Open the [starter project](https://trinket.io/python/c4cbf837f8){:target="_blank
 
 --- /task ---
 
-The first thing to do when creating art using the Python `Processing library` is to add `def setup():` to define a `setup` function that is run once at the beginning of your programme.
+The first thing to do when creating art using the Python `Processing library` is to add `def setup():` to define a `setup` function that is run once at the beginning of your program.
 
 --- task ---
 
-**Create:** Define the `setup` function in your code to set the output window size.
+**Create:** Define the `setup()` function in your code to set the output window size.
 
 --- collapse ---
 ---
-title: Setting the screen size when your programme starts
+title: Setting the screen size when your program starts
 ---
 
 --- code ---
@@ -55,11 +55,11 @@ def setup():
 
 --- task ---
 
-**Choose:** Experiment with the numbers and run your code to find a size that you are happy with.  
+**Choose:** Experiment with the numbers in your `setup()` function and run your code to find a size that you are happy with.  
 
 --- /task ---
 
-The `draw()` function function continuously executes the lines of code contained inside its block until the program is stopped. It is automatically called directly after `setup()`.
+The `draw()` function continuously executes the lines of code contained inside its block until the program is stopped. It is automatically called directly after `setup()`.
 
 --- task ---
 
@@ -80,7 +80,7 @@ You could also use something like the [Paletton colour scheme designer](https://
 title: Storing colour values with variables
 ---
 
-Colour tuples can be stored in variables by assigning them values in the format `color(x,y,z)`:
+The p5 library uses the **tuple** data structure (an unchangeable collection of values) to store RGB colour values. Colours can be stored in variables by assigning them values in the format `color(r,g,b)`:
 
 --- code ---
 ---
@@ -92,9 +92,9 @@ line_highlights:
 ---
 draw():
 
-    red = color(255,0,0)
-    grn = color(0,255,0)
-    blu = color(0,0,255)
+    red = color(255, 0, 0)
+    green = color(0, 255, 0)
+    blue = color(0, 0, 255)
 
 --- /code ---
 
@@ -104,14 +104,14 @@ draw():
 
 --- task ---
 
-**Create** a function that will draw a background shape using your colour palette and add a function call to your `draw()` function.
+**Create** a function that will **draw a background** shape using your colour palette. Next, add a call to your `draw()` function.
 
 --- collapse ---
 ---
-title: Setting the background colours when your programme starts
+title: Setting the background colours when your program starts
 ---
 
-Define a new function called `draw_background()` and create a call to it in `draw():`, after a call to `no_stroke()`. If you add more parameters, this function can draw multiple shapes in different colours to create cool backgrounds:
+Define a new function called `draw_background()` and create a call to it in `draw():`, after a call to `no_stroke()`. If you want your background to include more colours, you will need to add more parameters.
 
 --- code ---
 ---
@@ -177,7 +177,6 @@ run()
 **Test:** Run your project to see your chosen screen size and background colour. 
 
 --- /task ---
-
 
 --- task ---
 

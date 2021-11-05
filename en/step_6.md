@@ -32,7 +32,7 @@ line_highlights:
 
 --- task ---
 
-**Create** an `input()` call for the user to be able to type in their message when the program runs. We will store this input as `name`. 
+**Create** an `input()` call for the user to be able to type in their message when the program runs. Store this input as `name`. 
 This needs to go before your `run()` call, after your dictionary and outside of any function definitions.
 
 --- code ---
