@@ -11,7 +11,7 @@ Enable your project to translate punctuation and numerals by adding dictionary e
 Here is a version of **African Inspired Art** that includes most punctuation: [See Inside](https://trinket.io/python/ce34762841)
 
 <div class="trinket">
-<iframe src="https://trinket.io/python/ce34762841?outputOnly=false&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/ce34762841" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
 --- /task ---
