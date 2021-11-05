@@ -30,7 +30,7 @@ He has also created a function call that is used to draw the shape in the colour
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 1
+line_number_start: 83
 line_highlights: 
 ---
 red = color(255, 0, 0)
@@ -50,14 +50,14 @@ Good try! However, Python uses American English. `color` is the correct identifi
   --- /feedback ---
 
 - ( ) 
-On **line 3**, `red` should have apostrophes `''` either side. 
+On **line 85**, `red` should have apostrophes `''` either side. 
 
   --- feedback ---
 Not quite. `red` is a variable so the apostrophes are not needed in this scenario. 
   --- /feedback ---
 
 - (x) 
-The function that she created has **two** parameters. This means that she needs to pass two **arguments** to the function. She only has **one** at the moment. 
+The function that he created has **two** parameters. This means that he needs to pass two **arguments** to the function. He only has **one** at the moment. 
 
   --- feedback ---
 
