@@ -8,6 +8,10 @@ Here are some ideas you could try:
 
 Enable your project to translate punctuation and numerals by adding dictionary entries for these extra characters.
 
+<div class="trinket">
+<iframe src="https://trinket.io/python/ce34762841?outputOnly=false&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</div>
+
 --- /task ---
 
 --- task ---
