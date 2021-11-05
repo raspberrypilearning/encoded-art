@@ -212,7 +212,7 @@ for item in message:
 
 **Test** your code to see if it displays your chosen images on the screen. At this point they should all appear in the way you expect.
 
-![A screenshot of the output of the example project. There is a dark blue background, blue squares, blue circles and orange triangles. The text input reads example text here](images/shape-functions3.png)
+![A screenshot of the output of the example project. There is a dark blue background, blue squares, blue circles and orange triangles. The text input reads example text here](images/shape-functions3.png){:width="400px"}
 
 --- /task ---
 
