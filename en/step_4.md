@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now that you have repeatable shapes for our artwork, you need to place them on the canvas.
+Now that you have repeatable shapes for your artwork, you need to place them on the canvas.
 </div>
 <div>
 ![Image showing the output of the project with an astronaut and small planets in space](images/random-output.png){:width="300px"}
@@ -214,7 +214,7 @@ def size_check():
 
 **Test** your code to see if it displays your chosen images on the screen. At this point they should all appear spread around the window. **Experiment** with the `seed()` value to see the pattern change. 
 
-![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle and an orange triangle.](images/shape-functions2.PNG)
+![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle and an orange triangle.](images/shape-functions2.png)
 
 --- /task ---
 
