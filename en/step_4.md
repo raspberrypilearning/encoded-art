@@ -218,7 +218,9 @@ def size_check():
 
 --- task ---
 
-**Test** your code to see if it displays your chosen images on the screen. At this point they should all appear spread around the window. **Experiment** with the `seed()` value to see the pattern change. 
+**Test** your code to see if it displays your chosen images on the screen in the way you expect. 
+
+If you used a random pattern, experiment with the `seed()` value to change the pattern!
 
 ![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle and an orange triangle.](images/shape-functions2.png)
 
