@@ -60,7 +60,7 @@ Not quite. `red` is a variable so the apostrophes are not needed in this scenari
 The function that he created has **two** parameters. This means that he needs to pass two **arguments** to the function. He only has **one** at the moment. 
 
   --- feedback ---
-
+Well spotted! If a function has **two parameters** then **two arguments** must be passed into it when it is called. 
   --- /feedback ---
 
 --- /choices ---
