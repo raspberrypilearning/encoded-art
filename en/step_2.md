@@ -77,26 +77,32 @@ You could also use something like the [Paletton colour scheme designer](https://
 
 --- collapse ---
 ---
-title: Storing colour values with variables
+title: Colours in p5
 ---
 
-The p5 library uses the **tuple** data structure (an unchangeable collection of values) to store RGB colour values. Colours can be stored in variables by assigning them values in the format `color(r,g,b)`:
+The `p5` `color()` function expects three numbers: one each for red, green, and blue.
 
---- code ---
----
-language: python
-filename: main.py - draw()
-line_numbers: true
-line_number_start: 12
-line_highlights: 
----
-draw():
+```python
+sky = color(92, 204, 206) #Red = 92, Green = 204, Blue = 206
+```
 
-    red = color(255, 0, 0)
-    green = color(0, 255, 0)
-    blue = color(0, 0, 255)
+You can use a colour to fill a shape with the `fill()` function. `fill()` changes every shape drawn after it.
 
---- /code ---
+```python
+grass = color(149, 212, 122)
+fill(grass)
+rect(0, 250, 400, 150) # This shape will be filled with the colour
+```
+
+To remove fills completely, call `no_fill()` before drawing your shape(s).
+
+You can set a colour for the border around a shape with the `stroke()` function:
+
+```python
+white = color(255, 255, 255)
+stroke(white)
+rect(0, 250, 400, 150) # This shape will have a white border
+```
 
 --- /collapse ---
 
