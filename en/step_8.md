@@ -11,7 +11,7 @@ Enable your project to translate punctuation and numerals by adding dictionary e
 Here is a version of **African Inspired Art** that includes most punctuation: [See Inside](https://trinket.io/python/ce34762841)
 
 <div class="trinket">
-<iframe src="https://trinket.io/embed/python/ce34762841" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/ce34762841?outputOnly=true&runOption=run" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
 --- /task ---
@@ -35,7 +35,7 @@ Give the user the option to redraw the artwork slightly differently, using the s
 This version of **Kawaii Fruit** uses this technique: [See Inside](https://trinket.io/embed/python/b66a3370ab)
 
 <div class="trinket">
-<iframe src="https://trinket.io/embed/python/b66a3370ab" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/b66a3370ab?outputOnly=true&runOption=run" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
 --- /task ---
