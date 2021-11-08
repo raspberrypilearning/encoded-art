@@ -73,7 +73,7 @@ The `draw()` function continuously executes the lines of code contained inside i
 
 [[[generic-theory-simple-colours]]]
 
-You could also use something like the [Paletton colour scheme designer](https://paletton.com/){:target="_blank"} to choose your colour palette and copy the tuples.
+You could also use something like the [Paletton colour scheme designer](https://paletton.com/){:target="_blank"} to choose your colour palette and copy the RGB values.
 
 --- collapse ---
 ---
