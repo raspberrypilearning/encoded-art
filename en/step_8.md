@@ -8,7 +8,7 @@ Here are some ideas you could try:
 
 Enable your project to translate punctuation and numerals by adding dictionary entries for these extra characters.
 
-Here is a version of **African Inspired Art** that includes most punctuation: [See Inside](https://trinket.io/python/ce34762841)
+Here is a version of **Geometric Patterns** that includes most punctuation: [See Inside](https://trinket.io/python/ce34762841)
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/ce34762841?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
