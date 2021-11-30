@@ -75,6 +75,8 @@ The `draw()` function continuously executes the lines of code contained inside i
 
 You could also use something like the [Paletton colour scheme designer](https://paletton.com/){:target="_blank"} to choose your colour palette and copy the RGB values.
 
+[[[p5-colour]]]
+
 --- collapse ---
 ---
 title: Colours in p5
@@ -108,8 +110,11 @@ rect(0, 250, 400, 150) # This shape will have a white border
 
 --- /task ---
 
---- task ---
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+You may notice two spellings of the word **colour** (color) in this project. The shorter one, <span style="color: #0faeb0">color</span>, is the preferred spelling in the United States. Other countries may use the longer form, <span style="color: #0faeb0">colour</span>. Any predefined code, like `color()` typically uses the American spelling.
+</p>
 
+--- task ---
 **Create** a function that will **draw a background** shape using your colour palette. Next, add a call to your `draw()` function.
 
 --- collapse ---
