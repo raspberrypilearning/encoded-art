@@ -6,6 +6,7 @@ In this project you will:
 + Use a dictionary to encode letters with a variety of shapes
 + Use functions with parameters to add customisation to shapes
 + Create a unique piece of digital art using encoded letters
+
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 10px; border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;"> <span style="color: #0faeb0"> Encoding </span> is when you convert data from one form to another. <span style="color: #0faeb0">**QR codes**</span> are like a little piece of **encoded** artwork. They are used to represent data, such as website addresses or text. They are made up of black and white squares that are used to represent the letters or numbers. The black and white patterns can be read and decoded by computers.</p>
