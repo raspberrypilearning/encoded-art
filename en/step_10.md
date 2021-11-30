@@ -1,17 +1,17 @@
 ## What next?
 
-If you are following the [More Python](https://projects.raspberrypi.org/en/raspberrypi/python-2) path, you can move on to the [Persuasive Data Presentation](https://projects.raspberrypi.org/en/projects/persuasive-data-presentation) project. In this project, you will make a (add description here).
+If you are following the [More Python](https://projects.raspberrypi.org/en/raspberrypi/python-2) path, you can move on to the [Mapping Data](https://projects.raspberrypi.org/en/projects/mapping-data) project. In this project, you will make a map that plots different data points from around the world.
 
 --- print-only ---
 
-![ProjectName project](images/projectname-project.png)
+![A screenshot of the mapping data project. An image of the world appears with data points made up of small squares.](images/mapping-data.png)
 
 --- /print-only ---
 
 --- no-print ---
 
 <div class="trinket">
-<iframe src="https://trinket.io/embed/python/ff931d5dd5?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/b70e25c42a?outputOnly=true&runOption=run" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
 --- /no-print ---

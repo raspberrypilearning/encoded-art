@@ -5,7 +5,7 @@
 legend: Question 3 of 3
 ---
 
-Daniel has created a function to draw a shape. This is the function that he has created:
+You have created a function to draw a shape. This is the function that you have created:
 
 --- code ---
 ---
@@ -23,7 +23,7 @@ def shape_1(colour, size):
   ellipse(x, y, size, size)
 --- /code ---
 
-He has also created a function call that is used to draw the shape in the colour that he has chosen:
+You have also created a function call that is used to draw the shape in the colour that you have chosen:
 
 --- code ---
 ---
@@ -38,7 +38,7 @@ red = color(255, 0, 0)
 shape_1(red)
 --- /code ---
 
-Why does he get an error message when he runs this code?
+Why do you get an error message when the code runs?
 
 --- choices ---
 
@@ -46,7 +46,7 @@ Why does he get an error message when he runs this code?
 Colour is spelt incorrectly. 
 
   --- feedback ---
-Good try! However, Python uses American English. `color` is the correct identifier for assigning colour values. In England, **colour** is spelt with a **u**. 
+Good try! However, Python uses American English. `color` is the correct identifier for assigning colour values. In other English speaking countries, **colour** is spelt with a **u**. 
   --- /feedback ---
 
 - ( ) 
@@ -57,7 +57,7 @@ Not quite. `red` is a variable so the apostrophes are not needed in this scenari
   --- /feedback ---
 
 - (x) 
-The function that he created has **two** parameters. This means that he needs to pass two **arguments** to the function. He only has **one** at the moment. 
+The function that you created has **two** parameters. This means that you need to pass two **arguments** to the function. You only have **one** at the moment. 
 
   --- feedback ---
 Well spotted! If a function has **two parameters** then **two arguments** must be passed into it when it is called. 

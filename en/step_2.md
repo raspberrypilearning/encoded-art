@@ -45,7 +45,7 @@ line_number_start: 6
 line_highlights: 7
 ---
 def setup():   
-    size(400, 400) #400 by 400 works well for an art canvas
+  size(400, 400) #400 by 400 works well for an art canvas
 
 --- /code ---
 
@@ -77,37 +77,6 @@ You could also use something like the [Paletton colour scheme designer](https://
 
 [[[p5-colour]]]
 
---- collapse ---
----
-title: Colours in p5
----
-
-The `p5` `color()` function expects three numbers: one each for red, green, and blue.
-
-```python
-sky = color(92, 204, 206) #Red = 92, Green = 204, Blue = 206
-```
-
-You can use a colour to fill a shape with the `fill()` function. `fill()` changes every shape drawn after it.
-
-```python
-grass = color(149, 212, 122)
-fill(grass)
-rect(0, 250, 400, 150) # This shape will be filled with the colour
-```
-
-To remove fills completely, call `no_fill()` before drawing your shape(s).
-
-You can set a colour for the border around a shape with the `stroke()` function:
-
-```python
-white = color(255, 255, 255)
-stroke(white)
-rect(0, 250, 400, 150) # This shape will have a white border
-```
-
---- /collapse ---
-
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
@@ -134,9 +103,9 @@ line_highlights:
 ---
 def draw_background(colour):
   
-    # Background colour
-    fill(colour)
-    rect(0, 0, 400, 400)
+  # Background colour
+  fill(colour)
+  rect(0, 0, 400, 400)
 
 --- /code ---
 
@@ -152,12 +121,12 @@ line_highlights: 24-25
 ---
 def draw():
 
-    red = color(255,0,0)
-    grn = color(0,255,0)
-    blu = color(0,0,255)
+  red = color(255,0,0)
+  green = color(0,255,0)
+  blue = color(0,0,255)
 
-    no_stroke()
-    draw_background(red)
+  no_stroke()
+  draw_background(red)
 
 --- /code ---
 

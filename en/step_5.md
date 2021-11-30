@@ -106,7 +106,7 @@ The list will need to contain:
 title: Pairing a list with your dictionary keys
 ---
 
-Here is an example of a **list** being paired with the letters of the alphabet. You can see that each list has **three** items. The **function name**, the **size** value and the chosen space `object` to display. 
+Here is an example of a **list** being paired with the letters of the alphabet. You can see that each list has **three** items. The **function name**, the **size** value and the chosen `object` to display. 
 
 --- code ---
 ---
@@ -143,8 +143,7 @@ line_highlights:
     'x': ['shape 2', 14, 'astropi'],
     'y': ['shape 1', 67, 'purple'],
     'z': ['shape 2', 70, 'astropi'],
-    ' ': ['shape 3', 25, 'pink'],
-      
+    ' ': ['shape 3', 25, 'pink']
   }
 
 --- /code ---
@@ -156,7 +155,7 @@ line_highlights:
 
 --- task ---
 
-**Run** and **test** your code. It shouldn't appear to be any different at this stage. This is an opportunity to see if you have any **syntax errors** in your dictionary.
+**Debug:** **Run** and **test** your code. It shouldn't appear to be any different at this stage. This is an opportunity to see if you have any **syntax errors** in your dictionary.
 
 --- collapse ---
 ---
@@ -169,7 +168,7 @@ If your code has syntax errors then look very carefully at the structure of your
 + A colon `:` between the key and the list
 + The list should have a square bracket `[]` on either side
 + Each list item should be separated by a comma `,`
-+ There should be a comma `,` at the end of each **key pairing**
++ There should be a comma `,` at the end of each **key-value pair**
 
 You can double check your syntax by taking a look at the example code in **Pairing a list with your dictionary keys** above. 
 
