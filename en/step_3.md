@@ -22,7 +22,7 @@ Here are some ideas:
 
 --- task ---
 
-**Define** each shape function in preparation for adding in the code that will be needed to draw each shape. 
+**Define** each shape function in preparation for adding in the code that will be needed to draw each shape. Make sure that you define your shape functions **above** your `draw()` function.
 
 --- collapse ---
 ---
@@ -62,7 +62,7 @@ Decide which **parameters** your functions will need. Here are some ideas:
 
 --- task ---
 
-**Add** your chosen **parameters** inside the curved brackets of each of your **shape** functions.
+**Add** your chosen **parameters** inside the round brackets of each of your **shape** functions.
 
 --- collapse ---
 ---
@@ -95,14 +95,27 @@ def shape_3(size, colour):
 
 **Add** in the code for each of your shape functions so that the drawing or image will appear when the function is **called**.
 
---- collapse ---
----
-title: Drawing your shape
----
-
 In the [make a face project](https://projects.raspberrypi.org/en/projects/make-a-face/0){:target="_blank"} you learnt how to use a group of geometric shapes to create some fun faces. You can use your skills from that project to help you draw your images. 
 
-Here is some sample code for drawing a square:
+### Shapes
+
+[[[processing-python-ellipse]]]
+
+[[[processing-python-rect]]]
+
+[[[processing-python-triangle]]]
+
+### Colours and effects
+
+[[[generic-theory-simple-colours]]]
+
+[[[processing-opacity]]]
+
+[[[processing-stroke]]]
+
+[[[processing-tint]]]
+
+Here is some sample code for drawing a square in your encoded art project:
 
 --- code ---
 ---
@@ -120,8 +133,6 @@ def shape_2(colour, size):
 --- /code ---
 
 **Notice** that the parameters that are defined in the function above are then used to draw the shape. 
-
---- /collapse ---
 
 --- collapse ---
 ---

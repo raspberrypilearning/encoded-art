@@ -36,13 +36,12 @@ line_highlights:
 + Favourite song lyric
 + Favourite quote
 
---- collapse ---
----
-title: Prompting a user input
----
+--- /task ---
+
+--- task ---
 
 **Create** an `input()` call for the user to be able to type in their message when the program runs.  
-This needs to go before your `run()` call, after your dictionary and outside of any function definitions.
+This needs to go before your `run()` call, outside of any function definitions.
 
 --- code ---
 ---
@@ -76,13 +75,11 @@ name = input()
 run()
 --- /code ---
 
---- /collapse ---
-
 --- /task ---
 
 --- task ---
 
-At the end of your `draw()` function (after your dictionary), call the global variable you just declared and convert it to a single case to avoid typecase errors. 
+At the end of your `draw()` function (after your dictionary), call the global variable you just declared and make sure that all the letters are the same case. 
 
 --- collapse ---
 ---
@@ -111,7 +108,7 @@ If your dictionary is in lowercase you should use `name.lower()`, but if you ent
 
 --- task ---
 
-**Create** a list to hold the series of letters in the message ready to encode, then populate the list by using `append` to add the coded dictionary values for each letter.
+**Create** a list to hold the series of letters in the message ready to encode, then populate the list by using `append` to add the coded dictionary values for each letter. **Append** literally means **add to the end** of something.
 
 --- collapse ---
 ---
@@ -143,7 +140,7 @@ for letter in name:
 
 --- task ---
 
-**Create** a `for` loop which will sort the list of coded values based on the first term in each entry, then pass the information into your shape functions to draw a shape for each letter and place it on your canvas.
+**Create** a `for` loop which will individually check the list of coded values based on the first term in each entry, then pass the information into your shape functions to draw a shape for each letter and place it on your canvas.
 
 --- collapse ---
 ---
