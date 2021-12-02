@@ -123,7 +123,7 @@ triangle(x, y, x+50, y-100, x+100, y)
 
 --- collapse ---
 ---
-title: Creating a specific pattern like *Geometric Patterns*
+title: Creating a specific pattern like Geometric Patterns
 ---
 
 If you take a look at **Geometric Patterns:**, you will notice that it places the shapes across the page and then down, like text:
