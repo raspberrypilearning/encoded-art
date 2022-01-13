@@ -5,7 +5,7 @@
 Have you got some ideas about what sort of art you would like to make? In this step you will plan your art and set up your background.
 </div>
 <div>
-![Image showing the different output of a prototype project when using different text](images/output_shots.png)
+![Image showing the different outputs of a prototype project when using different texts as inputs.](images/output_shots.png)
 </div>
 </div>
 
@@ -45,7 +45,7 @@ line_number_start: 6
 line_highlights: 7
 ---
 def setup():   
-  size(400, 400) #400 by 400 works well for an art canvas
+  size(400, 400) # 400 by 400 works well for an art canvas
 
 --- /code ---
 
