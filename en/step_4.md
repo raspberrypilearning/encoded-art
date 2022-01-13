@@ -5,7 +5,7 @@
 Now that you have repeatable shapes for your artwork, you need to place them on the canvas.
 </div>
 <div>
-![Image showing the output of the project with an astronaut and small planets in space](images/random-output.png){:width="300px"}
+![Image showing the output of the project with an astronaut and small planets in space.](images/random-output.png){:width="300px"}
 </div>
 </div>
 
@@ -86,9 +86,9 @@ def shape_1(colour, size):
 
 --- collapse ---
 ---
-title: Shapes which require declared points
+title: Shapes that require declared points
 ---
-Some shapes in the `p5` library require all their corners to be declared, specifically `triangles` and `quads`. To randomise their position, you have to do some quick maths. 
+Some shapes in the `p5` library require all their corners to be declared, specifically `triangles` and `quads`. To randomise their positions, you have to do some quick maths. 
 
 For example:
 
@@ -123,10 +123,10 @@ triangle(x, y, x+50, y-100, x+100, y)
 
 --- collapse ---
 ---
-title: Creating a specific pattern like Geometric Patterns
+title: Creating a specific pattern like in Geometric patterns
 ---
 
-If you take a look at **Geometric Patterns:**, you will notice that it places the shapes across the page and then down, like text:
+If you take a look at **Geometric patterns:**, you will notice that it places the shapes across the page and then down, like text:
 
 [See inside](https://trinket.io/python/6067bf289c){:target="_blank"}
 
@@ -188,7 +188,7 @@ def shape_2(colour, size):
   rect(x, y, size, size)
 --- /code ---
 
-Because you need to detect whether the shapes will go 'off the side' of the canvas, create a function to check the initial `x` coordinate of the next shape is less than your window size and set it back to 0 if it is, while also moving it down the window by increasing the initial `y` coordinate of the shape. 
+Because you need to detect whether the shapes will go 'off the side' of the canvas, create a function to check the initial `x` coordinate of the next shape is less than your window size and set it back to 0 if it isn't, while also moving it down the window by increasing the initial `y` coordinate of the shape. 
 
 **Define** a new function called `size_check()` now:
 
@@ -210,7 +210,7 @@ def size_check():
 
 --- /code ---
 
-**Tip:** Look for more instructions on calling this function when coding the input loop, during the **Encode a message** step!
+**Tip:** Look for more instructions on calling this function when coding the input loop during the **Encode a message** step!
 
 --- /collapse ---
 
@@ -222,7 +222,7 @@ def size_check():
 
 If you used a random pattern, experiment with the `seed()` value to change the pattern!
 
-![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle and an orange triangle.](images/shape-functions2.png)
+![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle, and an orange triangle.](images/shape-functions2.png)
 
 --- /task ---
 
@@ -234,7 +234,7 @@ If you used a random pattern, experiment with the `seed()` value to change the p
 ---
 title: I'm getting an error about `randint` or `seed`
 ---
-Make sure you have imported `randint` and `seed` from the `random` library at the top of your script: `from random import randint, seed`
+Make sure you have imported `randint` and `seed` from the `random` library at the top of your script: `from random import randint, seed`.
 
 --- /collapse ---
 
