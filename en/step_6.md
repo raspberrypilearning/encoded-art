@@ -5,7 +5,7 @@
 Use the dictionary to encode text by placing shapes for each character in the message.
 </div>
 <div>
-![Image showing three different randomised pictures of orange squares, grey triangles and blue circles](images/random-art.png)
+![Image showing three different randomised pictures of orange squares, grey triangles, and blue circles.](images/random-art.png)
 </div>
 </div>
 
@@ -31,7 +31,7 @@ line_highlights:
 
 
 --- task ---
-**Choose** what you will ask your user about the text they will enter. It could be their:
+**Choose** what text you will ask the user to provide to be encoded. It could be their:
 + Name
 + Favourite song lyric
 + Favourite quote
@@ -83,7 +83,7 @@ At the end of your `draw()` function (after your dictionary), call the global va
 
 --- collapse ---
 ---
-title: Matching the case of the input to your dictionary keys 
+title: Match the case of the input to your dictionary keys 
 ---
 
 --- code ---
@@ -100,7 +100,7 @@ name = name.lower()
 
 --- /code ---
 
-If your dictionary is in lowercase you should use `name.lower()`, but if you entered the letters in uppercase you should use `name.upper()`. 
+If your dictionary is in lower case, you should use `name.lower()`, but if you entered the letters in upper case you should use `name.upper()`. 
 
 --- /collapse ---
 
@@ -112,7 +112,7 @@ If your dictionary is in lowercase you should use `name.lower()`, but if you ent
 
 --- collapse ---
 ---
-title: Encode and Append to a list
+title: Encode and append to a list
 ---
 
 --- code ---
@@ -140,11 +140,11 @@ for letter in name:
 
 --- task ---
 
-**Create** a `for` loop which will individually check the list of coded values based on the first term in each entry, then pass the information into your shape functions to draw a shape for each letter and place it on your canvas.
+**Create** a `for` loop; this will individually check the list of coded values based on the first term in each entry, then pass the information into your shape functions to draw a shape for each letter and place it on your canvas.
 
 --- collapse ---
 ---
-title: Drawing a shape for each letter 
+title: Draw a shape for each letter 
 ---
 
 --- code ---
@@ -169,7 +169,7 @@ for item in message:
 
 --- collapse ---
 ---
-title: Iterating coordinates for linear placement
+title: Iterate coordinates for linear placement
 ---
 If you are using specific coordinates to place your shapes, you will need to change the global `startx` and `starty` values inside your `for` loop and pass them back into your functions each time. 
 
@@ -209,7 +209,7 @@ for item in message:
 
 **Test** your code to see if it displays your chosen images on the screen. At this point they should all appear in the way you expect.
 
-![A screenshot of the output of the example project. There is a dark blue background, blue squares, blue circles and orange triangles. The text input reads example text here](images/shape-functions3.png){:width="400px"}
+![A screenshot of the output of the example project. There is a dark blue background, blue squares, blue circles, and orange triangles. The text input reads "example text here".](images/shape-functions3.png){:width="400px"}
 
 --- /task ---
 
