@@ -5,7 +5,7 @@
 Set up your shape functions so that you can use them in your encoded artwork. 
 </div>
 <div>
-![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle and an orange triangle.](images/shape-functions.PNG){:width="300px"}
+![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle, and an orange triangle.](images/shape-functions.PNG){:width="300px"}
 </div>
 </div>
 
@@ -14,8 +14,8 @@ Set up your shape functions so that you can use them in your encoded artwork.
 Decide how many unique **shapes** you would like your artwork to have. The example projects have **three** unique shapes. These are then modified using the parameters of the function. You might like to have more than three, the decision is yours!
 
 Here are some ideas:
-+ Three shape functions that load images of either butterflies, snails or birds. 
-+ Three shape functions that draw squares, circles and triangles
++ Three shape functions that load images of either butterflies, snails, or birds 
++ Three shape functions that draw squares, circles, and triangles
 + Five shape functions, each one draws a unique animal
 
 --- /task ---
@@ -95,7 +95,7 @@ def shape_3(size, colour):
 
 **Add** in the code for each of your shape functions so that the drawing or image will appear when the function is **called**.
 
-In the [make a face project](https://projects.raspberrypi.org/en/projects/make-a-face/0){:target="_blank"} you learnt how to use a group of geometric shapes to create some fun faces. You can use your skills from that project to help you draw your images. 
+In the [Make a face project](https://projects.raspberrypi.org/en/projects/make-a-face/0){:target="_blank"}, you learnt how to use a group of geometric shapes to create some fun faces. You can use your skills from that project to help you draw your images. 
 
 ### Shapes
 
@@ -139,7 +139,7 @@ def shape_2(colour, size):
 title: Loading images
 ---
 
-The [Lost in Space](https://trinket.io/python/ff931d5dd5){:target="_blank"} example project loads images to create the encoded artwork. 
+The [Lost in space](https://trinket.io/python/ff931d5dd5){:target="_blank"} example project loads images to create the encoded artwork. 
 
 **Remember** that you will need code to display the image:
 
@@ -150,7 +150,8 @@ filename: main.py
 line_numbers: true
 line_number_start: 1
 line_highlights: 4
----def shape_1(size, colour): 
+---
+def shape_1(size, colour): 
   
   if colour == 'purple':
     image(purple_planet, 400, 400, size, size)
@@ -186,7 +187,7 @@ def setup():
 
 --- task ---
 
-In order to **test** that your shape functions work correctly you will need to **call** them from the `draw()` function. 
+To **test** that your shape functions work correctly, you will need to **call** them from the `draw()` function. 
 
 Make sure that you add in the arguments for your chosen parameters!
 
@@ -212,9 +213,9 @@ line_highlights:
 
 --- task ---
 
-**Test** your code to see if it displays your chosen images on the screen. At this point they might all appear on top of each other. You could **call** each function separately to see them more clearly. 
+**Test** your code to see if it displays your chosen images on the screen. At this point, they might all appear on top of each other. You could **call** each function separately to see them more clearly. 
 
-![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle and an orange triangle.](images/shape-functions.PNG)
+![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle, and an orange triangle.](images/shape-functions.PNG)
 
 --- /task ---
 
@@ -226,7 +227,7 @@ line_highlights:
 ---
 title: You see an error about arguments
 ---
-+ When you **defined** your function you decided how many **parameters** it needed. You need to make sure that when you call the function, it has the same number of **arguments**.
++ When you **defined** your function, you decided how many **parameters** it needed. You need to make sure that when you call the function, it has the same number of **arguments**.
 
 --- /collapse ---
 
@@ -234,8 +235,8 @@ title: You see an error about arguments
 ---
 title: Only one shape appears
 ---
-+ Check that you have **called** each shape function
-+ The shapes might be there, but on top of each other. To change this you could call one function at a time by commenting out the other two function calls with a hashtag `#`
++ Check that you have **called** each shape function.
++ The shapes might be there, but on top of each other. To change this, you could call one function at a time by commenting out the other two function calls with a hashtag `#`.
 
 --- /collapse ---
 
