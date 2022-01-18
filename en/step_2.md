@@ -33,7 +33,7 @@ The first thing to do when creating art using the Python `Processing library` is
 
 --- collapse ---
 ---
-title: Setting the screen size when your program starts
+title: Set the screen size when your program starts
 ---
 
 --- code ---
@@ -88,7 +88,7 @@ You may notice two spellings of the word **colour** (color) in this project. The
 
 --- collapse ---
 ---
-title: Setting the background colours when your program starts
+title: Set the background colours when your program starts
 ---
 
 Define a new function called `draw_background()` and create a call to it in `draw():`, after a call to `no_stroke()`. If you want your background to include more colours, you will need to add more parameters.
