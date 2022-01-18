@@ -26,7 +26,7 @@ Here are some ideas:
 
 --- collapse ---
 ---
-title: Defining a function
+title: Define your functions
 ---
 You can define your functions in the following way:
 
@@ -66,7 +66,7 @@ Decide which **parameters** your functions will need. Here are some ideas:
 
 --- collapse ---
 ---
-title: Adding parameters to functions
+title: Add parameters to your functions
 ---
 You can add parameters to your functions in the following way:
 
@@ -136,7 +136,7 @@ def shape_2(colour, size):
 
 --- collapse ---
 ---
-title: Loading images
+title: Load an image
 ---
 
 The [Lost in space](https://trinket.io/python/ff931d5dd5){:target="_blank"} example project loads images to create the encoded artwork. 
