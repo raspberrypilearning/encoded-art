@@ -4,7 +4,7 @@ If you are in a club, why not **share** your project with friends?
 
 You could also show your family how your project works by sending them a **link**.
 
-To get a link go to the **Share** menu button in the upper-right corner of your **Trinket’s edit page** and select **Link**.
+To get a link go to the **Share** menu button in the upper-right corner of your Trinket’s edit page and select **Link**.
 
 ![The 'Share' menu button extended, with 'Link' highlighted.](images/share-button.png)
 
