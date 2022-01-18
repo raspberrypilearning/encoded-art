@@ -40,7 +40,7 @@ title: Set the screen size when your program starts
 ---
 language: python
 filename: main.py - setup()
-line_numbers: true
+line_numbers: false
 line_number_start: 6
 line_highlights: 7
 ---
@@ -75,7 +75,28 @@ The `draw()` function continuously executes the lines of code contained inside i
 
 You could also use something like the [Paletton colour scheme designer](https://paletton.com/){:target="_blank"} to choose your colour palette and copy the RGB values.
 
-[[[p5-colour]]]
+--- collapse ---
+
+---
+title: Colour in p5
+---
+
+The p5 color() function expects three numbers: one each for red, green, and blue.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+
+blue = color(50, 70, 206) #Red = 50, Green = 70, Blue = 206
+
+--- /code ---
+
+--- /collapse ---
 
 --- /task ---
 
@@ -91,13 +112,13 @@ You may notice two spellings of the word **colour** (color) in this project. The
 title: Set the background colours when your program starts
 ---
 
-Define a new function called `draw_background()` and create a call to it in `draw():`, after a call to `no_stroke()`. If you want your background to include more colours, you will need to add more parameters.
+Define a new function called `draw_background()` and create a call to it in `draw():`, after a call to `no_stroke()`. 
 
 --- code ---
 ---
 language: python
 filename: main.py
-line_numbers: true
+line_numbers: false
 line_number_start: 11
 line_highlights: 
 ---
@@ -115,7 +136,7 @@ Then create a call to it in `draw()`:
 ---
 language: python
 filename: main.py - draw()
-line_numbers: true
+line_numbers: false
 line_number_start: 18
 line_highlights: 24-25
 ---
@@ -127,6 +148,47 @@ def draw():
 
   no_stroke()
   draw_background(red)
+
+--- /code ---
+
+If you want your background to include more colours, you will need to add more parameters.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 11
+line_highlights: 
+---
+def draw_background(green, blue):
+  
+  # Background colour
+  fill(blue)
+  rect(0, 0, 400, 200)
+  fill(green)
+  rect(0, 200, 400, 200)
+
+--- /code ---
+
+Then create a call to it in `draw()`:
+
+--- code ---
+---
+language: python
+filename: main.py - draw()
+line_numbers: false
+line_number_start: 18
+line_highlights: 24-25
+---
+def draw():
+
+  red = color(255, 0, 0)
+  green = color(0, 255, 0)
+  blue = color(0, 0, 255)
+
+  no_stroke()
+  draw_background(green, blue)
 
 --- /code ---
 
@@ -142,7 +204,7 @@ def draw():
 ---
 language: python
 filename: main.py
-line_numbers: true
+line_numbers: false
 line_number_start: 28
 line_highlights: 28
 ---
