@@ -26,7 +26,7 @@ Now that you have repeatable shapes for your artwork, you need to place them on 
 
 --- collapse ---
 ---
-title: Placing shapes randomly 
+title: Position shapes randomly 
 ---
 
 From the `random` library, import `randint` and `seed` at the top of your script.
@@ -123,7 +123,7 @@ triangle(x, y, x+50, y-100, x+100, y)
 
 --- collapse ---
 ---
-title: Creating a specific pattern like in Geometric patterns
+title: Create a specific pattern like in Geometric patterns
 ---
 
 If you take a look at **Geometric patterns:**, you will notice that it places the shapes across the page and then down, like text:
@@ -232,7 +232,7 @@ If you used a random pattern, experiment with the `seed()` value to change the p
 
 --- collapse ---
 ---
-title: I'm getting an error about `randint` or `seed`
+title: I get an error about `randint` or `seed`
 ---
 Make sure you have imported `randint` and `seed` from the `random` library at the top of your script: `from random import randint, seed`.
 
