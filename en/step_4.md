@@ -5,7 +5,7 @@
 Now that you have repeatable shapes for your artwork, you need to place them on the canvas.
 </div>
 <div>
-![Image showing the output of the project with an astronaut and small planets in space](images/random-output.png){:width="300px"}
+![Image showing the output of the project with an astronaut and small planets in space.](images/random-output.png){:width="300px"}
 </div>
 </div>
 
@@ -26,25 +26,33 @@ Now that you have repeatable shapes for your artwork, you need to place them on 
 
 --- collapse ---
 ---
-title: Placing shapes randomly 
+title: Position shapes randomly 
 ---
 
 From the `random` library, import `randint` and `seed` at the top of your script.
-
-
-
-**Add** a call to `seed()` in your `draw()` function below `draw_background()`. You will need to enter an argument for the seed, which can be any number:
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: false
+---
+from random import randint, seed
+
+--- /code ---
+
+**Add** a call to `seed()` in your `draw()` function below `draw_background()`. You will need to enter an argument for the seed, which can be any number:
+
+--- code ---
+---
+language: python
+filename: main.py - draw()
+line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
-draw_background(red)
-seed(32)
+  draw_background(red)
+  seed(32)
 
 --- /code ---
 
@@ -53,8 +61,8 @@ Change your shape functions to set random coordinates for each shape when drawin
 --- code ---
 ---
 language: python
-filename: main.py
-line_numbers: true
+filename: main.py - shape_1()
+line_numbers: false
 line_number_start: 6 
 line_highlights: 
 ---
@@ -69,8 +77,8 @@ Becomes:
 --- code ---
 ---
 language: python
-filename: main.py
-line_numbers: true
+filename: main.py - shape_1()
+line_numbers: false
 line_number_start: 6
 line_highlights: 8-9, 11
 ---
@@ -84,11 +92,13 @@ def shape_1(colour, size):
 
 --- /collapse ---
 
+[[[using-seed-in-python]]]
+
 --- collapse ---
 ---
-title: Shapes which require declared points
+title: Placing shapes with declared points randomly
 ---
-Some shapes in the `p5` library require all their corners to be declared, specifically `triangles` and `quads`. To randomise their position, you have to do some quick maths. 
+Some shapes in the `p5` library require all their corners to be declared, specifically `triangles` and `quads`. To randomise their positions, you have to do some quick maths. 
 
 For example:
 
@@ -100,7 +110,9 @@ line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
-triangle(200, 200, 250, 100, 300, 200)
+def shape_1(color)
+  fill(colour)
+  triangle(200, 200, 250, 100, 300, 200)
 
 --- /code ---
 
@@ -114,19 +126,21 @@ line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
-triangle(x, y, x+50, y-100, x+100, y)
-
+def shape_1(color, x, y):
+  fill(colour)
+  x = randint(0, 400)
+  y = randint(0, 400)
+  triangle(x - 5, y - 35, x + 5, y - 75, x + 20, y - 75)
 --- /code ---
 
 --- /collapse ---
 
-
 --- collapse ---
 ---
-title: Creating a specific pattern like Geometric Patterns
+title: Create a specific pattern like in Geometric patterns
 ---
 
-If you take a look at **Geometric Patterns:**, you will notice that it places the shapes across the page and then down, like text:
+If you take a look at **Geometric patterns:**, you will notice that it places the shapes across the page and then down, like text:
 
 [See inside](https://trinket.io/python/6067bf289c){:target="_blank"}
 
@@ -155,7 +169,7 @@ These variables will be used to iterate the `x` and `y` values for each shape in
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - shape_2()
 line_numbers: false
 line_number_start: 
 line_highlights: 
@@ -173,7 +187,7 @@ Becomes:
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - shape_2()
 line_numbers: false
 line_number_start: 
 line_highlights: 
@@ -188,14 +202,14 @@ def shape_2(colour, size):
   rect(x, y, size, size)
 --- /code ---
 
-Because you need to detect whether the shapes will go 'off the side' of the canvas, create a function to check the initial `x` coordinate of the next shape is less than your window size and set it back to 0 if it is, while also moving it down the window by increasing the initial `y` coordinate of the shape. 
+Because you need to detect whether the shapes will go 'off the side' of the canvas, create a function to check the initial `x` coordinate of the next shape is less than your window size and set it back to 0 if it isn't, while also moving it down the window by increasing the initial `y` coordinate of the shape. 
 
 **Define** a new function called `size_check()` now:
 
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - size_check()
 line_numbers: false
 line_number_start: 
 line_highlights: 
@@ -210,7 +224,7 @@ def size_check():
 
 --- /code ---
 
-**Tip:** Look for more instructions on calling this function when coding the input loop, during the **Encode a message** step!
+**Tip:** Look for more instructions on calling this function when coding the input loop during the **Encode a message** step!
 
 --- /collapse ---
 
@@ -222,7 +236,7 @@ def size_check():
 
 If you used a random pattern, experiment with the `seed()` value to change the pattern!
 
-![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle and an orange triangle.](images/shape-functions2.png)
+![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle, and an orange triangle.](images/shape-functions2.png)
 
 --- /task ---
 
@@ -232,9 +246,9 @@ If you used a random pattern, experiment with the `seed()` value to change the p
 
 --- collapse ---
 ---
-title: I'm getting an error about `randint` or `seed`
+title: I get an error about `randint` or `seed`
 ---
-Make sure you have imported `randint` and `seed` from the `random` library at the top of your script: `from random import randint, seed`
+Make sure you have imported `randint` and `seed` from the `random` library at the top of your script: `from random import randint, seed`.
 
 --- /collapse ---
 

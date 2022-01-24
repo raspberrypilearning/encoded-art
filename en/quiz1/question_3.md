@@ -46,7 +46,7 @@ Why do you get an error message when the code runs?
 Colour is spelt incorrectly. 
 
   --- feedback ---
-Good try! However, Python uses American English. `color` is the correct identifier for assigning colour values. In other English speaking countries, **colour** is spelt with a **u**. 
+Good try! However, Python uses American English, so `color` is the correct identifier for assigning colour values. In other English speaking countries, **colour** is spelt with a **u**. 
   --- /feedback ---
 
 - ( ) 
@@ -60,7 +60,7 @@ Not quite. `red` is a variable so the apostrophes are not needed in this scenari
 The function that you created has **two** parameters. This means that you need to pass two **arguments** to the function. You only have **one** at the moment. 
 
   --- feedback ---
-Well spotted! If a function has **two parameters** then **two arguments** must be passed into it when it is called. 
+Well spotted! If a function has **two parameters**, then **two arguments** must be passed into it when it is called. 
   --- /feedback ---
 
 --- /choices ---

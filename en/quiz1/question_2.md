@@ -5,7 +5,7 @@
 legend: Question 2 of 3
 ---
 
-Your Encoded Art project used parameters in functions to create customisations of shapes. The code below also uses a function with parameters. What will be the output of this code when it is run?
+Your Encoded art project used parameters in functions to create customisations of shapes. The code below also uses a function with parameters. What will be the output of this code when it is run?
 
 --- code ---
 ---
@@ -23,7 +23,7 @@ def find_apple(food):
         if item == 'apple':
             print('Apple found!')
         else:
-            print('Not an Apple')
+            print('Not an apple')
 
 find_apple(food)
 
@@ -46,14 +46,14 @@ Not quite, you **can** pass a list as an argument so this wouldn't cause an erro
 - ( ) 
 There will be an error because `Apple` in the print function doesn't match `apple` in the list. 
   --- feedback ---
-I can see what you did there. However, if you take a look at the **list items** on **line 1** then you will see that they are all in **lowercase**. Then, take a look at the **condition** on **line 6** you will see that it is also looking for a lowercase word. This means the condition will be **true**.  
+I can see what you did there. However, if you take a look at the **list items** on **line 1** then you will see that they are all in **lower case**. Then, take a look at the **condition** on **line 6** and you will see that it is also looking for a lower-case word. This means the condition will be **true**.  
   --- /feedback ---
 
 - (x) 
 ```python
-Not an Apple
+Not an apple
 Apple found!
-Not an Apple
+Not an apple
 ```
   --- feedback ---
 Almost. Those two print functions are part of a selection statement. This means that **line 7** will run if the condition is true and **line 9** will run if the condition is false. Is the condition **true** or **false**?

@@ -15,7 +15,7 @@ Create the dictionary that will encode each letter of the alphabet with a shape.
 
 --- collapse ---
 ---
-title: Defining a dictionary
+title: Define a dictionary
 ---
 Here is some example code of a dictionary being defined:
 
@@ -43,7 +43,7 @@ code = {
 
 --- collapse ---
 ---
-title: Adding keys to a dictionary
+title: Add keys to a dictionary
 ---
 Here is some example code showing **keys** being added to a **dictionary**:
 
@@ -103,10 +103,10 @@ The list will need to contain:
 
 --- collapse ---
 ---
-title: Pairing a list with your dictionary keys
+title: Pair a list with your dictionary keys
 ---
 
-Here is an example of a **list** being paired with the letters of the alphabet. You can see that each list has **three** items. The **function name**, the **size** value and the chosen `object` to display. 
+Here is an example of a **list** being paired with the letters of the alphabet. You can see that each list has **three** items: the **function name**, the **size** value, and the chosen `object` to display. 
 
 --- code ---
 ---
@@ -159,18 +159,18 @@ line_highlights:
 
 --- collapse ---
 ---
-title: Fixing syntax errors
+title: Fix syntax errors
 ---
 
-If your code has syntax errors then look very carefully at the structure of your dictionary. There should be:
+If your code has syntax errors, then look very carefully at the structure of your dictionary. There should be:
 + Curly brackets `{}` at the start and end of the dictionary
 + Apostrophies `'` surrounding the keys (letters of the alphabet)
 + A colon `:` between the key and the list
 + The list should have a square bracket `[]` on either side
 + Each list item should be separated by a comma `,`
-+ There should be a comma `,` at the end of each **key-value pair**
++ There should be a comma `,` at the end of each **key–value pair**
 
-You can double check your syntax by taking a look at the example code in **Pairing a list with your dictionary keys** above. 
+You can double-check your syntax by taking a look at the example code in **Pair a list with your dictionary keys** above. 
 
 
 --- /collapse ---
