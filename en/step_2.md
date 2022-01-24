@@ -29,7 +29,7 @@ The first thing to do when creating art using the Python `Processing library` is
 
 --- task ---
 
-**Create:** Define the `setup()` function in your code to set the output window size.
+**Create:** Define the `setup()` function in your code to set the output window size. The `size()` function is used to state the size of the canvas. The arguments state the width and height in pixels. 
 
 --- collapse ---
 ---
@@ -87,7 +87,7 @@ The p5 color() function expects three numbers: one each for red, green, and blue
 ---
 language: python
 filename: main.py
-line_numbers: true
+line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
@@ -117,7 +117,7 @@ Define a new function called `draw_background()` and create a call to it in `dra
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - draw_background()
 line_numbers: false
 line_number_start: 11
 line_highlights: 
@@ -156,7 +156,7 @@ If you want your background to include more colours, you will need to add more p
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - draw_background()
 line_numbers: false
 line_number_start: 11
 line_highlights: 

@@ -55,7 +55,7 @@ def shape_3():
 
 Decide which **parameters** your functions will need. Here are some ideas:
 + A `colour` parameter to allow you to modify the colour of the shapes that you have created
-+ A `size` parameter to allow you to adjust the size of the shape or image 
++ A `size` parameter to allow you to adjust the size of the shape or image. 
 + An `outline` parameter that adds a different colour to the edge of a drawing
 
 --- /task ---
@@ -80,9 +80,9 @@ line_highlights:
 ---
 def shape_1(size, colour):
    
-def shape_2(size, colour):
+def shape_2(size, outline):
 
-def shape_3(size, colour):
+def shape_3(object, colour):
 
 --- /code ---
 
@@ -95,6 +95,12 @@ def shape_3(size, colour):
 
 **Add** in the code for each of your shape functions so that the drawing or image will appear when the function is **called**.
 
+Choose: What does your shape look like? Your shape could be:
+  - An image provided in the starter project
+  - An emoji 🎈 or text
+  - Drawn using a series of geometric shapes
+
+
 In the [Make a face project](https://projects.raspberrypi.org/en/projects/make-a-face/0){:target="_blank"}, you learnt how to use a group of geometric shapes to create some fun faces. You can use your skills from that project to help you draw your images. 
 
 ### Shapes
@@ -104,6 +110,12 @@ In the [Make a face project](https://projects.raspberrypi.org/en/projects/make-a
 [[[processing-python-rect]]]
 
 [[[processing-python-triangle]]]
+
+[[[processing-python-quad]]]
+
+[[[processing-translation]]]
+
+[[[processing-rotation]]]
 
 ### Colours and effects
 
@@ -120,7 +132,7 @@ Here is some sample code for drawing a square in your encoded art project:
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - shape_2()
 line_numbers: false
 line_number_start: 
 line_highlights: 
@@ -146,15 +158,19 @@ The [Lost in space](https://trinket.io/python/ff931d5dd5){:target="_blank"} exam
 --- code ---
 ---
 language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 4
+filename: main.py - shape_1()
+line_numbers: false
 ---
 def shape_1(size, colour): 
   
   if colour == 'purple':
-    image(purple_planet, 400, 400, size, size)
+    image(purple_planet, 400, 400, size, size) 
+  elif colour == 'orange':
+    image(orange_planet, 400, 400, size, size)
+  elif colour == 'green':
+    image(green_planet, 400, 400, size, size)
+  elif colour == 'grey':
+    image(grey_moon, 400, 400, size, size)
 
 --- /code ---
 
@@ -163,10 +179,8 @@ You will also need code to **load** the image in the `setup()` function:
 --- code ---
 ---
 language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 10 
+filename: main.py - setup()
+line_numbers: false
 ---
 def setup():
   
@@ -178,8 +192,42 @@ def setup():
   
   # Load the images needed into variables
   purple_planet = load_image('purple_planet.png')
+  orange_planet = load_image('orange_planet.png')
+  green_planet = load_image('green_planet.png')
+  grey_moon = load_image('moon.png')
 
 --- /code ---
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Use emoji characters
+---
+
+You can use emoji characters in the p5 text() function to use an emoji to represent your player.
+
+Here’s an example:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: 
+line_number_start: 
+line_highlights: 
+---
+
+--- /code ---
+
+def setup():
+  size(400, 400)
+  text_align(CENTER, TOP) #Position around the centre
+
+def draw_emoji(emoji, size): #snake
+  text_size(size) #Controls the size of the emoji
+  text(emoji, 200, 200)
 
 --- /collapse ---
 
@@ -187,11 +235,11 @@ def setup():
 
 --- task ---
 
-To **test** that your shape functions work correctly, you will need to **call** them from the `draw()` function. 
+To **test** that your shape functions work correctly, you will need to **call** them from the `draw()` function. Remember that you can use the `#` to comment out lines of code so that you only see one shape at a time. 
 
 Make sure that you add in the arguments for your chosen parameters!
 
-Here is an example of what your function calls might look like:
+The example below take two or three arguments. 
 
 --- code ---
 ---
@@ -201,15 +249,19 @@ line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
-  shape_1(primary_2, 100)
-  shape_2(primary_2, 100)
-  shape_3(complementary_2, 100)
+  shape_1(colour_1, 100)
+  shape_2(colour_2, 100)
+  draw_emoji('🐍', 100)
 
 --- /code ---
 
 **Notice** that the variable names for the chosen `colour` have been placed in the first parameter and some values have been added for the chosen `size` in the second parameter. 
 
 --- /task ---
+
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+<span style="color: #0faeb0">Prototyping</span> involves making a draft of what you think your final project might achieve. The focus of prototyping is to make a simplified version of the final product quickly, to allow you to test if it is a workable solution to the problem.
+</p>
 
 --- task ---
 
