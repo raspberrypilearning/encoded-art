@@ -79,7 +79,7 @@ run()
 
 --- task ---
 
-At the end of your `draw()` function (after your dictionary), call the global variable you just declared and make sure that all the letters are the same case. 
+In the `draw()` function (after your dictionary), call the global variable you just declared and make sure that all the letters are the same case. 
 
 --- collapse ---
 ---
