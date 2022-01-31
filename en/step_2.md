@@ -41,8 +41,8 @@ title: Set the screen size when your program starts
 language: python
 filename: main.py - setup()
 line_numbers: false
-line_number_start: 6
-line_highlights: 7
+line_number_start: 1
+line_highlights: 2-3
 ---
 def setup():   
   size(400, 400) # 400 by 400 works well for an art canvas
@@ -88,10 +88,9 @@ The p5 color() function expects three numbers: one each for red, green, and blue
 language: python
 filename: main.py
 line_numbers: false
-line_number_start: 
-line_highlights: 
+line_number_start: 1
+line_highlights: 1
 ---
-
 blue = color(50, 70, 206) #Red = 50, Green = 70, Blue = 206
 
 --- /code ---
@@ -119,11 +118,10 @@ Define a new function called `draw_background()` and create a call to it in `dra
 language: python
 filename: main.py - draw_background()
 line_numbers: false
-line_number_start: 11
-line_highlights: 
+line_number_start: 1
+line_highlights: 1-4
 ---
 def draw_background(colour):
-  
   # Background colour
   fill(colour)
   rect(0, 0, 400, 400)
@@ -137,8 +135,8 @@ Then create a call to it in `draw()`:
 language: python
 filename: main.py - draw()
 line_numbers: false
-line_number_start: 18
-line_highlights: 24-25
+line_number_start: 1
+line_highlights: 8
 ---
 def draw():
 
@@ -158,8 +156,8 @@ If you want your background to include more colours, you will need to add more p
 language: python
 filename: main.py - draw_background()
 line_numbers: false
-line_number_start: 11
-line_highlights: 
+line_number_start: 1
+line_highlights: 1, 6-7
 ---
 def draw_background(green, blue):
   
@@ -178,8 +176,8 @@ Then create a call to it in `draw()`:
 language: python
 filename: main.py - draw()
 line_numbers: false
-line_number_start: 18
-line_highlights: 24-25
+line_number_start: 1
+line_highlights: 7-8
 ---
 def draw():
 
@@ -205,8 +203,8 @@ def draw():
 language: python
 filename: main.py
 line_numbers: false
-line_number_start: 28
-line_highlights: 28
+line_number_start: 1
+line_highlights: 1
 ---
 run()
 
