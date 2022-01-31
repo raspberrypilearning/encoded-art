@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [More Python](https://projects.raspberrypi.org/en/raspberrypi/python-2) path, you can move on to the [Mapping data](https://projects.raspberrypi.org/en/projects/mapping-data) project. In this project, you will make a map that plots different data points from around the world.
+If you are following the [More Python](https://projects.raspberrypi.org/en/raspberrypi/more-python) path, you can move on to the [Mapping data](https://projects.raspberrypi.org/en/projects/mapping-data) project. In this project, you will make a map that plots different data points from around the world.
 
 --- print-only ---
 

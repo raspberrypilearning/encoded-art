@@ -81,11 +81,6 @@ run()
 
 In the `draw()` function (after your dictionary), call the global variable you just declared and make sure that all the letters are the same case. 
 
---- collapse ---
----
-title: Match the case of the input to your dictionary keys 
----
-
 --- code ---
 ---
 language: python
@@ -102,18 +97,12 @@ name = name.lower()
 
 If your dictionary is in lower case, you should use `name.lower()`, but if you entered the letters in upper case you should use `name.upper()`. 
 
---- /collapse ---
 
 --- /task ---
 
 --- task ---
 
 **Create** a list to hold the series of letters in the message ready to encode, then populate the list by using `append` to add the coded dictionary values for each letter. **Append** literally means **add to the end** of something.
-
---- collapse ---
----
-title: Encode and append to a list
----
 
 --- code ---
 ---
@@ -128,24 +117,17 @@ global name
 
 name = name.lower()
 
-message = []
+message = [] # list for the encoded letters
 
 for letter in name:
-    message.append(code[letter])
+    message.append(code[letter]) # add the encoded letter to the list
 --- /code ---
-
---- /collapse ---
 
 --- /task ---
 
 --- task ---
 
-**Create** a `for` loop; this will individually check the list of coded values based on the first term in each entry, then pass the information into your shape functions to draw a shape for each letter and place it on your canvas.
-
---- collapse ---
----
-title: Draw a shape for each letter 
----
+**Create** a for loop that will print each item in your `message` list and then run your code to see the output. 
 
 --- code ---
 ---
@@ -154,6 +136,24 @@ filename: main.py - draw()
 line_numbers: false
 line_number_start: 
 line_highlights: 
+---
+for item in message:
+  print(item)
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Edit** your for loop so that it will individually check the list of coded values based on the first term in each entry, then pass the information into your shape functions to draw a shape for each letter and place it on your canvas.
+
+--- code ---
+---
+language: python
+filename: main.py - draw()
+line_numbers: false
+line_number_start: 
+line_highlights: 2-7
 ---
 for item in message:
   if item[0] == 'shape 1':
@@ -165,17 +165,17 @@ for item in message:
 
 --- /code ---
 
---- /collapse ---
+**Optional**: If you have chosen to place your shapes in a line instead of in random locations then add the code for placing shapes in a line. 
 
 --- collapse ---
 ---
-title: Iterate coordinates for linear placement
+title: Place shapes in a line
 ---
 If you are using specific coordinates to place your shapes, you will need to change the global `startx` and `starty` values inside your `for` loop and pass them back into your functions each time. 
 
 You need the `x` coordinate of each shape to change by the `size` of the last shape, to make sure they line up nicely.
 
-You will also need to check whether your next shape is about to be drawn outside your window by calling the `check_size()` function you created earlier (which will move the next shape to the 'next line' on your window):
+You will also need to check whether your next shape is about to be drawn outside your window by calling the `size_check()` function you created earlier (which will move the next shape to the 'next line' on your window):
 
 --- code ---
 ---
@@ -183,7 +183,7 @@ language: python
 filename: main.py - draw()
 line_numbers: false
 line_number_start: 1
-line_highlights: 3-4
+line_highlights: 3-4, 7-8, 11-12
 ---
 for item in message:
   if item[0] == 'shape 1':
@@ -219,7 +219,7 @@ for item in message:
 
 --- collapse ---
 ---
-title: I get an error about '`name` referenced before assignment'
+title: I get an error about: `name` referenced before assignment
 ---
 Make sure you have `name` set up as a `global` variable in your draw function.
 
@@ -227,9 +227,21 @@ Make sure you have `name` set up as a `global` variable in your draw function.
 
 --- collapse ---
 ---
-title: My art looks weird!
+title: My art doesn't look as I expected
 ---
-Make sure your parameters are being called in the right order in your functions.
+Make sure your arguments are called in the right order in your function calls and match the order in your function definitions, and you are using the correct indexes for the lists.
+
+`def shape_2(size, color):`
+
+This function places size first and color second.
+
+When calling `shape_2` you need to pass arguments in, in the same order as they are in the definition.
+
+`shape_2(item[1], item[2])` is calling the shape_2 function with a size of `item[1]` and a colour of 0`item[2]`.
+
+`['shape 1', 20, -11696205]`
+
+Here, `item[1]` would be `20` and `item[2]` would be `-11696205`.
 
 --- /collapse ---
 

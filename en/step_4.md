@@ -24,6 +24,8 @@ Now that you have repeatable shapes for your artwork, you need to place them on 
 + In the same place every time
 + To another set pattern 
 
+[[[using-seed-in-python]]]
+
 --- collapse ---
 ---
 title: Position shapes randomly 
@@ -63,7 +65,7 @@ Change your shape functions to set random coordinates for each shape when drawin
 language: python
 filename: main.py - shape_1()
 line_numbers: false
-line_number_start: 6 
+line_number_start: 1 
 line_highlights: 
 ---
 def shape_1(colour, size):
@@ -79,8 +81,8 @@ Becomes:
 language: python
 filename: main.py - shape_1()
 line_numbers: false
-line_number_start: 6
-line_highlights: 8-9, 11
+line_number_start: 1
+line_highlights: 3-4
 ---
 def shape_1(colour, size):
   
@@ -92,11 +94,9 @@ def shape_1(colour, size):
 
 --- /collapse ---
 
-[[[using-seed-in-python]]]
-
 --- collapse ---
 ---
-title: Placing shapes with declared points randomly
+title: Use coordinates to position shapes in groups
 ---
 Some shapes in the `p5` library require all their corners to be declared, specifically `triangles` and `quads`. To randomise their positions, you have to do some quick maths. 
 
@@ -137,7 +137,7 @@ def shape_1(color, x, y):
 
 --- collapse ---
 ---
-title: Create a specific pattern like in Geometric patterns
+title: Create a specific positioning pattern
 ---
 
 If you take a look at **Geometric patterns:**, you will notice that it places the shapes across the page and then down, like text:
