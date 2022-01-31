@@ -219,7 +219,7 @@ for item in message:
 
 --- collapse ---
 ---
-title: I get an error about: `name` referenced before assignment
+title: I get an error about `name` referenced before assignment
 ---
 Make sure you have `name` set up as a `global` variable in your draw function.
 
