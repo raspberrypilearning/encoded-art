@@ -218,9 +218,6 @@ line_numbers:
 line_number_start: 
 line_highlights: 
 ---
-
---- /code ---
-
 def setup():
   size(400, 400)
   text_align(CENTER, TOP) #Position around the centre
@@ -228,6 +225,8 @@ def setup():
 def draw_emoji(emoji, size): #snake
   text_size(size) #Controls the size of the emoji
   text(emoji, 200, 200)
+  
+--- /code ---
 
 --- /collapse ---
 
