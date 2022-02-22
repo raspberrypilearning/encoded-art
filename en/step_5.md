@@ -5,7 +5,7 @@
 Create the dictionary that will encode each letter of the alphabet with a shape. 
 </div>
 <div>
-![](images/dictionary.PNG){:width="300px"}
+![Three Kawaii fruits are placed randomly on the canvas.](images/dictionary.PNG){:width="300px"}
 </div>
 </div>
 
