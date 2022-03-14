@@ -237,7 +237,7 @@ This function places size first and color second.
 
 When calling `shape_2` you need to pass arguments in, in the same order as they are in the definition.
 
-`shape_2(item[1], item[2])` is calling the shape_2 function with a size of `item[1]` and a colour of 0`item[2]`.
+`shape_2(item[1], item[2])` is calling the shape_2 function with a size of `item[1]` and a colour of `item[2]`.
 
 `['shape 1', 20, -11696205]`
 
