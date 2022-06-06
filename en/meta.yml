@@ -1,26 +1,30 @@
+---
 title: Encoded art
 hero_image: images/banner.png
 description: Create a piece of encoded artwork based on the user's name.
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-11-03"
+last_tested: '2021-11-03'
 steps:
-  - title: Introduction
-  - title: Choose a theme
-  - title: Draw your shapes
-    completion: engaged
-  - title: Place your shapes
-  - title: Build your dictionary
-  - title: Encode a message
-    completion: internal
-  - title: Reflection
-    completion: external
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
-  - title: Upgrade your project
-  - title: Share
-  - title: What next?
+- title: Introduction
+- title: Choose a theme
+- title: Draw your shapes
+  completion:
+  - engaged
+- title: Place your shapes
+- title: Build your dictionary
+- title: Encode a message
+  completion:
+  - internal
+- title: Reflection
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+  completion:
+  - external
+- title: Upgrade your project
+- title: Share
+- title: What next?
