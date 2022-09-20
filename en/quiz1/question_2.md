@@ -31,10 +31,10 @@ find_apple(food)
 
 --- choices ---
 
-- (x) 
+- ( ) 
 `Apple found!`
   --- feedback ---
-Correct, the **list** will be **passed** to the function. The function will then check each item in the list and find the `apple` item. This will result in the message `Apple found!` being displayed. 
+Almost. Those two print functions are part of a selection statement. This means that **line 7** will run if the condition is true and **line 9** will run if the condition is false. Is the condition **true** or **false**?
   --- /feedback ---
 
 - ( ) 
@@ -49,14 +49,14 @@ There will be an error because `Apple` in the print function doesn't match `appl
 I can see what you did there. However, if you take a look at the **list items** on **line 1** then you will see that they are all in **lower case**. Then, take a look at the **condition** on **line 6** and you will see that it is also looking for a lower-case word. This means the condition will be **true**.  
   --- /feedback ---
 
-- ( ) 
+- (x) 
 ```python
 Not an apple
 Apple found!
 Not an apple
 ```
   --- feedback ---
-Almost. Those two print functions are part of a selection statement. This means that **line 7** will run if the condition is true and **line 9** will run if the condition is false. Is the condition **true** or **false**?
+Correct, the **list** will be **passed** to the function. The function will then check each item in the list and find the `apple` item. This will result in the message `Apple found!` being displayed the second time through the loop. 
   --- /feedback ---
 
 --- /choices ---
