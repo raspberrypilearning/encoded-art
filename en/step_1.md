@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Create a piece of encoded art based on the user's name. Each letter is encoded to a shape that is displayed at random on the screen.
 
@@ -18,7 +18,7 @@ In this project you will:
 
 ![A selection of screenshots of the example encoded art projects that can be accessed in the tasks below.](images/example-projects.png)
 
-### Get inspiration
+### Get ideas 💭
 
 You are going to make some design decisions about the kind of artwork that will be produced when the user enters their name. 
 
