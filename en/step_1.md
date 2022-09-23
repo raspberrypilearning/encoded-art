@@ -12,11 +12,11 @@ In this project you will:
 <span style="color: #0faeb0">Encoding</span> is when you convert data from one form to another. <span style="color: #0faeb0">**QR codes**</span> are like a little piece of **encoded** art. They are used to represent data, such as website addresses or text. They are made up of black and white squares that are used to represent letters or numbers. The black and white patterns can be read and decoded by computers.
 </div>
 <div>
-![A QR code: an image made up of black and white blocks.](images/qrcode.png){:width="200px"}
+![A QR code: an image made up of black and white blocks.](images/qr.png){:width="200px"}
 </div>
 </div>
 
-![A selection of screenshots of the example encoded art projects that can be accessed in the tasks below.](images/example-projects.png)
+![A selection of screenshots of the example encoded art projects that can be accessed in the tasks below.](images/examples.png)
 
 ### Get ideas 💭
 
