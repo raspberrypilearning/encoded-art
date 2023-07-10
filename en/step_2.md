@@ -11,7 +11,7 @@ Have you got some ideas about what sort of art you would like to make? In this s
 
 --- task ---
 
-Open the [starter project](https://trinket.io/python/c4cbf837f8){:target="_blank"}. Trinket will open in another browser tab.
+Open the [starter project](https://editor.raspberrypi.org/en/projects/encoded-art-starter){:target="_blank"}. The Raspberry Pi code editor will open in another tab.
 
 --- /task ---
 

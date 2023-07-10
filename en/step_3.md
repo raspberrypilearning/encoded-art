@@ -151,7 +151,7 @@ def shape_2(colour, size):
 title: Load an image
 ---
 
-The [Lost in space](https://trinket.io/python/ff931d5dd5){:target="_blank"} example project loads images to create the encoded artwork. 
+The [Lost in space](https://editor.raspberrypi.org/en/projects/lost-in-space){:target="_blank"} example project loads images to create the encoded artwork. 
 
 **Remember** that you will need code to display the image:
 

@@ -142,11 +142,10 @@ title: Create a specific positioning pattern
 
 If you take a look at **Geometric patterns:**, you will notice that it places the shapes across the page and then down, like text:
 
-[See inside](https://trinket.io/python/6067bf289c){:target="_blank"}
+[See inside](https://editor.raspberrypi.org/en/projects/geometric-patterns-example){:target="_blank"}
 
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/6067bf289c?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/geometric-patterns-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 
 This can be achieved by creating global variables in your draw loop called `startx` and `starty`, then setting them both to `0`:
 
