@@ -139,8 +139,8 @@ line_highlights:
 ---
 def shape_2(colour, size):
 
-  fill(colour)   
-  rect(200, 200, size, size)
+    fill(colour)   
+    rect(200, 200, size, size)
 
 --- /code ---
 
@@ -163,14 +163,14 @@ line_numbers: false
 ---
 def shape_1(size, colour): 
   
-  if colour == 'purple':
-    image(purple_planet, 400, 400, size, size) 
-  elif colour == 'orange':
-    image(orange_planet, 400, 400, size, size)
-  elif colour == 'green':
-    image(green_planet, 400, 400, size, size)
-  elif colour == 'grey':
-    image(grey_moon, 400, 400, size, size)
+    if colour == 'purple':
+        image(purple_planet, 400, 400, size, size) 
+    elif colour == 'orange':
+        image(orange_planet, 400, 400, size, size)
+    elif colour == 'green':
+        image(green_planet, 400, 400, size, size)
+    elif colour == 'grey':
+        image(grey_moon, 400, 400, size, size)
 
 --- /code ---
 
@@ -184,17 +184,17 @@ line_numbers: false
 ---
 def setup():
   
-  # Allow other functions to access the images
-  global purple_planet
-  
-  frame_rate(10)
-  size(400, 400)
-  
-  # Load the images needed into variables
-  purple_planet = load_image('purple_planet.png')
-  orange_planet = load_image('orange_planet.png')
-  green_planet = load_image('green_planet.png')
-  grey_moon = load_image('moon.png')
+    # Allow other functions to access the images
+    global purple_planet
+
+    frame_rate(10)
+    size(400, 400)
+
+    # Load the images needed into variables
+    purple_planet = load_image('purple_planet.png')
+    orange_planet = load_image('orange_planet.png')
+    green_planet = load_image('green_planet.png')
+    grey_moon = load_image('moon.png')
 
 --- /code ---
 
@@ -219,12 +219,12 @@ line_number_start:
 line_highlights: 
 ---
 def setup():
-  size(400, 400)
-  text_align(CENTER, TOP) #Position around the centre
+    size(400, 400)
+    text_align(CENTER, TOP) #Position around the centre
 
 def draw_emoji(emoji, size): #snake
-  text_size(size) #Controls the size of the emoji
-  text(emoji, 200, 200)
+    text_size(size) #Controls the size of the emoji
+    text(emoji, 200, 200)
   
 --- /code ---
 
@@ -248,9 +248,9 @@ line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
-  shape_1(colour_1, 100)
-  shape_2(colour_2, 100)
-  draw_emoji('🐍', 100)
+    shape_1(colour_1, 100)
+    shape_2(colour_2, 100)
+    draw_emoji('🐍', 100)
 
 --- /code ---
 

@@ -29,7 +29,7 @@ line_highlights:
 ---
 code = {
     
-  }
+}
 
 --- /code ---
 
@@ -56,35 +56,35 @@ line_number_start:
 line_highlights: 
 ---
 code = {
-  'a': ,
-  'b': ,
-  'c': ,
-  'd': ,
-  'e': ,
-  'f': ,
-  'g': ,
-  'h': ,
-  'i': ,
-  'j': ,
-  'k': ,
-  'l': ,
-  'm': ,
-  'n': ,
-  'o': ,
-  'p': ,
-  'q': ,
-  'r': ,
-  's': ,
-  't': ,
-  'u': ,
-  'v': ,
-  'w': ,
-  'x': ,
-  'y': ,
-  'z': ,
-  ' ': ,
+    'a': ,
+    'b': ,
+    'c': ,
+    'd': ,
+    'e': ,
+    'f': ,
+    'g': ,
+    'h': ,
+    'i': ,
+    'j': ,
+    'k': ,
+    'l': ,
+    'm': ,
+    'n': ,
+    'o': ,
+    'p': ,
+    'q': ,
+    'r': ,
+    's': ,
+    't': ,
+    'u': ,
+    'v': ,
+    'w': ,
+    'x': ,
+    'y': ,
+    'z': ,
+    ' ': ,
     
-  }
+}
 --- /code ---
 
 **Notice** that the data pairing has not been entered yet. You will do this in the next task. 
@@ -144,7 +144,7 @@ line_highlights:
     'y': ['shape 1', 67, 'purple'],
     'z': ['shape 2', 70, 'astropi'],
     ' ': ['shape 3', 25, 'pink']
-  }
+}
 
 --- /code ---
 
