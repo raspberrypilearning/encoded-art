@@ -53,8 +53,8 @@ line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
-  draw_background(red)
-  seed(32)
+    draw_background(red)
+    seed(32)
 
 --- /code ---
 
@@ -70,8 +70,8 @@ line_highlights:
 ---
 def shape_1(colour, size):
   
-  fill(colour)   
-  ellipse(200, 200, size, size)
+    fill(colour)   
+    ellipse(200, 200, size, size)
 --- /code ---
 
 Becomes:
@@ -86,10 +86,10 @@ line_highlights: 3-4
 ---
 def shape_1(colour, size):
   
-  x = randint(0, 400)
-  y = randint(0, 400)
-  fill(colour)   
-  ellipse(x, y, size, size)
+    x = randint(0, 400)
+    y = randint(0, 400)
+    fill(colour)   
+    ellipse(x, y, size, size)
 --- /code ---
 
 --- /collapse ---
@@ -111,8 +111,8 @@ line_number_start:
 line_highlights: 
 ---
 def shape_1(color)
-  fill(colour)
-  triangle(200, 200, 250, 100, 300, 200)
+    fill(colour)
+    triangle(200, 200, 250, 100, 300, 200)
 
 --- /code ---
 
@@ -127,10 +127,10 @@ line_number_start:
 line_highlights: 
 ---
 def shape_1(color, x, y):
-  fill(colour)
-  x = randint(0, 400)
-  y = randint(0, 400)
-  triangle(x - 5, y - 35, x + 5, y - 75, x + 20, y - 75)
+    fill(colour)
+    x = randint(0, 400)
+    y = randint(0, 400)
+    triangle(x - 5, y - 35, x + 5, y - 75, x + 20, y - 75)
 --- /code ---
 
 --- /collapse ---
@@ -142,11 +142,10 @@ title: Create a specific positioning pattern
 
 If you take a look at **Geometric patterns:**, you will notice that it places the shapes across the page and then down, like text:
 
-[See inside](https://trinket.io/python/6067bf289c){:target="_blank"}
+[See inside](https://editor.raspberrypi.org/en/projects/geometric-patterns-example){:target="_blank"}
 
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/6067bf289c?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/geometric-patterns-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 
 This can be achieved by creating global variables in your draw loop called `startx` and `starty`, then setting them both to `0`:
 
@@ -176,10 +175,10 @@ line_highlights:
 ---
 def shape_2(colour, size):
 
-  x = randint(0, 400)
-  y = randint(0, 400)
-  fill(colour)   
-  rect(x, y, size, size)
+    x = randint(0, 400)
+    y = randint(0, 400)
+    fill(colour)   
+    rect(x, y, size, size)
 --- /code ---
 
 Becomes:
@@ -194,12 +193,12 @@ line_highlights:
 ---
 def shape_2(colour, size): 
 
-  global startx
-  global starty
-  x = startx
-  y = starty
-  fill(colour)   
-  rect(x, y, size, size)
+    global startx
+    global starty
+    x = startx
+    y = starty
+    fill(colour)   
+    rect(x, y, size, size)
 --- /code ---
 
 Because you need to detect whether the shapes will go 'off the side' of the canvas, create a function to check the initial `x` coordinate of the next shape is less than your window size and set it back to 0 if it isn't, while also moving it down the window by increasing the initial `y` coordinate of the shape. 
@@ -216,11 +215,11 @@ line_highlights:
 ---
 def size_check():
 
-  global startx
-  global starty
-  if startx >= 400:
-    startx = 0
-    starty +=80
+    global startx
+    global starty
+    if startx >= 400:
+        startx = 0
+        starty +=80
 
 --- /code ---
 

@@ -138,7 +138,7 @@ line_number_start:
 line_highlights: 
 ---
 for item in message:
-  print(item)
+    print(item)
 --- /code ---
 
 --- /task ---
@@ -156,12 +156,12 @@ line_number_start:
 line_highlights: 2-7
 ---
 for item in message:
-  if item[0] == 'shape 1':
-    shape_1(item[1], item[2])
-  elif item[0] == 'shape 2':
-    shape_2(item[1], item[2])
-  elif item[0] == 'shape 3':
-    shape_3(item[1], item[2])
+    if item[0] == 'shape 1':
+        hape_1(item[1], item[2])
+    elif item[0] == 'shape 2':
+        shape_2(item[1], item[2])
+    elif item[0] == 'shape 3':
+        shape_3(item[1], item[2])
 
 --- /code ---
 
@@ -186,18 +186,18 @@ line_number_start: 1
 line_highlights: 3-4, 7-8, 11-12
 ---
 for item in message:
-  if item[0] == 'shape 1':
-    shape_1(item[1], item[2]) 
-    startx += item[1] 
-    size_check() # Check to see if you've gone off the side of the window
-  elif item[0] == 'shape 2':
-    shape_2(item[1], item[2])
-    startx += item[1]
-    size_check()
-  elif item[0] == 'shape 3':
-    shape_3(item[1], item[2])
-    startx += item[1]
-    size_check()
+    if item[0] == 'shape 1':
+        shape_1(item[1], item[2]) 
+        startx += item[1] 
+        size_check() # Check to see if you've gone off the side of the window
+    elif item[0] == 'shape 2':
+        shape_2(item[1], item[2])
+        startx += item[1]
+        size_check()
+    elif item[0] == 'shape 3':
+        shape_3(item[1], item[2])
+        startx += item[1]
+        size_check()
 
 --- /code ---
 

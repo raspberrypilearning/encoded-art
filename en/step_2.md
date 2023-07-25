@@ -11,7 +11,7 @@ Have you got some ideas about what sort of art you would like to make? In this s
 
 --- task ---
 
-Open the [starter project](https://trinket.io/python/c4cbf837f8){:target="_blank"}. Trinket will open in another browser tab.
+Open the [starter project](https://editor.raspberrypi.org/en/projects/encoded-art-starter){:target="_blank"}. The Raspberry Pi code editor will open in another tab.
 
 --- /task ---
 
@@ -45,7 +45,7 @@ line_number_start: 1
 line_highlights: 2-3
 ---
 def setup():   
-  size(400, 400) # 400 by 400 works well for an art canvas
+    size(400, 400) # 400 by 400 works well for an art canvas
 
 --- /code ---
 
@@ -122,9 +122,9 @@ line_number_start: 1
 line_highlights: 1-4
 ---
 def draw_background(colour):
-  # Background colour
-  fill(colour)
-  rect(0, 0, 400, 400)
+    # Background colour
+    fill(colour)
+    rect(0, 0, 400, 400)
 
 --- /code ---
 
@@ -140,12 +140,12 @@ line_highlights: 8
 ---
 def draw():
 
-  red = color(255,0,0)
-  green = color(0,255,0)
-  blue = color(0,0,255)
+    red = color(255,0,0)
+    green = color(0,255,0)
+    blue = color(0,0,255)
 
-  no_stroke()
-  draw_background(red)
+    no_stroke()
+    draw_background(red)
 
 --- /code ---
 
@@ -161,11 +161,11 @@ line_highlights: 1, 6-7
 ---
 def draw_background(green, blue):
   
-  # Background colour
-  fill(blue)
-  rect(0, 0, 400, 200)
-  fill(green)
-  rect(0, 200, 400, 200)
+    # Background colour
+    fill(blue)
+    rect(0, 0, 400, 200)
+    fill(green)
+    rect(0, 200, 400, 200)
 
 --- /code ---
 
@@ -181,12 +181,12 @@ line_highlights: 7-8
 ---
 def draw():
 
-  red = color(255, 0, 0)
-  green = color(0, 255, 0)
-  blue = color(0, 0, 255)
+    red = color(255, 0, 0)
+    green = color(0, 255, 0)
+    blue = color(0, 0, 255)
 
-  no_stroke()
-  draw_background(green, blue)
+    no_stroke()
+    draw_background(green, blue)
 
 --- /code ---
 

@@ -26,29 +26,25 @@ You are going to make some design decisions about the kind of artwork that will 
 
 Look at these examples. Think about your background and think about whether your design will include shapes, patterns, images, or a combination. 
 
-**Circles, squares, and triangles:** [See inside](https://trinket.io/python/e9898dc6c0){:target="_blank"}
+**Circles, squares, and triangles:** [See inside](https://editor.raspberrypi.org/en/projects/circles-squares-triangles){:target="_blank"}
 
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/e9898dc6c0?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/circles-squares-triangles" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 
-**Lost in space:** [See inside](https://trinket.io/python/ff931d5dd5){:target="_blank"}
+**Lost in space:** [See inside](https://editor.raspberrypi.org/en/projects/lost-in-space){:target="_blank"}
 
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/ff931d5dd5?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/lost-in-space" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 
-**All the fruit!:** [See inside](https://trinket.io/python/30c1eef9d3){:target="_blank"}
+**All the fruit!:** [See inside](https://editor.raspberrypi.org/en/projects/all-the-fruit){:target="_blank"}
 
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/30c1eef9d3?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/all-the-fruit" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 
-**Geometric patterns:** [See inside](https://trinket.io/python/6067bf289c){:target="_blank"}
+**Geometric patterns:** [See inside](https://editor.raspberrypi.org/en/projects/geometric-patterns-example){:target="_blank"}
 
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/6067bf289c?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/geometric-patterns-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 
 --- /task ---
 

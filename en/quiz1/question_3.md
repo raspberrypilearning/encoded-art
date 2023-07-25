@@ -17,10 +17,10 @@ line_highlights:
 ---
 def shape_1(colour, size):
   
-  x = randint(0, 400)
-  y = randint(0, 400)
-  fill(colour)   
-  ellipse(x, y, size, size)
+    x = randint(0, 400)
+    y = randint(0, 400)
+    fill(colour)   
+    ellipse(x, y, size, size)
 --- /code ---
 
 You have also created a function call that is used to draw the shape in the colour that you have chosen:
