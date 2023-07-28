@@ -127,6 +127,8 @@ In the [Make a face project](https://projects.raspberrypi.org/en/projects/make-a
 
 [[[processing-tint]]]
 
+### Examples
+
 Here is some sample code for drawing a square in your encoded art project:
 
 --- code ---
@@ -248,8 +250,8 @@ line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
-    shape_1(colour_1, 100)
-    shape_2(colour_2, 100)
+    shape_1(100, colour_1)
+    shape_2(100, colour_2)
     draw_emoji('🐍', 100)
 
 --- /code ---

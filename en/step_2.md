@@ -41,8 +41,8 @@ title: Set the screen size when your program starts
 language: python
 filename: main.py - setup()
 line_numbers: false
-line_number_start: 1
-line_highlights: 2-3
+line_number_start: 
+line_highlights: 1-2
 ---
 def setup():   
     size(400, 400) # 400 by 400 works well for an art canvas
@@ -69,7 +69,7 @@ The `draw()` function continuously executes the lines of code contained inside i
 
 --- task ---
 
-**Choose:** Think about the colours you will use for your art and create some variables that will hold the colour values in `draw()`.
+**Choose:** Think about the colours you will use for your art and create some variables that will hold the colour values at the start of `draw()`.
 
 [[[generic-theory-simple-colours]]]
 
@@ -81,17 +81,17 @@ You could also use something like the [Paletton colour scheme designer](https://
 title: Colour in p5
 ---
 
-The p5 color() function expects three numbers: one each for red, green, and blue.
+The p5 Color() function expects three numbers: one each for red, green, and blue.
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: false
-line_number_start: 1
+line_number_start: 
 line_highlights: 1
 ---
-blue = color(50, 70, 206) #Red = 50, Green = 70, Blue = 206
+blue = Color(50, 70, 206) #Red = 50, Green = 70, Blue = 206
 
 --- /code ---
 
@@ -100,7 +100,7 @@ blue = color(50, 70, 206) #Red = 50, Green = 70, Blue = 206
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-You may notice two spellings of the word **colour** (color) in this project. The shorter one, <span style="color: #0faeb0">color</span>, is the preferred spelling in the United States. Other countries may use the longer form, <span style="color: #0faeb0">colour</span>. Any predefined code, like `color()` typically uses the American spelling.
+You may notice two spellings of the word **colour** (color) in this project. The shorter one, <span style="color: #0faeb0">color</span>, is the preferred spelling in the United States. Other countries may use the longer form, <span style="color: #0faeb0">colour</span>. Any predefined code, like `Color()` typically uses the American spelling.
 </p>
 
 --- task ---
@@ -111,14 +111,14 @@ You may notice two spellings of the word **colour** (color) in this project. The
 title: Set the background colours when your program starts
 ---
 
-Define a new function called `draw_background()` and create a call to it in `draw():`, after a call to `no_stroke()`. 
+Above your `draw()` function, define a new function called `draw_background()` and create a call to it in `draw():`, after a call to `no_stroke()`. 
 
 --- code ---
 ---
 language: python
 filename: main.py - draw_background()
 line_numbers: false
-line_number_start: 1
+line_number_start: 
 line_highlights: 1-4
 ---
 def draw_background(colour):
@@ -135,14 +135,14 @@ Then create a call to it in `draw()`:
 language: python
 filename: main.py - draw()
 line_numbers: false
-line_number_start: 1
+line_number_start: 
 line_highlights: 8
 ---
 def draw():
 
-    red = color(255,0,0)
-    green = color(0,255,0)
-    blue = color(0,0,255)
+    red = Color(255,0,0)
+    green = Color(0,255,0)
+    blue = Color(0,0,255)
 
     no_stroke()
     draw_background(red)
@@ -156,7 +156,7 @@ If you want your background to include more colours, you will need to add more p
 language: python
 filename: main.py - draw_background()
 line_numbers: false
-line_number_start: 1
+line_number_start: 
 line_highlights: 1, 6-7
 ---
 def draw_background(green, blue):
@@ -169,21 +169,21 @@ def draw_background(green, blue):
 
 --- /code ---
 
-Then create a call to it in `draw()`:
+Then add the new colour to your `draw_background()` call in in `draw()`:
 
 --- code ---
 ---
 language: python
 filename: main.py - draw()
 line_numbers: false
-line_number_start: 1
-line_highlights: 7-8
+line_number_start: 
+line_highlights: 8
 ---
 def draw():
 
-    red = color(255, 0, 0)
-    green = color(0, 255, 0)
-    blue = color(0, 0, 255)
+    red = Color(255, 0, 0)
+    green = Color(0, 255, 0)
+    blue = Color(0, 0, 255)
 
     no_stroke()
     draw_background(green, blue)

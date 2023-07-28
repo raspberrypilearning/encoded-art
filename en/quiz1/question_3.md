@@ -33,7 +33,7 @@ line_numbers: true
 line_number_start: 83
 line_highlights: 
 ---
-red = color(255, 0, 0)
+red = Color(255, 0, 0)
 
 shape_1(red)
 --- /code ---
