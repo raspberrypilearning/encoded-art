@@ -11,7 +11,7 @@ Create the dictionary that will encode each letter of the alphabet with a shape.
 
 --- task ---
 
-**Define** your **dictionary** in the `draw()` function. Make sure that you give it a suitable name and place the dictionary below your colour palette.  
+**Define** your **dictionary** in the `draw()` function. Make sure that you give it a suitable name and place the dictionary below your colour palette but above the rest of the code you have added.  
 
 --- collapse ---
 ---
