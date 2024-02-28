@@ -8,11 +8,10 @@ Here are some ideas you could try:
 
 Enable your project to translate punctuation and numbers by adding dictionary entries for these extra characters.
 
-Here is a version of **Geometric patterns** that includes most punctuation (but not numbers): [See inside](https://trinket.io/python/ce34762841)
+Here is a version of **Geometric patterns** that includes most punctuation (but not numbers): [See inside](https://editor.raspberrypi.org/en/projects/geometric-patterns-punctuation){:target="_blank"}
 
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/ce34762841?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/geometric-patterns-punctuation" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 
 --- /task ---
 
@@ -32,11 +31,10 @@ Give the user some choice over customisation of the artwork by asking them for t
 
 Give the user the option to redraw the artwork slightly differently, using the same text input. You will need to create an extra input call after drawing, asking if the user is happy with the artwork. If the answer is 'no'; change the `seed` value and redraw, then ask again. Repeat until the answer is 'yes'.
 
-This version of **Kawaii fruit** uses this technique: [See inside](https://trinket.io/embed/python/b66a3370ab)
+This version of **Kawaii fruit** uses this technique: [See inside](https://editor.raspberrypi.org/en/projects/random-kawaii-fruit){:target="_blank"}
 
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/b66a3370ab?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/random-kawaii-fruit" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 
 --- /task ---
 
@@ -46,6 +44,6 @@ This version of **Kawaii fruit** uses this technique: [See inside](https://trink
 title: Completed project
 ---
 
-You can view the [completed project here](https://trinket.io/python/e9898dc6c0){:target="_blank"}.
+You can view the [completed project here](https://editor.raspberrypi.org/en/projects/circles-squares-triangles){:target="_blank"}.
 
 --- /collapse --- --- save ---
