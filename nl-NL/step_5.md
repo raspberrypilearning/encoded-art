@@ -11,7 +11,7 @@ Create the dictionary that will encode each letter of the alphabet with a shape.
 
 --- task ---
 
-**Define** your **dictionary** in the `draw()` function. Make sure that you give it a suitable name and place the dictionary below your colour palette.
+**Define** your **dictionary** in the `draw()` function. Make sure that you give it a suitable name and place the dictionary below your colour palette but above the rest of the code you have added.
 
 --- collapse ---
 ---
@@ -26,7 +26,7 @@ line_highlights:
 ---
 code = {
 
-  }
+}
 
 --- /code ---
 
@@ -51,7 +51,7 @@ line_highlights:
 ---
 code = { 'a': , 'b': , 'c': , 'd': , 'e': , 'f': , 'g': , 'h': , 'i': , 'j': , 'k': , 'l': , 'm': , 'n': , 'o': , 'p': , 'q': , 'r': , 's': , 't': , 'u': , 'v': , 'w': , 'x': , 'y': , 'z': , ' ': ,
 
-  } --- /code ---
+} --- /code ---
 
 **Notice** that the data pairing has not been entered yet. You will do this in the next task.
 
