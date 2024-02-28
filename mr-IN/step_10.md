@@ -10,9 +10,8 @@ If you are following the [More Python](https://projects.raspberrypi.org/en/raspb
 
 --- no-print ---
 
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/b70e25c42a?outputOnly=true&runOption=run" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/urban-rural-population" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 
 --- /no-print ---
 
