@@ -14,8 +14,11 @@ line_highlights:
 ---
 def shape_1(colour, size):
 
-  x = randint(0, 400) y = randint(0, 400) fill(colour)   
-ellipse(x, y, size, size) --- /code ---
+    x = randint(0, 400)
+    y = randint(0, 400)
+    fill(colour)   
+    ellipse(x, y, size, size)
+--- /code ---
 
 You have also created a function call that is used to draw the shape in the colour that you have chosen:
 
@@ -24,7 +27,7 @@ You have also created a function call that is used to draw the shape in the colo
 language: python filename: main.py line_numbers: true line_number_start: 83
 line_highlights:
 ---
-red = color(255, 0, 0)
+red = Color(255, 0, 0)
 
 shape_1(red) --- /code ---
 
