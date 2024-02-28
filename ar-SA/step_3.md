@@ -121,6 +121,8 @@ In the [Make a face project](https://projects.raspberrypi.org/en/projects/make-a
 
 [[[processing-tint]]]
 
+### Examples
+
 Here is some sample code for drawing a square in your encoded art project:
 
 --- code ---
@@ -130,8 +132,8 @@ line_highlights:
 ---
 def shape_2(colour, size):
 
-  fill(colour)   
-rect(200, 200, size, size)
+    fill(colour)   
+    rect(200, 200, size, size)
 
 --- /code ---
 
@@ -142,7 +144,7 @@ rect(200, 200, size, size)
 title: Load an image
 ---
 
-The [Lost in space](https://trinket.io/python/ff931d5dd5){:target="_blank"} example project loads images to create the encoded artwork.
+The [Lost in space](https://editor.raspberrypi.org/en/projects/lost-in-space){:target="_blank"} example project loads images to create the encoded artwork.
 
 **Remember** that you will need code to display the image:
 
@@ -151,9 +153,16 @@ The [Lost in space](https://trinket.io/python/ff931d5dd5){:target="_blank"} exam
 language: python filename: main.py - shape_1()
 line_numbers: false
 ---
-def shape_1(size, colour):
+def shape_1(size, colour): 
 
-  if colour == 'purple': image(purple_planet, 400, 400, size, size) elif colour == 'orange': image(orange_planet, 400, 400, size, size) elif colour == 'green': image(green_planet, 400, 400, size, size) elif colour == 'grey': image(grey_moon, 400, 400, size, size)
+    if colour == 'purple':
+        image(purple_planet, 400, 400, size, size) 
+    elif colour == 'orange':
+        image(orange_planet, 400, 400, size, size)
+    elif colour == 'green':
+        image(green_planet, 400, 400, size, size)
+    elif colour == 'grey':
+        image(grey_moon, 400, 400, size, size)
 
 --- /code ---
 
@@ -166,11 +175,17 @@ line_numbers: false
 ---
 def setup():
 
-  # Allow other functions to access the images global purple_planet
-
-  frame_rate(10) size(400, 400)
-
-  # Load the images needed into variables purple_planet = load_image('purple_planet.png') orange_planet = load_image('orange_planet.png') green_planet = load_image('green_planet.png') grey_moon = load_image('moon.png')
+    # Allow other functions to access the images
+    global purple_planet
+    
+    frame_rate(10)
+    size(400, 400)
+    
+    # Load the images needed into variables
+    purple_planet = load_image('purple_planet.png')
+    orange_planet = load_image('orange_planet.png')
+    green_planet = load_image('green_planet.png')
+    grey_moon = load_image('moon.png')
 
 --- /code ---
 
@@ -214,7 +229,10 @@ The example below take two or three arguments.
 language: python filename: main.py line_numbers: false line_number_start:
 line_highlights:
 ---
-  shape_1(colour_1, 100) shape_2(colour_2, 100) draw_emoji('🐍', 100)
+
+    shape_1(100, colour_1)
+    shape_2(100, colour_2)
+    draw_emoji('🐍', 100)
 
 --- /code ---
 
