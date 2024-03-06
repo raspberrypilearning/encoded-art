@@ -8,103 +8,16 @@ Allow other functions to access the images
 
 Load the images needed into variables
 
+Position around the centre
+
+snake
+
+Controls the size of the emoji
+
+Type some text and press Enter to generate an encoded artwork:
+
 list for the encoded letters
 
 add the encoded letter to the list
 
 Check to see if you've gone off the side of the window
-
-Each shape can have a different size and colour based on the parameters
-
-Draws a circle with a thick outline
-
-Draws a rectangle
-
-Size isn't used for this function but two parameters must be passed
-
-Draws a triangle
-
-Set up the background
-
--- My colour palette -- Using primary, secondary and complementary colours
-
-Primary colours
-
-Secondary colours
-
-Complementary colours
-
-Dictionary of letters and their encoded shape with size and colour options
-
-Generate the same random numbers each time
-
-Change the input to lowercase
-
-Initialise the message list
-
-Encode each letter with a shape and add it to a list
-
-For each letter, draw the chosen shape
-
-Draw a planet based on chosen size and colour
-
-Draw a space object based on chosen object and size
-
-Draw a star based on chosen colour and size
-
-Adds a background colour
-
-Dictionary of letters and their encoded shape
-
-PROTOTYPE THREE - DRAWING COMPLEX SHAPES TO APPEAR AT RANDOM
-
-Draws a Kawaii fruit at a random position in the chosen colour
-
-Randomly generate the x and y positions
-
-Instructions to draw the fruit, some maths required to make each object appear where it should
-
-Body
-
-Eyes
-
-Mouth
-
-Highlights
-
-Stalk
-
-Draws a lime fruit in a chosen colour at a random position
-
-Instructions for drawing the lime
-
-Draws a cherry fruit in a chosen colour and a random position
-
-Instructions for drawing the cherry
-
-Leaves
-
-Colour palette for fruit drawings
-
-Draw either shape 1, 2 or 3 with the selected colour option
-
-PROTOTYPE FOUR
-
-Check to see if you've gone off the side of the window
-
-Draw a diamond
-
-Move to centre of stripe
-
-Draw a square
-
-Draw a triangle
-
-Draw shape
-
-Translate next starting x co-ord by width of shape
-
-Check to see if you've gone off the side of the window
-
-PROTOTYPE FOUR - AFRICAN INSPIRED ART
-
