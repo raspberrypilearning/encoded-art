@@ -36,6 +36,7 @@ line_highlights:
 red = Color(255, 0, 0)
 
 shape_1(red)
+
 --- /code ---
 
 Why do you get an error message when the code runs?
@@ -46,21 +47,27 @@ Why do you get an error message when the code runs?
 Colour is spelt incorrectly. 
 
   --- feedback ---
+  
 Good try! However, Python uses American English, so `color` is the correct identifier for assigning colour values. In other English speaking countries, **colour** is spelt with a **u**. 
+
   --- /feedback ---
 
 - ( ) 
 On **line 85**, `red` should have apostrophes `''` either side. 
 
   --- feedback ---
+  
 Not quite. `red` is a variable so the apostrophes are not needed in this scenario. 
+
   --- /feedback ---
 
 - (x) 
 The function that you created has **two** parameters. This means that you need to pass two **arguments** to the function. You only have **one** at the moment. 
 
   --- feedback ---
+  
 Well spotted! If a function has **two parameters**, then **two arguments** must be passed into it when it is called. 
+
   --- /feedback ---
 
 --- /choices ---
