@@ -97,7 +97,9 @@ blue = Color(50, 70, 206) #Red = 50, Green = 70, Blue = 206
 You may notice two spellings of the word **colour** (color) in this project. The shorter one, <span style="color: #0faeb0">color</span>, is the preferred spelling in the United States. Other countries may use the longer form, <span style="color: #0faeb0">colour</span>. Any predefined code, like `Color()` typically uses the American spelling.
 </p>
 
---- task --- **Create** a function that will **draw a background** shape using your colour palette. Next, add a call to your `draw()` function.
+--- task ---
+
+**Create** a function that will **draw a background** shape using your colour palette. Next, add a call to your `draw()` function.
 
 --- collapse ---
 ---
