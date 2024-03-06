@@ -6,8 +6,6 @@ red
 
 green
 
-blue
-
 shape_1
 
 shape_2
@@ -15,6 +13,10 @@ shape_2
 shape_3
 
 colour
+
+outline
+
+object
 
 purple
 
@@ -34,19 +36,27 @@ grey_moon
 
 draw_emoji
 
+emoji
+
 colour_1
 
 colour_2
 
 size
 
-start_x
+startx
 
-start_y
+starty
 
 size_check
 
 code
+
+shape 1
+
+shape 2
+
+shape 3
 
 pink
 
@@ -58,13 +68,13 @@ orange
 
 satellite
 
+astropi
+
 primary_1
 
 primary_2
 
 complementary_2
-
-Type some text and press Enter to generate an encoded artwork:
 
 name
 
