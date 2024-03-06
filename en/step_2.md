@@ -104,6 +104,7 @@ You may notice two spellings of the word **colour** (color) in this project. The
 </p>
 
 --- task ---
+
 **Create** a function that will **draw a background** shape using your colour palette. Next, add a call to your `draw()` function.
 
 --- collapse ---
