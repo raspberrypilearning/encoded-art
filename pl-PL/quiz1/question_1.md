@@ -11,7 +11,7 @@ Have fun!
 ---
 legend: Question 1 of 3
 ---
-In your Encoded art project you used lists and dictionaries to encode a shape to a letter. The code below uses **lists** and **dictionaries**. What will the be the output of this code when it is run?
+In your Encoded art project you used lists and dictionaries to encode a shape to a letter. The code below uses **lists** and **dictionaries**. What will be the output of this code when it is run?
 
 --- code ---
 ---
