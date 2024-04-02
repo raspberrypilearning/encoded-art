@@ -1,14 +1,14 @@
-## Upgrade your project
+## Améliorer ton projet
 
-If you have time, you can upgrade your project.
+Si tu as le temps, tu peux améliorer ton projet.
 
-Here are some ideas you could try:
+Voici quelques idées que tu pourrais essayer :
 
 --- task ---
 
-Enable your project to translate punctuation and numbers by adding dictionary entries for these extra characters.
+Permets à ton projet de traduire la ponctuation et les chiffres en ajoutant des entrées de dictionnaire pour ces caractères supplémentaires.
 
-Here is a version of **Geometric patterns** that includes most punctuation (but not numbers): [See inside](https://editor.raspberrypi.org/en/projects/geometric-patterns-punctuation){:target="_blank"}
+Voici une version de **motifs géométriques** qui inclut la plupart des signes de ponctuation (mais pas des chiffres) : [Voir à l'intérieur](https://editor.raspberrypi.org/en/projects/geometric-patterns-punctuation){:target="_blank"}
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/geometric-patterns-punctuation" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
@@ -17,21 +17,21 @@ Here is a version of **Geometric patterns** that includes most punctuation (but 
 
 --- task ---
 
-Add more shapes to your artwork by creating new functions that make new and different objects to go on your canvas.
+Ajoute d'autres formes à ton œuvre d'art en créant de nouvelles fonctions qui créent des nouveaux objets et différents à placer sur ton canevas.
 
 --- /task ---
 
 --- task ---
 
-Give the user some choice over customisation of the artwork by asking them for their favourite colour and using it more often in the drawing.
+Donne à l'utilisateur un certain choix sur la personnalisation de l'œuvre d'art en lui demandant sa couleur préférée et en l'utilisant plus souvent dans le dessin.
 
 --- /task ---
 
 --- task ---
 
-Give the user the option to redraw the artwork slightly differently, using the same text input. You will need to create an extra input call after drawing, asking if the user is happy with the artwork. If the answer is 'no'; change the `seed` value and redraw, then ask again. Repeat until the answer is 'yes'.
+Donne à l'utilisateur la possibilité de redessiner l'œuvre d'art légèrement différemment, en utilisant la même entrée de texte. Tu devras créer un appel de saisie supplémentaire après le dessin, en demandant si l'utilisateur est satisfait de l'œuvre. Si la réponse est « non » ; change la valeur de `seed` et redessine, puis demande à nouveau. Répéte jusqu'à ce que la réponse soit "oui".
 
-This version of **Kawaii fruit** uses this technique: [See inside](https://editor.raspberrypi.org/en/projects/random-kawaii-fruit){:target="_blank"}
+Cette version de **Fruit Kawaii** utilise cette technique : [Voir à l'intérieur](https://editor.raspberrypi.org/en/projects/random-kawaii-fruit){:target="_blank"}
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/random-kawaii-fruit" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
@@ -41,9 +41,9 @@ This version of **Kawaii fruit** uses this technique: [See inside](https://edito
 --- collapse ---
 
 ---
-title: Completed project
+title: Le projet terminé
 ---
 
-You can view the [completed project here](https://editor.raspberrypi.org/en/projects/circles-squares-triangles){:target="_blank"}.
+Tu peux voir le [projet terminé ici](https://editor.raspberrypi.org/en/projects/circles-squares-triangles){:target="_blank"}.
 
 --- /collapse --- --- save ---
