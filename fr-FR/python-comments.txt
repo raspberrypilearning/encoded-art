@@ -1,23 +1,23 @@
-400 by 400 works well for an art canvas
+400 x 400 fonctionne bien pour une toile d'art
 
-Red = 50, Green = 70, Blue = 206
+Rouge = 50, Vert = 70, Bleu = 206
 
-Background colour
+Couleur de l'arrière-plan
 
-Allow other functions to access the images
+Autoriser d'autres fonctions à accéder aux images
 
-Load the images needed into variables
+Charger les images nécessaires dans les variables
 
-Position around the centre
+Position autour du centre
 
-snake
+serpent
 
-Controls the size of the emoji
+Contrôle la taille de l'emoji
 
-Type some text and press Enter to generate an encoded artwork:
+Tape du texte et appuie sur Entrée pour générer une œuvre codée :
 
-list for the encoded letters
+liste des lettres codées
 
-add the encoded letter to the list
+ajouter la lettre codée à la liste
 
-Check to see if you've gone off the side of the window
+Vérifie si tu es sorti hors de la fenêtre
