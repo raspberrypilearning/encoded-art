@@ -168,7 +168,7 @@ for element in message:
 
 --- collapse ---
 ---
-title: Placer des formes sur une ligne
+title: Placer des formes sur une ligne
 ---
 Si tu utilises des coordonnées spécifiques pour placer tes formes, tu devras modifier les valeurs globales `startx` et `starty` à l'intérieur de ta boucle `for` et les repasser à tes fonctions à chaque fois.
 

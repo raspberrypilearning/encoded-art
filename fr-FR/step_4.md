@@ -28,7 +28,7 @@ Maintenant que tu as des formes reproductibles pour ton œuvre, tu dois les plac
 
 --- collapse ---
 ---
-title: Positionner les formes de manière aléatoire
+title: Positionner les formes de manière aléatoire
 ---
 
 Depuis la bibliothèque `random`, importe `randint` et `seed` en haut de ton script.
@@ -138,7 +138,7 @@ def forme_1(couleur, x, y):
 
 --- collapse ---
 ---
-title: Créer un modèle de positionnement spécifique
+title: Créer un modèle de positionnement spécifique
 ---
 
 Si tu jettes un coup d'œil à **Motifs géométriques :**, tu remarqueras qu'il place les formes sur la page puis vers le bas, comme du texte :

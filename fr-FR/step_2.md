@@ -109,7 +109,7 @@ Tu remarqueras peut-être deux orthographes du mot **color** (couleur) dans ce p
 
 --- collapse ---
 ---
-title : Définir les couleurs d’arrière-plan au démarrage de ton programme
+title: Définir les couleurs d’arrière-plan au démarrage de ton programme
 ---
 
 Au-dessus de ta fonction `draw()` , définis une nouvelle fonction appelée `dessine_arriere_plan()` et crée un appel vers celle-ci dans `draw():`, après un appel à `no_stroke()`.

@@ -279,7 +279,7 @@ line_highlights:
 
 --- collapse ---
 ---
-title : Tu vois une erreur concernant les arguments
+title: Tu vois une erreur concernant les arguments
 ---
 + Lorsque tu as **défini** ta fonction, tu as décidé du nombre de **paramètres** dont elle avait besoin. Tu dois t'assurer que lorsque tu appelles la fonction, elle a le même nombre **d'arguments**.
 
