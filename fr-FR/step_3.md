@@ -1,34 +1,34 @@
-## Draw your shapes
+## Dessiner tes formes
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Set up your shape functions so that you can use them in your encoded artwork. 
+Configure tes fonctions de forme afin de pouvoir les utiliser dans tes illustrations codées. 
 </div>
 <div>
-![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle, and an orange triangle.](images/shape-functions.PNG){:width="300px"}
+![Une capture d'écran de la sortie de l'exemple de projet. Il y a un arrière-plan bleu foncé, un carré bleu, un cercle bleu et un triangle orange.](images/shape-functions.PNG){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Decide how many unique **shapes** you would like your artwork to have. The example projects have **three** unique shapes. These are then modified using the parameters of the function. You might like to have more than three, the decision is yours!
+Décide du nombre de **formes** uniques que tu souhaites que ton œuvre d'art ait. Les exemples de projets ont **trois** formes uniques. Celles-ci sont ensuite modifiées à l'aide des paramètres de la fonction. Tu aimerais peut-être en avoir plus de trois, c'est à toi de décider !
 
-Here are some ideas:
-+ Three shape functions that load images of either butterflies, snails, or birds
-+ Three shape functions that draw squares, circles, and triangles
-+ Five shape functions, each one draws a unique animal
+Voici quelques idées :
++ Trois fonctions de forme qui chargent des images de papillons, d'escargots ou d'oiseaux
++ Trois fonctions de forme qui dessinent des carrés, des cercles et des triangles
++ Cinq fonctions de forme, chacune dessine un animal unique
 
 --- /task ---
 
 --- task ---
 
-**Define** each shape function in preparation for adding in the code that will be needed to draw each shape. Make sure that you define your shape functions **above** your `draw()` function.
+**Définis** chaque fonction de forme en vue de l'ajout du code qui sera nécessaire pour dessiner chaque forme. Assure-toi de définir tes fonctions de forme **au-dessus de** ta fonction `draw()` .
 
 --- collapse ---
 ---
-title: Define your functions
+title: Définir tes fonctions
 ---
-You can define your functions in the following way:
+Tu peux définir tes fonctions de la manière suivante :
 
 --- code ---
 ---
@@ -50,22 +50,22 @@ def shape_3():
 
 --- task ---
 
-Decide which **parameters** your functions will need. Here are some ideas:
-+ A `colour` parameter to allow you to modify the colour of the shapes that you have created
-+ A `size` parameter to allow you to adjust the size of the shape or image.
-+ An `outline` parameter that adds a different colour to the edge of a drawing
+Décide de quels **paramètres** tes fonctions auront besoin. Voici quelques idées :
++ Un paramètre `couleur` pour te permettre de modifier la couleur des formes que tu as créées
++ Un paramètre `size` pour te permettre d'ajuster la taille de la forme ou de l'image.
++ Un paramètre `contour` qui ajoute une couleur différente au bord d'un dessin
 
 --- /task ---
 
 --- task ---
 
-**Add** your chosen **parameters** inside the round brackets of each of your **shape** functions.
+**Ajoute** les paramètres **que tu as choisis** à l'intérieur des parenthèses de chacune de tes fonctions **de forme** .
 
 --- collapse ---
 ---
-title: Add parameters to your functions
+title: Ajouter des paramètres à tes fonctions
 ---
-You can add parameters to your functions in the following way:
+Tu peux ajouter des paramètres à tes fonctions de la manière suivante :
 
 --- code ---
 ---
@@ -87,17 +87,17 @@ def shape_3(object, colour):
 
 --- task ---
 
-**Add** in the code for each of your shape functions so that the drawing or image will appear when the function is **called**.
+**Ajoute** dans le code pour chacune de tes fonctions de forme afin que le dessin ou l'image apparaisse lorsque la fonction est **appelée**.
 
-Choose: What does your shape look like? Your shape could be:
-  - An image provided in the starter project
-  - An emoji 🎈 or text
-  - Drawn using a series of geometric shapes
+Choisir : à quoi ressemble ta forme ? Ta forme pourrait être :
+  - Une image fournie dans le projet de démarrage
+  - Un emoji 🎈 ou un texte
+  - Un dessin utilisant une série de formes géométriques
 
 
-In the [Make a face project](https://projects.raspberrypi.org/en/projects/make-a-face/0){:target="_blank"}, you learnt how to use a group of geometric shapes to create some fun faces. You can use your skills from that project to help you draw your images.
+Dans le projet [Créer un visage](https://projects.raspberrypi.org/en/projects/make-a-face/0){:target="_blank"}, tu as appris à utiliser un groupe de formes géométriques pour créer des visages amusants. Tu peux utiliser tes compétences de ce projet pour t'aider à dessiner tes images.
 
-### Shapes
+### Formes
 
 [[[processing-python-ellipse]]]
 
@@ -111,7 +111,7 @@ In the [Make a face project](https://projects.raspberrypi.org/en/projects/make-a
 
 [[[processing-rotation]]]
 
-### Colours and effects
+### Couleurs et effets
 
 [[[generic-theory-simple-colours]]]
 
@@ -121,9 +121,9 @@ In the [Make a face project](https://projects.raspberrypi.org/en/projects/make-a
 
 [[[processing-tint]]]
 
-### Examples
+### Exemples
 
-Here is some sample code for drawing a square in your encoded art project:
+Voici un exemple de code pour dessiner un carré dans ton projet artistique codé :
 
 --- code ---
 ---
@@ -137,16 +137,16 @@ def shape_2(colour, size):
 
 --- /code ---
 
-**Notice** that the parameters that are defined in the function above are then used to draw the shape.
+**Note** que les paramètres définis dans la fonction ci-dessus sont ensuite utilisés pour dessiner la forme.
 
 --- collapse ---
 ---
-title: Load an image
+title : Charger une image
 ---
 
-The [Lost in space](https://editor.raspberrypi.org/en/projects/lost-in-space){:target="_blank"} example project loads images to create the encoded artwork.
+L'exemple de projet [Perdu dans l'espace](https://editor.raspberrypi.org/en/projects/lost-in-space){:target="_blank"} charge des images pour créer l'illustration codée.
 
-**Remember** that you will need code to display the image:
+**Rappelle-toi** que tu auras besoin de code pour afficher l'image :
 
 --- code ---
 ---
@@ -166,7 +166,7 @@ def shape_1(size, colour):
 
 --- /code ---
 
-You will also need code to **load** the image in the `setup()` function:
+Tu auras également besoin de code pour **charger** l'image dans la fonction `setup()` :
 
 --- code ---
 ---
@@ -194,12 +194,12 @@ def setup():
 --- collapse ---
 
 ---
-title: Use emoji characters
+title: Utiliser les caractères emoji
 ---
 
-You can use emoji characters in the p5 text() function to use an emoji to represent your player.
+Tu peux utiliser des caractères emoji dans la fonction p5 text() pour utiliser un emoji pour représenter ton joueur.
 
-Here’s an example:
+Voici un exemple :
 
 --- code ---
 ---
@@ -218,11 +218,11 @@ def draw_emoji(emoji, size): #snake text_size(size) #Controls the size of the em
 
 --- task ---
 
-To **test** that your shape functions work correctly, you will need to **call** them from the `draw()` function. Remember that you can use the `#` to comment out lines of code so that you only see one shape at a time.
+Pour **tester** que tes fonctions de forme fonctionnent correctement, tu auras besoin de **les appeler** à partir de la fonction `draw()`. Rappelle-toi que tu peux utiliser le `#` pour commenter des lignes de code afin de ne voir qu'une forme à la fois.
 
-Make sure that you add in the arguments for your chosen parameters!
+Assure-toi d'ajouter les arguments pour les paramètres choisis !
 
-The example below take two or three arguments.
+L'exemple ci-dessous prend deux ou trois arguments.
 
 --- code ---
 ---
@@ -236,48 +236,48 @@ line_highlights:
 
 --- /code ---
 
-**Notice** that the variable names for the chosen `colour` have been placed in the first parameter and some values have been added for the chosen `size` in the second parameter.
+**Remarque** que les noms de variables pour la `couleur` choisie ont été placés dans le premier paramètre et que certaines valeurs ont été ajoutées pour la `taille` choisie dans le second paramètre.
 
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">Prototyping</span> involves making a draft of what you think your final project might achieve. The focus of prototyping is to make a simplified version of the final product quickly, to allow you to test if it is a workable solution to the problem.
+<span style="color: #0faeb0">Le prototypage</span> consiste à faire une ébauche de ce que tu penses que ton projet final pourrait réaliser. L'objectif du prototypage est de créer une version simplifiée du produit final, pour te permettre de tester s'il s'agit d'une solution viable au problème.
 </p>
 
 --- task ---
 
-**Test** your code to see if it displays your chosen images on the screen. At this point, they might all appear on top of each other. You could **call** each function separately to see them more clearly.
+**Teste** ton code pour voir s'il affiche les images que tu as choisies à l'écran. À ce stade, ils pourraient tous apparaître les uns sur les autres. Tu peux **appeler** chaque fonction séparément pour les voir plus clairement.
 
-![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle, and an orange triangle.](images/shape-functions.PNG)
+![Une capture d'écran de la sortie de l'exemple de projet. Il y a un arrière-plan bleu foncé, un carré bleu, un cercle bleu et un triangle orange.](images/shape-functions.PNG)
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Débogage :**
 
 --- collapse ---
 ---
-title: You see an error about arguments
+title : Tu vois une erreur concernant les arguments
 ---
-+ When you **defined** your function, you decided how many **parameters** it needed. You need to make sure that when you call the function, it has the same number of **arguments**.
++ Lorsque tu as **défini** ta fonction, tu as décidé du nombre de **paramètres** dont elle avait besoin. Tu dois t'assurer que lorsque tu appelles la fonction, elle a le même nombre **d'arguments**.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Only one shape appears
+title: Une seule forme apparaît
 ---
-+ Check that you have **called** each shape function.
-+ The shapes might be there, but on top of each other. To change this, you could call one function at a time by commenting out the other two function calls with a hashtag `#`.
++ Vérifie que tu as **appelé** chaque fonction de forme.
++ Les formes peuvent être présentes, mais superposées. Pour changer cela, tu peux appeler une fonction à la fois en commentant les deux autres appels de fonction avec un hashtag `#`.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The drawings are not the right shape/size
+title: Les dessins ne sont pas la bonne forme/taille
 ---
-+ Check that you have entered your **arguments** in the function call in the same order as the **parameters** in the function.
++ Vérifie que tu as saisi tes **arguments** dans l'appel de fonction dans le même ordre que les **paramètres** dans la fonction.
 
 --- /collapse ---
 
