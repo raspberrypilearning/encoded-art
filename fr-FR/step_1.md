@@ -1,47 +1,47 @@
-## You will make
+## Ce que tu vas faire
 
-Create a piece of encoded art based on the user's name. Each letter is encoded to a shape that is displayed at random on the screen.
+Créer une œuvre d’art codée basée sur le nom de l’utilisateur. Chaque lettre est codée selon une forme qui s'affiche de manière aléatoire sur l'écran.
 
-In this project you will:
-+ Use a dictionary to encode letters with a variety of shapes
-+ Use functions with parameters to add customisation to shapes
-+ Create a unique piece of digital art using encoded letters
+Dans ce projet, tu vas :
++ Utiliser un dictionnaire pour coder des lettres avec une variété de formes
++ Utiliser des fonctions avec des paramètres pour ajouter une personnalisation aux formes
++ Créer une œuvre d'art numérique unique en utilisant des lettres codées
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 10px; border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px; margin-bottom: 27px;">
-<span style="color: #0faeb0">Encoding</span> is when you convert data from one form to another. <span style="color: #0faeb0">**QR codes**</span> are like a little piece of **encoded** art. They are used to represent data, such as website addresses or text. They are made up of black and white squares that are used to represent letters or numbers. The black and white patterns can be read and decoded by computers.
+<span style="color: #0faeb0">Le codage</span> consiste à convertir des données d'une forme à une autre. <span style="color: #0faeb0">**Les codes QR**</span> sont comme une petite œuvre d'art **codée**. Ils sont utilisés pour représenter des données, telles que des adresses de sites web ou du texte. Ils sont constitués de carrés noirs et blancs qui servent à représenter des lettres ou des chiffres. Les motifs en noir et blanc peuvent être lus et décodés par les ordinateurs.
 </div>
 <div>
-![A QR code: an image made up of black and white blocks.](images/qr.png){:width="200px"}
+![Un code QR : une image composée de blocs noir et blanc.](images/qr.png){:width="200px"}
 </div>
 </div>
 
-![A selection of screenshots of the example encoded art projects that can be accessed in the tasks below.](images/examples.png)
+![Une sélection de captures d'écran d'exemples de projets artistiques codés accessibles dans les tâches ci-dessous.](images/examples.png)
 
-### Get ideas 💭
+### Trouve l'inspiration 💭
 
-You are going to make some design decisions about the kind of artwork that will be produced when the user enters their name.
+Tu vas prendre des décisions de conception concernant le type d’œuvre d’art qui sera produite lorsque l’utilisateur entrera son nom.
 
 --- task ---
 
-Look at these examples. Think about your background and think about whether your design will include shapes, patterns, images, or a combination.
+Regarde ces exemples. Pense à ton arrière-plan et demande-toi si ta conception comprendra des formes, des motifs, des images ou une combinaison.
 
-**Circles, squares, and triangles:** [See inside](https://editor.raspberrypi.org/en/projects/circles-squares-triangles){:target="_blank"}
+**Cercles, carrés et triangles :** [Voir à l'intérieur](https://editor.raspberrypi.org/en/projects/circles-squares-triangles){:target="_blank"}
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/circles-squares-triangles" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
-**Lost in space:** [See inside](https://editor.raspberrypi.org/en/projects/lost-in-space){:target="_blank"}
+**Perdu dans l'espace :** [Voir à l'intérieur](https://editor.raspberrypi.org/en/projects/lost-in-space){:target="_blank"}
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/lost-in-space" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
-**All the fruit!:** [See inside](https://editor.raspberrypi.org/en/projects/all-the-fruit){:target="_blank"}
+**Tous les fruits ! :** [Voir à l'intérieur](https://editor.raspberrypi.org/en/projects/all-the-fruit){:target="_blank"}
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/all-the-fruit" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
-**Geometric patterns:** [See inside](https://editor.raspberrypi.org/en/projects/geometric-patterns-example){:target="_blank"}
+**Motifs géométriques :** [Voir à l'intérieur](https://editor.raspberrypi.org/en/projects/geometric-patterns-example){:target="_blank"}
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/geometric-patterns-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
