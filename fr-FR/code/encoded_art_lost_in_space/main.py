@@ -3,138 +3,138 @@
 from p5 import *
 from random import randint, seed
 
-# Draw a planet based on chosen size and colour
+# Dessiner une planète en fonction de la taille et de la couleur choisies
 
 
-def shape_1(size, colour):
-
-    x = randint(0, 400)
-    y = randint(0, 400)
-    if colour == 'purple':
-        image(purple_planet, x, y, size, size)
-    elif colour == 'orange':
-        image(orange_planet, x, y, size, size)
-    elif colour == 'green':
-        image(green_planet, x, y, size, size)
-    elif colour == 'grey':
-        image(grey_moon, x, y, size, size)
-
-# Draw a space object based on chosen object and size
-
-
-def shape_2(size, object):
+def forme_1(taille, couleur):
 
     x = randint(0, 400)
     y = randint(0, 400)
-    if object == 'satellite':
-        image(satellite, x, y, size, size)
-    elif object == 'astronaut':
-        image(astronaut, x, y, size, size)
-    elif object == 'astropi':
-        image(astropi, x, y, size, size)
+    if couleur == 'violet':
+        image(planete_violette, x, y, taille, taille)
+    elif couleur == 'orange':
+        image(planete_orange, x, y, taille, taille)
+    elif couleur == 'vert':
+        image(planete_vert, x, y, taille, taille)
+    elif couleur == 'gris':
+        image(lune_grise, x, y, taille, taille)
 
-# Draw a star based on chosen colour and size
+# Dessine un objet spatial en fonction de l'objet et de la taille choisis
 
 
-def shape_3(size, colour):
+def forme_2(taille, couleur):
 
     x = randint(0, 400)
     y = randint(0, 400)
-    if colour == 'yellow':
-        image(yellow_star, x, y, size, size)
-    elif colour == 'pink':
-        image(pink_star, x, y, size, size)
-    elif colour == 'blue':
-        image(blue_star, x, y, size, size)
+    if objet == 'satellite':
+        image(satellite, x, y, taille, taille)
+    elif objet == 'astronaute':
+        image(astronaute, x, y, taille, taille)
+    elif objet == 'astropi':
+        image(astropi, x, y, taille, taille)
 
-# Adds a background colour
+# Dessiner une étoile en fonction de la couleur et de la taille choisies
 
 
-def draw_background():
+def forme_3(taille, couleur):
 
-    # Background colour
+    x = randint(0, 400)
+    y = randint(0, 400)
+    if couleur == 'jaune':
+        image(etoile_jaune, x, y, taille, taille)
+    elif couleur == 'rose':
+        image(etoile_rose, x, y, taille, taille)
+    elif couleur == 'bleu':
+        image(etoile_bleue, x, y, taille, taille)
+
+# Ajoute une couleur d'arrière-plan
+
+
+def dessine_arriere_plan():
+
+    # Couleur de l'arrière-plan
     fill(Color(0, 0, 0))
     rect(0, 0, 400, 400)
 
 
 def setup():
 
-    # Allow other functions to access the images
-    global purple_planet, orange_planet, green_planet, astropi, astronaut, satellite
-    global grey_moon, yellow_star, pink_star, blue_star
+    # Autoriser d'autres fonctions à accéder aux images
+    global planete_violette, planete_orange, planete_verte, astropi, astronaute, satellite
+    global lune_grise, etoile_jaune, etoile_rose, etoile_bleue
 
     size(400, 400)
 
-    # Load the images needed into variables
-    purple_planet = load_image('purple_planet.png')
-    orange_planet = load_image('orange_planet.png')
-    green_planet = load_image('green_planet.png')
+    # Charger les images nécessaires dans les variables
+    planete_violette = load_image('purple_planet.png')
+    planete_orange = load_image('orange_planet.png')
+    planete_verte = load_image('green_planet.png')
     astropi = load_image('astropi.png')
-    astronaut = load_image('astronaut.png')
+    astronaute = load_image('astronaut.png')
     satellite = load_image('satellite.png')
-    grey_moon = load_image('moon.png')
-    yellow_star = load_image('yellow_star.png')
-    pink_star = load_image('pink_star.png')
-    blue_star = load_image('blue_star.png')
+    lune_grise = load_image('moon.png')
+    etoile_jaune = load_image('yellow_star.png')
+    etoile_rose = load_image('pink_star.png')
+    etoile_bleue = load_image('blue_star.png')
 
 
 def draw():
 
-    # Dictionary of letters and their encoded shape
+    # Dictionnaire des lettres et leur forme codée
     code = {
-        'a': ['shape 3', 150, 'pink'],
-        'b': ['shape 3', 50, 'yellow'],
-        'c': ['shape 2', 75, 'astronaut'],
-        'd': ['shape 2', 80, 'astropi'],
-        'e': ['shape 1', 20, 'orange'],
-        'f': ['shape 2', 80, 'satellite'],
-        'g': ['shape 1', 10, 'purple'],
-        'h': ['shape 1', 300, 'green'],
-        'i': ['shape 1', 200, 'orange'],
-        'j': ['shape 2', 90, 'astropi'],
-        'k': ['shape 1', 12, 'purple'],
-        'l': ['shape 3', 43, 'pink'],
-        'm': ['shape 1', 93, 'orange'],
-        'n': ['shape 1', 64, 'green'],
-        'o': ['shape 3', 85, 'blue'],
-        'p': ['shape 2', 10, 'astropi'],
-        'q': ['shape 3', 45, 'blue'],
-        'r': ['shape 1', 70, 'purple'],
-        's': ['shape 1', 36, 'orange'],
-        't': ['shape 2', 74, 'astronaut'],
-        'u': ['shape 1', 58, 'grey'],
-        'v': ['shape 3', 78, 'yellow'],
-        'w': ['shape 1', 24, 'orange'],
-        'x': ['shape 2', 14, 'astropi'],
-        'y': ['shape 1', 67, 'purple'],
-        'z': ['shape 2', 70, 'astropi'],
-        ' ': ['shape 3', 25, 'pink'],
+        'a': ['forme 3', 150, 'rose'],
+        'b': ['forme 3', 'jaune'],
+        'c': ['forme 2', 75, 'astonaute'],
+        'd': ['forme 2', 80, 'astropi'],
+        'e': ['forme 1', 20, 'orange'],
+        'f': ['forme 2', 80, 'satellite'],
+        'g': ['forme 1', 10, 'violet'],
+        'h': ['forme 1', 300, 'vert'],
+        'i': ['forme 1', 200, 'orange'],
+        'j': ['forme 2', 90, 'astropi'],
+        'k': ['forme 1', 12, 'violet'],
+        'l': ['forme 3', 43, 'rose'],
+        'm': ['forme 1', 93, 'orange'],
+        'n': ['forme 1', 64, 'vert'],
+        'o': ['forme 3', 85, 'bleu'],
+        'p': ['forme 2', 10, 'astropi'],
+        'q': ['forme 3', 45, 'bleu'],
+        'r': ['forme 1', 70, 'violet'],
+        's': ['forme 1', 36, 'orange'],
+        't': ['forme 2', 74, 'astronaute'],
+        'u': ['forme 1', 58, 'gris'],
+        'v': ['forme 3', 78, 'jaune'],
+        'w': ['forme 1', 24, 'orange'],
+        'x': ['forme 2', 14, 'astropi'],
+        'y': ['forme 1', 67, 'violet'],
+        'z': ['forme 2', 70, 'astropi'],
+        ' ': ['forme 3', 25, 'rose'],
     }
 
-    global name
+    global nom
 
-    seed(10)  # Generate the same random numbers each time
+    seed(10) # Génère les mêmes nombres aléatoires à chaque fois
     no_stroke()
-    draw_background()
+    dessine_arriere_plan()
 
-    name = name.lower()  # Change the input to lowercase
+    nom = nom.lower() # Change l'entrée en minuscule
 
-    message = []  # Initialise the message list
+    message = [] # Initialise la liste des messages
 
-    for letter in name:
-        # Encode each letter with a shape and add it to a list
-        message.append(code[letter])
+    for lettre in nom:
+        # Coder chaque lettre avec une forme et l'ajouter à une liste
+        message.append(code[lettre])
 
-    for item in message:  # For each letter in the message, draw a shape
-        if item[0] == 'shape 1':
-            shape_1(item[1], item[2])
-        elif item[0] == 'shape 2':
-            shape_2(item[1], item[2])
-        elif item[0] == 'shape 3':
-            shape_3(item[1], item[2])
+    for element in message : # Pour chaque lettre dans le message, dessiner une forme
+        if element[0] == 'forme 1':
+            forme_1(element[1], element[2])
+        elif element[0] == 'forme 2':
+            forme_2(element[1], element[2])
+        elif element[0] == 'forme 3':
+            forme_3(element[1], element[2])
 
 
-print('Enter your name to make some encoded artwork:')
-name = input()
+print('Entre ton nom pour réaliser une œuvre d'art codée :')
+nom = input()
 
 run(frame_rate=10)
