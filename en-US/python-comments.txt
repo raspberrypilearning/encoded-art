@@ -1,0 +1,23 @@
+400 by 400 works well for an art canvas
+
+Red = 50, Green = 70, Blue = 206
+
+Background colour
+
+Allow other functions to access the images
+
+Load the images needed into variables
+
+Position around the centre
+
+snake
+
+Controls the size of the emoji
+
+Type some text and press Enter to generate an encoded artwork:
+
+list for the encoded letters
+
+add the encoded letter to the list
+
+Check to see if you've gone off the side of the window

@@ -1,0 +1,42 @@
+---
+title: Art codé
+hero_image: images/banner.png
+description: Crée une œuvre d'art codée basée sur le nom de l'utilisateur.
+meta_title: Projets de codage Python pour enfants et adolescents | Art codé
+meta_description: Apprends le langage Python avec les projets de codage de la Raspberry Pi Foundation pour les enfants et les adolescents. Utilise Python pour créer une œuvre d'art codée basée sur le nom de l'utilisateur.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-11-03"
+steps:
+  - 
+    title: Ce que tu vas faire
+  - 
+    title: Choisir un thème
+  - 
+    title: Dessiner tes formes
+    completion:
+      - engaged
+  - 
+    title: Placer tes formes
+  - 
+    title: Créer ton dictionnaire
+  - 
+    title: Coder un message
+    completion:
+      - internal
+  - 
+    title: Questionnaire rapide
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - 
+    title: Améliorer ton projet
+  - 
+    title: Partager
+  - 
+    title: Et ensuite ?
