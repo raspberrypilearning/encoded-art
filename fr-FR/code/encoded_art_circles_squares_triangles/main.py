@@ -4,43 +4,43 @@ from p5 import *
 from random import randint, seed
 
 
-def shape_1(size, colour):  # Each shape can have a different size and colour based on the parameters
+def forme_1(taille, couleur): # Chaque forme peut avoir une taille et une couleur différentes en fonction des paramètres
 
-    # Draws a circle with a thick outline
+    # Dessine un cercle avec un contour épais
 
     x = randint(0, 400)
     y = randint(0, 400)
-    fill(colour)
-    ellipse(x, y, size, size)
+    fill(couleur)
+    ellipse(x, y, taille, taille)
     fill(Color(251, 168, 57))
-    ellipse(x, y, size - 20, size - 20)
+    ellipse(x, y, taille - 20, taille - 20)
 
 
-def shape_2(size, colour):
+def forme_2(taille, couleur):
 
-    # Draws a rectangle
-
-    x = randint(0, 400)
-    y = randint(0, 400)
-    fill(colour)
-    rect(x, y, size, size)
-
-
-def shape_3(size, colour):  # Size isn't used for this function but two parameters must be passed
-
-    # Draws a triangle
+    # Dessiner un rectangle
 
     x = randint(0, 400)
     y = randint(0, 400)
-    fill(colour)
+    fill(couleur)
+    rect(x, y, taille, taille)
+
+
+def forme_3(taille, couleur): # La taille n'est pas utilisée pour cette fonction mais deux paramètres doivent être passés
+
+    # Dessiner un triangle
+
+    x = randint(0, 400)
+    y = randint(0, 400)
+    fill(couleur)
     triangle(x, y, x+50, y-100, x+100, y)
 
-# Set up the background
+# Configurer l'arrière-plan
 
 
-def draw_background():
+def dessine_arriere_plan():
 
-    # Background colour
+    # Couleur de l'arrière-plan
     fill(Color(5, 55, 93))
     rect(0, 0, 400, 400)
 
@@ -52,85 +52,85 @@ def setup():
 
 def draw():
 
-    # -- My colour palette -- ## Using primary, secondary and complementary colours
+    # -- Ma palette de couleurs -- ## Utiliser les couleurs primaires, secondaires et complémentaires
 
-    # Primary colours
+    # Couleurs primaires
 
-    primary_1 = Color(14, 92, 151)
-    primary_2 = Color(77, 135, 179)
-    primary_3 = Color(45, 111, 161)
-    primary_4 = Color(8, 71, 120)
-    primary_5 = Color(5, 55, 93)
+    primaire_1 = Color(14, 92, 151)
+    primaire_2 = Color(77, 135, 179)
+    primaire_3 = Color(45, 111, 161)
+    primaire_4 = Color(8, 71, 120)
+    primaire_5 = Color(5, 55, 93)
 
-    # Secondary colours
+    # Couleurs secondaires
 
-    secondary_1 = Color(29, 29, 164)
-    secondary_2 = Color(92, 92, 191)
-    secondary_3 = Color(60, 60, 176)
+    secondaire_1 = Color(29, 29, 164)
+    secondaire_2 = Color(92, 92, 191)
+    secondaire_3 = Color(60, 60, 176)
 
-    # Complementary colours
+    # Couleurs complémentaires
 
-    complementary_1 = Color(234, 137, 8)
-    complementary_2 = Color(255, 188, 99)
-    complementary_3 = Color(251, 168, 57)
+    complementaire_1 = Color(234, 137, 8)
+    complementaire_2 = Color(255, 188, 99)
+    complementaire_3 = Color(251, 168, 57)
 
-    # Dictionary of letters and their encoded shape with size and colour options
+    # Dictionnaire des lettres et de leur forme codée avec options de taille et de couleur
 
     code = {
-        'a': ['shape 1', 150, primary_1],
-        'b': ['shape 3', 50, complementary_3],
-        'c': ['shape 3', 75, secondary_1],
-        'd': ['shape 2', 80, secondary_1],
-        'e': ['shape 1', 20, primary_2],
-        'f': ['shape 2', 80, secondary_2],
-        'g': ['shape 1', 10, secondary_2],
-        'h': ['shape 2', 300, secondary_3],
-        'i': ['shape 1', 200, primary_3],
-        'j': ['shape 3', 90, secondary_3],
-        'k': ['shape 1', 12, complementary_1],
-        'l': ['shape 2', 43, complementary_1],
-        'm': ['shape 1', 93, complementary_2],
-        'n': ['shape 2', 64, complementary_2],
-        'o': ['shape 1', 85, primary_4],
-        'p': ['shape 2', 10, primary_3],
-        'q': ['shape 1', 45, primary_3],
-        'r': ['shape 1', 70, primary_4],
-        's': ['shape 1', 36, primary_4],
-        't': ['shape 3', 74, primary_1],
-        'u': ['shape 1', 58, primary_3],
-        'v': ['shape 2', 78, primary_1],
-        'w': ['shape 1', 24, primary_4],
-        'x': ['shape 2', 14, primary_4],
-        'y': ['shape 3', 67, secondary_2],
-        'z': ['shape 2', 70, complementary_2],
-        ' ': ['shape 1', 25, complementary_1],
+        'a': ['forme 1', 150, primaire_1],
+        'b': ['forme 3', 50, complementaire_3],
+        'c': ['forme 3', 75, secondaire_1],
+        'd': ['forme 2', 80, secondaire_1],
+        'e': ['forme 1', 20, primaire_2],
+        'f': ['forme 2', 80, secondaire_2],
+        'g': ['forme 1', 10, secondaire_2],
+        'h': ['forme 2', 300, secondaire_3],
+        'i': ['forme 1', 200, primaire_3],
+        'j': ['forme 3', 90, secondaire_3],
+        'k': ['forme 1', 12, complementaire_1],
+        'l': ['forme 2', 43, complementaire_1],
+        'm': ['forme 1', 93, complementaire_2],
+        'n': ['forme 2', 64, complementaire_2],
+        'o': ['forme 1', 85, primaire_4],
+        'p': ['forme 2', 10, primaire_3],
+        'q': ['forme 1', 45, primaire_3],
+        'r': ['forme 1', 70, primaire_4],
+        's': ['forme 1', 36, primaire_4],
+        't': ['forme 3', 74, primaire_1],
+        'u': ['forme 1', 58, primaire_3],
+        'v': ['forme 2', 78, primaire_1],
+        'w': ['forme 1', 24, primaire_4],
+        'x': ['forme 2', 14, primaire_4],
+        'y': ['forme 3', 67, secondaire_2],
+        'z': ['forme 2', 70, complementaire_2],
+        ' ': ['forme 1', 25, complementaire_1],
 
     }
 
-    global name
+    global nom
 
-    seed(10)  # Generate the same random numbers each time
+    seed(10) # Génère les mêmes nombres aléatoires à chaque fois
     no_stroke()
-    draw_background()
+    dessine_arriere_plan()
 
-    name = name.lower()  # Change the input to lowercase
+    nom = nom.lower() # Change l'entrée en minuscule
 
-    message = []  # Initialise the message list
+    message = [] # Initialise la liste des messages
 
-    for letter in name:
-        # Encode each letter with a shape and add it to a list
-        message.append(code[letter])
+    for lettre in nom:
+        # Coder chaque lettre avec une forme et l'ajouter à une liste
+        message.append(code[lettre])
 
-    for item in message:  # For each letter, draw the chosen shape
-        if item[0] == 'shape 1':
-            shape_1(item[1], item[2])
-        elif item[0] == 'shape 2':
-            shape_2(item[1], item[2])
-        elif item[0] == 'shape 3':
-            shape_3(item[1], item[2])
+    for element in message: # Pour chaque lettre, dessiner la forme choisie
+        if element[0] == 'forme 1':
+            forme_1(element[1], element[2])
+        elif element[0] == 'forme 2':
+            forme_2(element[1], element[2])
+        elif element[0] == 'forme 3':
+            forme_3(element[1], element[2])
 
 
-print('Enter your name to make some encoded artwork:')
-name = input()
+print('Entre ton nom pour créer une illustration codée :')
+nom = input()
 
 run(frame_rate=10)
