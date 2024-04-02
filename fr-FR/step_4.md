@@ -1,37 +1,37 @@
-## Place your shapes
+## Placer tes formes
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now that you have repeatable shapes for your artwork, you need to place them on the canvas.
+Maintenant que tu as des formes reproductibles pour ton œuvre, tu dois les placer sur le canevas.
 </div>
 <div>
-![Image showing the output of the project with an astronaut and small planets in space.](images/random-output.png){:width="300px"}
+![Image montrant le résultat du projet avec un astronaute et de petites planètes dans l'espace.](images/random-output.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-**Choose:** How will you place your shapes on the canvas? Will it be randomly, or will they have a specific pattern?
+**Choisir :** Comment vas-tu placer tes formes sur le canevas ? Est-ce que ce sera aléatoire ou auront-ils un modèle spécifique ?
 
 --- /task ---
 
 --- task ---
 
-**Decide** where you want your shapes to appear in the window. They could appear:
+**Décide** où tu souhaites que tes formes apparaissent dans la fenêtre. Elles pourraient apparaître :
 
-+ Randomly around the window
-+ In sequence from left to right
-+ In the same place every time
-+ To another set pattern
++ Au hasard autour de la fenêtre
++ En séquence de gauche à droite
++ Au même endroit à chaque fois
++ Vers un autre modèle défini
 
 [[[using-seed-in-python]]]
 
 --- collapse ---
 ---
-title: Position shapes randomly
+title : Positionner les formes de manière aléatoire
 ---
 
-From the `random` library, import `randint` and `seed` at the top of your script.
+Depuis la bibliothèque `random` , importe `randint` et `seed` en haut de ton script.
 
 --- code ---
 ---
@@ -42,7 +42,7 @@ from random import randint, seed
 
 --- /code ---
 
-**Add** a call to `seed()` in your `draw()` function below `draw_background()`. You will need to enter an argument for the seed, which can be any number:
+**Ajoute** un appel à `seed()` dans ton `draw()` sous `dessine_arriere_plan ()`. Tu devras saisir un argument pour la seed, qui peut être n'importe quel nombre :
 
 --- code ---
 ---
@@ -55,7 +55,7 @@ line_highlights:
 
 --- /code ---
 
-Change your shape functions to set random coordinates for each shape when drawing:
+Modifie tes fonctions de forme pour définir des coordonnées aléatoires pour chaque forme lors du dessin :
 
 --- code ---
 ---
@@ -68,7 +68,7 @@ def shape_1(colour, size):
     ellipse(200, 200, size, size)
 --- /code ---
 
-Becomes:
+Devient :
 
 --- code ---
 ---
@@ -87,11 +87,11 @@ def shape_1(colour, size):
 
 --- collapse ---
 ---
-title: Use coordinates to position shapes in groups
+title : Utiliser des coordonnées pour positionner les formes en groupes
 ---
-Some shapes in the `p5` library require all their corners to be declared, specifically `triangles` and `quads`. To randomise their positions, you have to do some quick maths.
+Certaines formes de la bibliothèque `p5` nécessitent que tous leurs coins soient déclarés, en particulier `triangles` et `quads`. Pour randomiser leurs positions, tu dois faire quelques calculs rapides.
 
-For example:
+Par exemple :
 
 --- code ---
 ---
@@ -102,7 +102,7 @@ def shape_1(color) fill(colour) triangle(200, 200, 250, 100, 300, 200)
 
 --- /code ---
 
-Becomes:
+Devient :
 
 --- code ---
 ---
@@ -115,17 +115,17 @@ def shape_1(color, x, y): fill(colour) x = randint(0, 400) y = randint(0, 400) t
 
 --- collapse ---
 ---
-title: Create a specific positioning pattern
+title : Créer un modèle de positionnement spécifique
 ---
 
-If you take a look at **Geometric patterns:**, you will notice that it places the shapes across the page and then down, like text:
+Si tu jettes un coup d'œil à **Motifs géométriques :**, tu remarqueras qu'il place les formes sur la page puis vers le bas, comme du texte :
 
-[See inside](https://editor.raspberrypi.org/en/projects/geometric-patterns-example){:target="_blank"}
+[Voir à l'intérieur](https://editor.raspberrypi.org/en/projects/geometric-patterns-example){:target="_blank"}
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/geometric-patterns-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
-This can be achieved by creating global variables in your draw loop called `startx` and `starty`, then setting them both to `0`:
+Ceci peut être réalisé en créant des variables globales dans ta boucle de dessin appelée `startx` et `starty`, puis les mettre toutes les deux à `0` :
 
 --- code ---
 ---
@@ -136,7 +136,7 @@ global startx, starty startx = 0 starty = 0
 
 --- /code ---
 
-These variables will be used to iterate the `x` and `y` values for each shape in the main menu function you will write later. Inside each of your shape functions, change the `x` and `y` values to use these global variables.
+Ces variables seront utilisées pour itérer les valeurs `x` et `y` pour chaque forme de la fonction de menu principale que tu vas écrire plus tard. Dans chacune de tes fonctions de forme, change les valeurs `x` et `y` pour utiliser ces variables globales.
 
 --- code ---
 ---
@@ -151,7 +151,7 @@ def shape_2(colour, size):
     rect(x, y, size, size)
 --- /code ---
 
-Becomes:
+Devient :
 
 --- code ---
 ---
@@ -168,9 +168,9 @@ def shape_2(colour, size):
     rect(x, y, size, size)
 --- /code ---
 
-Because you need to detect whether the shapes will go 'off the side' of the canvas, create a function to check the initial `x` coordinate of the next shape is less than your window size and set it back to 0 if it isn't, while also moving it down the window by increasing the initial `y` coordinate of the shape.
+Parce que tu dois détecter si les formes vont sortir "du côté" du canevas, crée une fonction pour vérifier que la coordonnée `x` de la forme suivante est inférieure à la taille de ta fenêtre et la remettre à 0 si ce n'est pas le cas, tout en la déplaçant vers le bas de la fenêtre en augmentant la coordonnée `y` initiale de la forme.
 
-**Define** a new function called `size_check()` now:
+**Définis** une nouvelle fonction appelée `taille_test()` maintenant :
 
 --- code ---
 ---
@@ -187,7 +187,7 @@ def size_check():
 
 --- /code ---
 
-**Tip:** Look for more instructions on calling this function when coding the input loop during the **Encode a message** step!
+**Astuce :** recherche plus d'instructions sur l'appel de cette fonction lors du codage de la boucle d'entrée lors de l'étape **Coder un message** !
 
 --- /collapse ---
 
@@ -195,39 +195,39 @@ def size_check():
 
 --- task ---
 
-**Test** your code to see if it displays your chosen images on the screen in the way you expect.
+**Teste** ton code pour voir s'il affiche les images que tu as choisies à l'écran comme tu le souhaites.
 
-If you used a random pattern, experiment with the `seed()` value to change the pattern!
+Si tu as utilisé un motif aléatoire, expérimente la valeur `seed()` pour changer le motif !
 
-![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle, and an orange triangle.](images/shape-functions2.png)
+![Une capture d'écran de la sortie de l'exemple de projet. Il y a un arrière-plan bleu foncé, un carré bleu, un cercle bleu et un triangle orange.](images/shape-functions2.png)
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Débogage :**
 
 --- collapse ---
 ---
-title: I get an error about `randint` or `seed`
+title: J'ai une erreur à propos de `randint` ou `seed`
 ---
-Make sure you have imported `randint` and `seed` from the `random` library at the top of your script: `from random import randint, seed`.
+Assure-toi que tu as importé `randint` et `seed` de la bibliothèque `random` en haut de ton script : `from random import randint, seed`.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The pattern isn't different from last time
+title: Le motif n'est pas différent de la dernière fois
 ---
-Make sure your shape functions contain the lines `x = randint(0,400)` and `y = randint(0,400)` and the shape parameters are set to `x` and `y`, not numbers: `rect(x, y, size, size)`
+Assure-toi que tes fonctions de forme contiennent les lignes `x = randint(0,400)` et `y = randint(0, 400)` et les paramètres de forme sont définis à `x` et `y`, pas des nombres : `rect(x, y, taille, taille)`
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My shapes are moving around really fast
+title: Mes formes se déplacent très vite
 ---
-Make sure you have included a call to `seed()` in your `draw()` function, which includes a number as an argument: `seed(72)`
+Assure-toi d'avoir inclus un appel à `seed()` dans ta fonction `draw()` , qui inclut un nombre en tant qu'argument : `seed(72)`
 
 --- /collapse ---
 
