@@ -1,23 +1,23 @@
-## Build your dictionary
+## Créer ton dictionnaire
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create the dictionary that will encode each letter of the alphabet with a shape. 
+Crée le dictionnaire qui codera chaque lettre de l'alphabet avec une forme. 
 </div>
 <div>
-![Three Kawaii fruits are placed randomly on the canvas.](images/dictionary.PNG){:width="300px"}
+![Trois fruits Kawaii sont placés aléatoirement sur le canevas.](images/dictionary.PNG){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-**Define** your **dictionary** in the `draw()` function. Make sure that you give it a suitable name and place the dictionary below your colour palette but above the rest of the code you have added.
+**Définis** ton **dictionnaire** dans la fonction `draw()` . Assure-toi de lui donner un nom approprié et place le dictionnaire sous ta palette de couleurs mais au-dessus du reste du code que tu as ajouté.
 
 --- collapse ---
 ---
-title: Define a dictionary
+title: Définir un dictionnaire
 ---
-Here is some example code of a dictionary being defined:
+Voici un exemple de code de définition d'un dictionnaire :
 
 --- code ---
 ---
@@ -36,13 +36,13 @@ code = {
 
 --- task ---
 
-**Add** all of the letters of the alphabet as **keys** in the dictionary. Be careful with the syntax that you use. It is very easy to miss out a colon `:` or a comma `,`.
+**Ajoute** toutes les lettres de l'alphabet comme **clés** dans le dictionnaire. Sois prudent avec la syntaxe que tu utilises. Il est très facile de manquer un deux-points `:` ou une virgule `,`.
 
 --- collapse ---
 ---
-title: Add keys to a dictionary
+title: Ajouter des clés à un dictionnaire
 ---
-Here is some example code showing **keys** being added to a **dictionary**:
+Voici un exemple de code montrant les **clés** ajoutées à un **dictionnaire** :
 
 --- code ---
 ---
@@ -53,7 +53,7 @@ code = { 'a': , 'b': , 'c': , 'd': , 'e': , 'f': , 'g': , 'h': , 'i': , 'j': , '
 
 } --- /code ---
 
-**Notice** that the data pairing has not been entered yet. You will do this in the next task.
+**Note** que le jumelage de données n'a pas encore été saisi. Tu le feras dans la tâche suivante.
 
 --- /collapse ---
 
@@ -61,18 +61,18 @@ code = { 'a': , 'b': , 'c': , 'd': , 'e': , 'f': , 'g': , 'h': , 'i': , 'j': , '
 
 --- task ---
 
-Each letter of the alphabet needs to be **paired** with your chosen **shape** and any arguments that you need to pass into the function. You can do this by entering this data into a list.
+Chaque lettre de l'alphabet doit être **associée** à la forme **choisie** et à tous les arguments que tu dois transmettre à la fonction. Tu peux le faire en saisissant ces données dans une liste.
 
-The list will need to contain:
-+ The name of the shape function as string, for example `'shape_1'`
-+ The values of the arguments that your shape function needs, for example `100` for the size of the shape
+La liste devra contenir :
++ Le nom de la fonction de forme sous forme de chaîne, par exemple `'forme_1'`
++ Les valeurs des arguments dont ta fonction de forme a besoin, par exemple `100` pour la taille de la forme
 
 --- collapse ---
 ---
-title: Pair a list with your dictionary keys
+title: Associer une liste à tes clés de dictionnaire
 ---
 
-Here is an example of a **list** being paired with the letters of the alphabet. You can see that each list has **three** items: the **function name**, the **size** value, and the chosen `object` to display.
+Voici un exemple d'une **liste** associée aux lettres de l'alphabet. Tu peux voir que chaque liste contient **trois** éléments : le **nom de la fonction**, la valeur de la **taille** et l'`objet` choisi à afficher.
 
 --- code ---
 ---
@@ -90,22 +90,22 @@ line_highlights:
 
 --- task ---
 
-**Debug:** **Run** and **test** your code. It shouldn't appear to be any different at this stage. This is an opportunity to see if you have any **syntax errors** in your dictionary.
+**Débogage :** **exécute** et **teste** ton code. Il ne devrait pas y avoir de différence à ce stade. C'est l'occasion de voir si tu as des **erreurs de syntaxe** dans ton dictionnaire.
 
 --- collapse ---
 ---
-title: Fix syntax errors
+title: Corriger les erreurs de syntaxe
 ---
 
-If your code has syntax errors, then look very carefully at the structure of your dictionary. There should be:
-+ Curly brackets `{}` at the start and end of the dictionary
-+ Apostrophies `'` surrounding the keys (letters of the alphabet)
-+ A colon `:` between the key and the list
-+ The list should have a square bracket `[]` on either side
-+ Each list item should be separated by a comma `,`
-+ There should be a comma `,` at the end of each **key–value pair**
+Si ton code comporte des erreurs de syntaxe, examine très attentivement la structure de ton dictionnaire. Il devrait y avoir :
++ Des accolades `{}` au début et à la fin du dictionnaire
++ Des apostrophes `'` entourant les clés (lettres de l'alphabet)
++ Un deux-points `:` entre la clé et la liste
++ La liste devrait avoir un crochet `[]` de chaque côté
++ Chaque élément de liste doit être séparé par une virgule `,`
++ Il devrait y avoir une virgule `,` à la fin de chaque **paire clé-valeur**
 
-You can double-check your syntax by taking a look at the example code in **Pair a list with your dictionary keys** above.
+Tu peux revérifier ta syntaxe en jetant un œil à l'exemple de code dans **Associer une liste avec tes clés de dictionnaire** ci-dessus.
 
 
 --- /collapse ---
