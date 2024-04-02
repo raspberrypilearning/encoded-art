@@ -15,14 +15,14 @@ def forme_1(taille, couleur):
     elif couleur == 'orange':
         image(planete_orange, x, y, taille, taille)
     elif couleur == 'vert':
-        image(planete_vert, x, y, taille, taille)
+        image(planete_verte, x, y, taille, taille)
     elif couleur == 'gris':
         image(lune_grise, x, y, taille, taille)
 
 # Dessine un objet spatial en fonction de l'objet et de la taille choisis
 
 
-def forme_2(taille, couleur):
+def forme_2(taille, objet):
 
     x = randint(0, 400)
     y = randint(0, 400)
@@ -83,7 +83,7 @@ def draw():
     # Dictionnaire des lettres et leur forme codée
     code = {
         'a': ['forme 3', 150, 'rose'],
-        'b': ['forme 3', 'jaune'],
+        'b': ['forme 3', 50, 'jaune'],
         'c': ['forme 2', 75, 'astonaute'],
         'd': ['forme 2', 80, 'astropi'],
         'e': ['forme 1', 20, 'orange'],
@@ -134,7 +134,7 @@ def draw():
             forme_3(element[1], element[2])
 
 
-print('Entre ton nom pour réaliser une œuvre d'art codée :')
+print('Entre ton nom pour réaliser une œuvre d\'art codée :')
 nom = input()
 
 run(frame_rate=10)

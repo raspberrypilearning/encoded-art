@@ -234,7 +234,7 @@ def draw():
 
 seed_value = 10
 count = 0
-print('Entre ton nom pour réaliser une œuvre d'art codée :')
+print('Entre ton nom pour réaliser une œuvre d\'art codée :')
 nom = input()
 
 run(frame_rate=10)
