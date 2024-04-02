@@ -1,0 +1,23 @@
+400 x 400 fonctionne bien pour une toile d'art
+
+Rouge = 50, Vert = 70, Bleu = 206
+
+Couleur de l'arrière-plan
+
+Autoriser d'autres fonctions à accéder aux images
+
+Charger les images nécessaires dans les variables
+
+Position autour du centre
+
+serpent
+
+Contrôle la taille de l'emoji
+
+Tape du texte et appuie sur Entrée pour générer une œuvre codée :
+
+liste des lettres codées
+
+ajouter la lettre codée à la liste
+
+Vérifie si tu es sorti hors de la fenêtre
