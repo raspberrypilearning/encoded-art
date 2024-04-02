@@ -1,11 +1,11 @@
 #!/bin/python3
 
-# PROTOTYPE FOUR - AFRICAN INSPIRED ART
+# PROTOTYPE QUATRE - ART D'INSPIRATION AFRICAINE
 
 from p5 import *
 
 
-def size_check():  # Check to see if you've gone off the side of the window
+def taille_test(): # Vérifie si tu es sorti du côté de la fenêtre
 
     global startx
     global starty
@@ -14,50 +14,50 @@ def size_check():  # Check to see if you've gone off the side of the window
         starty += 80
 
 
-def shape_1(size, colour):  # Draw a diamond
+def forme_1(taille, couleur): # Dessine un diamant
 
     global startx
     global starty
     x1 = startx
-    y1 = starty + 40  # Move to centre of stripe
-    x2 = x1 + (size/2)
-    y2 = y1 + (size/2)
-    x3 = x1 + size
+    y1 = starty + 40 # Déplacer au centre de la bande
+    x2 = x1 + (taille/2)
+    y2 = y1 + (taille/2)
+    x3 = x1 + taille
     y3 = y1
-    x4 = x1 + (size/2)
-    y4 = y1 - (size/2)
-    fill(colour)
+    x4 = x1 + (taille/2)
+    y4 = y1 - (taille/2)
+    fill(couleur)
     quad(x1, y1, x2, y2, x3, y3, x4, y4)
 
 
-def shape_2(size, colour):  # Draw a square
+def forme_2(taille, couleur): # Dessine un carré
 
     global startx
     global starty
     x = startx
     y = starty
-    fill(colour)
-    rect(x, y, size, size)
+    fill(couleur)
+    rect(x, y, taille, taille)
 
 
-def shape_3(size, colour):  # Draw a triangle
+def forme_3(taille, couleur): # Dessine un triangle
 
     global startx
     global starty
     x1 = startx
     y1 = starty
-    x2 = x1 + (size/2)
-    y2 = y1 + size
-    x3 = x1 + size
+    x2 = x1 + (taille/2)
+    y2 = y1 + taille
+    x3 = x1 + taille
     y3 = y1
-    fill(colour)
+    fill(couleur)
     triangle(x1, y1, x2, y2, x3, y3)
 
 
-# Adds a background colour
-def draw_background():
+# Ajoute une couleur d'arrière-plan
+def dessine_arriere_plan():
 
-    # Background colours
+    # Couleurs d’arrière-plan
     fill(Color(0, 0, 255))
     rect(0, 0, 400, 80)
     fill(Color(0, 127, 127))
@@ -77,107 +77,107 @@ def setup():
 
 def draw():
 
-    # -- My colour palette --
+    # -- Ma palette de couleurs --
 
-    # Primary colours
+    # Couleurs primaires
 
-    primary_1 = Color(246, 32, 100)
-    primary_2 = Color(247, 0, 79)
-    primary_3 = Color(234, 0, 75)
-    primary_4 = Color(196, 0, 63)
-    primary_5 = Color(4, 0, 1)
+    primaire_1 = Color(246, 32, 100)
+    primaire_2 = Color(247, 0, 79)
+    primaire_3 = Color(234, 0, 75)
+    primaire_4 = Color(196, 0, 63)
+    primaire_5 = Color(4, 0, 1)
 
-    # Secondary colours
+    # Couleurs secondaires
 
-    secondary_1 = Color(255, 198, 33)
-    secondary_2 = Color(255, 190, 0)
-    secondary_3 = Color(55, 190, 0)
+    secondaire_1 = Color(255, 198, 33)
+    secondaire_2 = Color(255, 190, 0)
+    secondaire_3 = Color(55, 190, 0)
 
-    # Complementary colours
+    # Couleurs complémentaires
 
-    complementary_1 = Color(59, 63, 230)
-    complementary_2 = Color(5, 9, 154)
-    complementary_3 = Color(133, 246, 32)
+    complementaire_1 = Color(59, 63, 230)
+    complementaire_2 = Color(5, 9, 154)
+    complementaire_3 = Color(133, 246, 32)
 
     code = {
-        'a': ['shape 1', 80, primary_1],
-        'b': ['shape 2', 50, complementary_3],
-        'c': ['shape 3', 75, secondary_1],
-        'd': ['shape 2', 80, secondary_1],
-        'e': ['shape 1', 20, primary_2],
-        'f': ['shape 3', 80, secondary_2],
-        'g': ['shape 1', 10, secondary_2],
-        'h': ['shape 2', 38, secondary_3],
-        'i': ['shape 3', 23, primary_3],
-        'j': ['shape 2', 76, secondary_3],
-        'k': ['shape 1', 12, complementary_1],
-        'l': ['shape 3', 43, complementary_1],
-        'm': ['shape 1', 64, complementary_2],
-        'n': ['shape 2', 64, complementary_2],
-        'o': ['shape 3', 85, primary_4],
-        'p': ['shape 2', 10, primary_3],
-        'q': ['shape 1', 45, primary_3],
-        'r': ['shape 3', 70, secondary_3],
-        's': ['shape 1', 36, primary_4],
-        't': ['shape 2', 74, primary_1],
-        'u': ['shape 3', 58, primary_3],
-        'v': ['shape 2', 78, primary_1],
-        'w': ['shape 1', 24, secondary_3],
-        'x': ['shape 3', 14, primary_4],
-        'y': ['shape 1', 67, secondary_2],
-        'z': ['shape 2', 70, complementary_2],
-        ' ': ['shape 3', 25, complementary_1],
-        '?': ['shape 2', 54, secondary_2],
-        '!': ['shape 3', 37, primary_4],
-        '#': ['shape 2', 76, secondary_1],
-        '@': ['shape 1', 24, primary_3],
-        '£': ['shape 3', 83, secondary_2],
-        '$': ['shape 1', 72, secondary_3],
-        ':': ['shape 2', 54, primary_1],
-        '&': ['shape 3', 63, secondary_2],
-        '*': ['shape 2', 14, secondary_3],
-        '+': ['shape 1', 39, secondary_1],
-        '=': ['shape 3', 75, primary_4],
-        '-': ['shape 1', 79, secondary_2],
-        '~': ['shape 2', 38, complementary_2],
-        '/': ['shape 3', 25, complementary_1],
+        'a': ['forme 1', 80, primaire_1],
+        'b': ['forme 2', 50, complementaire_3],
+        'c': ['forme 3', 75, secondaire_1],
+        'd': ['forme 2', 80, secondaire_1],
+        'e': ['forme 1', 20, primaire_2],
+        'f': ['forme 3', 80, secondaire_2],
+        'g': ['forme 1', 10, secondaire_2],
+        'h': ['forme 2', 38, secondaire_3],
+        'i': ['forme 3', 23, primaire_3]
+        'j': ['forme 2', 76, secondaire_3],
+        'k': ['forme 1', 12, complementaire_1],
+        'l': ['forme 3', 43, complementaire_1],
+        'm': ['forme 1', 64, complementaire_2],
+        'n': ['forme 2', 64, complementaire_2],
+        'o': ['forme 3', 85, primaire_4],
+        'p': ['forme 2', 10, primaire_3],
+        'q': ['forme 1', 45, primaire_3],
+        'r': ['forme 3', 70, secondaire_3],
+        's': ['forme 1', 36, primaire_4],
+        't': ['forme 2', 74, primaire_1],
+        'u': ['forme 3', 58, primaire_3],
+        'v': ['forme 2', 78, primaire_1],
+        'w': ['forme 1', 24, secondaire_3],
+        'x': ['forme 3', 14, primaire_4],
+        'y': ['forme 1', 67, secondaire_2],
+        'z': ['forme 2', 70, complementaire_2],
+        ' ': ['forme 3', 25, complementaire_1],
+        '?': ['forme 2', 54, secondaire_2],
+        '!': ['forme 3', 37, primaire_4],
+        '#': ['forme 2', 76, secondaire_1],
+        '@': ['forme 1', 24, primaire_3],
+        '£': ['forme 3', 83, secondaire_2],
+        '$': ['forme 1', 72, secondaire_3],
+        ':': ['forme 2', 54, primaire_1],
+        '&': ['forme 3', 63, secondaire_2],
+        '*': ['forme 2', 14, secondaire_3],
+        '+': ['forme 1', 39, secondaire_1],
+        '=': ['forme 3', 75, primaire_4],
+        '-': ['forme 1', 79, secondaire_2],
+        '~': ['forme 2', 38, complementaire_2],
+        '/': ['forme 3', 25, complementaire_1],
 
     }
 
-    global name, startx, starty
+    global nom, startx, starty
     startx = 0
     starty = 0
 
     no_stroke()
-    draw_background()
+    dessine_arriere_plan()
 
-    name = name.lower()  # Change the input to lowercase
+    nom = nom.lower() # Change l'entrée en minuscule
 
-    message = []  # Initialise the message list
+    message = [] # Initialise la liste des messages
 
-    for letter in name:
-        # Encode each letter with a shape and add it to a list
-        message.append(code[letter])
+    for lettre in nom:
+        # Coder chaque lettre avec une forme et l'ajouter à une liste
+        message.append(code[lettre])
 
-    for item in message:
-        if item[0] == 'shape 1':
-            shape_1(item[1], item[2])  # Draw shape
-            # Translate next starting x co-ord by width of shape
-            startx += item[1]
-            size_check()  # Check to see if you've gone off the side of the window
+    for element in message:
+        if element[0] == 'forme 1':
+            forme_1(element[1], element[2]) # Dessiner une forme
+            # Déplacer la prochaine coordonnée x de départ par la largeur de la forme
+            startx += element[1]
+            taille_test(): # Vérifie si tu es sorti du côté de la fenêtre
 
-        elif item[0] == 'shape 2':
-            shape_2(item[1], item[2])
-            startx += item[1]
-            size_check()
+        elif element[0] == 'forme 2':
+            forme_2(element[1], element[2])
+            startx += element[1]
+            taille_test()
 
-        elif item[0] == 'shape 3':
-            shape_3(item[1], item[2])
-            startx += item[1]
-            size_check()
+        elif element[0] == 'forme 3':
+            forme_3(element[1], element[2])
+            startx += element[1]
+            taille_test()
 
 
-print('Enter your name to make some encoded artwork:')
-name = input()
+print('Entre ton nom pour réaliser une œuvre d'art codée :')
+nom = input()
 
 run(frame_rate=10)
