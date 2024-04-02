@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Question 3 sur 3
 ---
 
-You have created a function to draw a shape. This is the function that you have created:
+Tu as créé une fonction pour dessiner une forme. Voici la fonction que tu as créée :
 
 --- code ---
 ---
@@ -20,7 +20,7 @@ def shape_1(colour, size):
     ellipse(x, y, size, size)
 --- /code ---
 
-You have also created a function call that is used to draw the shape in the colour that you have chosen:
+Tu as également créé un appel de fonction qui permet de dessiner la forme dans la couleur que tu as choisie :
 
 --- code ---
 ---
@@ -29,35 +29,35 @@ line_highlights:
 ---
 red = Color(255, 0, 0)
 
-shape_1(red)
+forme_1(rouge)
 
 --- /code ---
 
-Why do you get an error message when the code runs?
+Pourquoi reçois-tu un message d'erreur lorsque le code s'exécute ?
 
 --- choices ---
 
-- ( ) Colour is spelt incorrectly.
+- ( ) La couleur est mal orthographiée.
 
   --- feedback ---
 
-Good try! However, Python uses American English, so `color` is the correct identifier for assigning colour values. In other English speaking countries, **colour** is spelt with a **u**.
+Bien essayé ! Cependant, Python utilise l'anglais américain, donc `color` est l'identifiant correct pour attribuer des valeurs de couleur. Dans d'autres pays anglophones, **color** s'écrit avec un **u**.
 
   --- /feedback ---
 
-- ( ) On **line 85**, `red` should have apostrophes `''` either side.
+- ( ) À la **ligne 85**, `rouge` devrait avoir des apostrophes `''` de chaque côté.
 
   --- feedback ---
 
-Not quite. `red` is a variable so the apostrophes are not needed in this scenario.
+Pas tout à fait. `rouge` est une variable donc les apostrophes ne sont pas nécessaires dans ce cas-ci.
 
   --- /feedback ---
 
-- (x) The function that you created has **two** parameters. This means that you need to pass two **arguments** to the function. You only have **one** at the moment.
+- (x) La fonction que tu as créée a **deux** paramètres. Cela signifie que tu dois transmettre deux **arguments** à la fonction. Tu n’en as qu'**un** pour le moment.
 
   --- feedback ---
 
-Well spotted! If a function has **two parameters**, then **two arguments** must be passed into it when it is called.
+Bien vu ! Si une fonction a **deux paramètres**, alors **deux arguments** doivent lui être transmis lors de son appel.
 
   --- /feedback ---
 
