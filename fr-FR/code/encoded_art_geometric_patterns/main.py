@@ -34,7 +34,7 @@ def forme_2(taille, couleur): # Dessine un carré
 
     global startx
     global starty
-    x1 = startx
+    x = startx
     y = starty
     fill(couleur)
     rect(x, y, taille, taille)
@@ -108,7 +108,7 @@ def draw():
         'f': ['forme 3', 80, secondaire_2],
         'g': ['forme 1', 10, secondaire_2],
         'h': ['forme 2', 38, secondaire_3],
-        'i': ['forme 3', 23, primaire_3]
+        'i': ['forme 3', 23, primaire_3],
         'j': ['forme 2', 76, secondaire_3],
         'k': ['forme 1', 12, complementaire_1],
         'l': ['forme 3', 43, complementaire_1],
@@ -150,7 +150,7 @@ def draw():
             forme_1(element[1], element[2]) # Dessiner une forme
             # Déplacer la prochaine coordonnée x de départ par la largeur de la forme
             startx += element[1]
-            taille_test(): # Vérifie si tu es sorti du côté de la fenêtre
+            taille_test() # Vérifie si tu es sorti du côté de la fenêtre
 
         elif element[0] == 'forme 2':
             forme_2(element[1], element[2])
@@ -163,7 +163,7 @@ def draw():
             taille_test()
 
 
-print('Entre ton nom pour réaliser une œuvre d'art codée :')
+print('Entre ton nom pour réaliser une œuvre d\'art codée :')
 nom = input()
 
 run(frame_rate=10)
