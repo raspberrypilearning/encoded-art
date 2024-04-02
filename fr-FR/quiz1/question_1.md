@@ -1,17 +1,17 @@
-## Quick quiz
+## Questionnaire rapide
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Réponds aux trois questions. Il y a des indices pour te guider vers la bonne réponse.
 
-When you have answered each question, click on **Check my answer**.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Have fun!
+Amuse-toi bien !
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Question 1 sur 3
 ---
-In your Encoded art project you used lists and dictionaries to encode a shape to a letter. The code below uses **lists** and **dictionaries**. What will be the output of this code when it is run?
+Dans ton projet d'art codé, tu as utilisé des listes et des dictionnaires pour coder une forme en une lettre. Le code ci-dessous utilise des **listes** et des **dictionnaires**. Quel sera le résultat de ce code une fois exécuté ?
 
 --- code ---
 ---
@@ -28,11 +28,11 @@ print(instructions[0])
 
 --- choices ---
 
-- ( ) `'Green, 4'`
+- ( ) `'Vert, 4'`
 
   --- feedback ---
 
-Almost, the value in the square brackets `[]` on **line 9** represents a single item from a list.
+Presque, la valeur entre crochets `[]` à la **ligne 9** représente un seul élément d'une liste.
 
   --- /feedback ---
 
@@ -40,15 +40,15 @@ Almost, the value in the square brackets `[]` on **line 9** represents a single 
 
   --- feedback ---
 
-Not quite, this is the name of the **key** that has been accessed on **line 7**. Think about the data that is **paired** with the key.
+Pas tout à fait, c'est le nom de la **clé** à laquelle on a accédé à la **ligne 7**. Pense aux données qui sont **associées** à la clé.
 
   --- /feedback ---
 
-- (x) `Green`
+- (x) `Vert`
 
   --- feedback ---
 
-Correct! A new list called `instructions` is created that will hold the items `'Green'` and `4`. The print function is then used to print the first item in that list, which is `Green`.
+Correct ! Une nouvelle liste appelée `instructions` est créée et contiendra les éléments `'Vert'` et `4`. La fonction print est ensuite utilisée pour imprimer le premier élément de cette liste, qui est `Vert`.
 
   --- /feedback ---
 
@@ -56,7 +56,7 @@ Correct! A new list called `instructions` is created that will hold the items `'
 
   --- feedback ---
 
-You are very close. The print function will display an item from the `instructions` list, but not this one.
+Tu es très proche. La fonction print affichera un élément de la liste des `instructions` , mais pas celui-ci.
 
   --- /feedback ---
 
