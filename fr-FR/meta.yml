@@ -1,32 +1,32 @@
 ---
-title: Encoded art
+title: Art codé
 hero_image: images/banner.png
-description: Create a piece of encoded artwork based on the user's name.
-meta_title: Python coding projects for kids and teens | Encoded art
-meta_description: Learn Python with the Raspberry Pi Foundation's coding projects for kids and teens. Use Python to create a piece of encoded art based on the user’s name.
+description: Crée une œuvre d'art codée basée sur le nom de l'utilisateur.
+meta_title: Projets de codage Python pour enfants et adolescents | Art codé
+meta_description: Apprends le langage Python avec les projets de codage de la Raspberry Pi Foundation pour les enfants et les adolescents. Utilise Python pour créer une œuvre d'art codée basée sur le nom de l'utilisateur.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-11-03"
 steps:
   - 
-    title: You will make
+    title: Ce que tu vas faire
   - 
-    title: Choose a theme
+    title: Choisir un thème
   - 
-    title: Draw your shapes
+    title: Dessiner tes formes
     completion:
       - engaged
   - 
-    title: Place your shapes
+    title: Placer tes formes
   - 
-    title: Build your dictionary
+    title: Créer ton dictionnaire
   - 
-    title: Encode a message
+    title: Coder un message
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,8 +35,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Améliorer ton projet
   - 
-    title: Share
+    title: Partager
   - 
-    title: What next?
+    title: Et ensuite ?
