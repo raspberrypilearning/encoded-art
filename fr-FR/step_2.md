@@ -1,39 +1,39 @@
-## Choose a theme
+## Choisir un thème
 
 <div style="display: flex; flex-wrap: wrap;">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Have you got some ideas about what sort of art you would like to make? In this step you will plan your art and set up your background.
+As-tu des idées sur le type d’art que tu aimerais réaliser ? Dans cette étape, tu planifieras ton art et configureras ton arrière-plan.
 </div>
 <div>
-![Image showing the different outputs of a prototype project when using different texts as inputs.](images/output_shots.png)
+![Image montrant les différentes sorties d'un projet prototype lors de l'utilisation de différents textes comme entrées.](images/output_shots.png)
 </div>
 </div>
 
 --- task ---
 
-Open the [starter project](https://editor.raspberrypi.org/en/projects/encoded-art-starter){:target="_blank"}. The Raspberry Pi code editor will open in another tab.
+Ouvre le [projet de démarrage](https://editor.raspberrypi.org/en/projects/encoded-art-starter){:target="_blank"}. Le Code Editor Raspberry Pi s'ouvre dans un autre onglet.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Think about the kind of art you want to make:
-+ Do you want to choose something from your heritage or popular culture?
-+ Will your art import existing images or draw geometric shapes?
-+ What colours do you want to use?
-+ Will your background be a solid colour, or made up of multiple coloured shapes?
+**Choisir :** pense au type d'art que tu souhaites réaliser :
++ Veux-tu choisir quelque chose de ton patrimoine ou de ta culture populaire ?
++ Ton art importera-t-il des images existantes ou dessinera-t-il des formes géométriques ?
++ Quelles couleurs souhaites-tu utiliser ?
++ Ton arrière-plan sera-t-il de couleur unie ou composé de plusieurs formes colorées ?
 
 --- /task ---
 
-The first thing to do when creating art using the Python `Processing library` is to add `def setup():` to define a `setup` function that is run once at the beginning of your program.
+La première chose à faire lors de la création artistique à l'aide de la `bibliothèque de traitement` Python est d'ajouter `def setup():` pour définir une fonction `setup` qui est exécutée une fois au début de ton programme.
 
 --- task ---
 
-**Create:** Define the `setup()` function in your code to set the output window size. The `size()` function is used to state the size of the canvas. The arguments state the width and height in pixels.
+**Créer :** définis la fonction `setup()` dans ton code pour définir la taille de la fenêtre de sortie. La fonction `size()` est utilisée pour indiquer la taille du canevas. Les arguments indiquent la largeur et la hauteur en pixels.
 
 --- collapse ---
 ---
-title: Set the screen size when your program starts
+title: Définir la taille de l'écran au démarrage de ton programme
 ---
 
 --- code ---
@@ -52,33 +52,33 @@ size(400, 400) # 400 by 400 works well for an art canvas
 
 --- task ---
 
-**Choose:** Experiment with the numbers in your `setup()` function and run your code to find a size that you are happy with.
+**Choisir :** expérimente avec les nombres dans ta fonction `setup()` et exécute ton code pour trouver une taille qui te convient.
 
 --- /task ---
 
-The `draw()` function continuously executes the lines of code contained inside its block until the program is stopped. It is automatically called directly after `setup()`.
+La fonction `draw()` exécute continuellement les lignes de code contenues dans son bloc jusqu'à ce que le programme soit arrêté. Elle est automatiquement appelée directement après `setup()`.
 
 --- task ---
 
-**Create:** Define the `draw` function in your script.
+**Créer :** définis la fonction `draw` dans ton script.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Think about the colours you will use for your art and create some variables that will hold the colour values at the start of `draw()`.
+**Choisir :** pense aux couleurs que tu utiliseras pour ton art et crée des variables qui contiendront les valeurs de couleur au début de `draw()`.
 
 [[[generic-theory-simple-colours]]]
 
-You could also use something like the [Paletton colour scheme designer](https://paletton.com/){:target="_blank"} to choose your colour palette and copy the RGB values.
+Tu peux également utiliser quelque chose comme le [Concepteur de schémas de couleurs Paletton](https://paletton.com/){:target="_blank"} pour choisir ta palette de couleurs et copier les valeurs RVB.
 
 --- collapse ---
 
 ---
-title: Colour in p5
+title: Couleur en p5
 ---
 
-The p5 Color() function expects three numbers: one each for red, green, and blue.
+La fonction p5 Color() attend trois nombres : un pour le rouge, le vert et le bleu.
 
 --- code ---
 ---
@@ -94,19 +94,19 @@ blue = Color(50, 70, 206) #Red = 50, Green = 70, Blue = 206
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-You may notice two spellings of the word **colour** (color) in this project. The shorter one, <span style="color: #0faeb0">color</span>, is the preferred spelling in the United States. Other countries may use the longer form, <span style="color: #0faeb0">colour</span>. Any predefined code, like `Color()` typically uses the American spelling.
+Tu remarqueras peut-être deux orthographes du mot **color** (couleur) dans ce projet. La plus courte, <span style="color: #0faeb0">color</span>, est l'orthographe préférée aux États-Unis. D'autres pays peuvent utiliser la forme plus longue, <span style="color: #0faeb0">colour</span>. Tout code prédéfini, comme `Color()`, utilise généralement l'orthographe américaine.
 </p>
 
 --- task ---
 
-**Create** a function that will **draw a background** shape using your colour palette. Next, add a call to your `draw()` function.
+**Crée** une fonction qui **dessinera une forme d'arrière-plan** à l'aide de ta palette de couleurs. Ensuite, ajoute un appel à ta fonction `draw()` .
 
 --- collapse ---
 ---
-title: Set the background colours when your program starts
+title : Définir les couleurs d’arrière-plan au démarrage de ton programme
 ---
 
-Above your `draw()` function, define a new function called `draw_background()` and create a call to it in `draw():`, after a call to `no_stroke()`.
+Au-dessus de ta fonction `draw()` , définis une nouvelle fonction appelée `dessine_arriere_plan()` et crée un appel vers celle-ci dans `draw():`, après un appel à `no_stroke()`.
 
 --- code ---
 ---
@@ -117,7 +117,7 @@ def draw_background(colour): # Background colour fill(colour) rect(0, 0, 400, 40
 
 --- /code ---
 
-Then create a call to it in `draw()`:
+Puis crée un appel avec `draw()`:
 
 --- code ---
 ---
@@ -135,7 +135,7 @@ def draw():
 
 --- /code ---
 
-If you want your background to include more colours, you will need to add more parameters.
+Si tu veux que ton arrière-plan inclue plus de couleurs, tu devras ajouter plus de paramètres.
 
 --- code ---
 ---
@@ -152,7 +152,7 @@ def draw_background(green, blue):
 
 --- /code ---
 
-Then add the new colour to your `draw_background()` call in in `draw()`:
+Ensuite, ajoute la nouvelle couleur à ton appel `dessine_arriere_plan()` dans `draw()`:
 
 --- code ---
 ---
@@ -176,7 +176,7 @@ def draw():
 
 --- task ---
 
-**Create** a call to `run()` at the very end of your script (with no indent!) to run the program:
+**Crée** un appel à `run()` à la toute fin de ton script (sans retrait !) pour exécuter le programme :
 
 --- code ---
 ---
@@ -191,31 +191,31 @@ run()
 
 --- task ---
 
-**Test:** Run your project to see your chosen screen size and background colour.
+**Test :** exécute ton projet pour voir la taille d'écran et la couleur d'arrière-plan que tu as choisies.
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Débogage :** il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues courants.
 
 --- collapse ---
 ---
-title: I've updated my size and colour but the output area stays the same
+title: J'ai mis à jour ma taille et ma couleur, mais la zone de sortie reste la même
 ---
 
-After changing the code, you will need to `run` your project to see the changes in the output area.
+Après avoir modifié le code, tu devras exécuter (`run`) ton projet pour voir les changements dans la zone de sortie.
 
-Make sure you have a call to `run()` at the very end of your script outside of any of your function definitions (not indented).
+Assure-toi d'avoir un appel à `run()` à la toute fin de ton script en dehors de l'une de tes définitions de fonction (non en retrait).
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: I've tried different numbers but the background colour doesn't change
+title: J'ai essayé différents numéros, mais la couleur d'arrière-plan ne change pas
 ---
 
-The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`.
+La quantité maximale de rouge, de vert ou de bleu est de `255`. Assure-toi que toutes tes valeurs de couleur `d'arrière-plan` sont comprises entre `0` et `255`.
 
 --- /collapse ---
 
