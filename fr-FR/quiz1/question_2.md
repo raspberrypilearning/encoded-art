@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Question 2 sur 3
 ---
 
-Your Encoded art project used parameters in functions to create customisations of shapes. The code below also uses a function with parameters. What will be the output of this code when it is run?
+Ton projet d'art codé a utilisé des paramètres dans des fonctions pour créer des personnalisations de formes. Le code ci-dessous utilise également une fonction avec des paramètres. Quel sera le résultat de ce code une fois exécuté ?
 
 --- code ---
 ---
@@ -28,40 +28,40 @@ find_apple(food)
 
 --- choices ---
 
-- ( ) `Apple found!`
+- ( ) `Pomme trouvée !`
 
   --- feedback ---
 
-Almost. Those two print functions are part of a selection statement. This means that **line 7** will run if the condition is true and **line 9** will run if the condition is false. Is the condition **true** or **false**?
+Presque. Ces deux fonctions print font partie d'une instruction de sélection. Cela signifie que la **ligne 7** s'exécutera si la condition est vraie et la **ligne 9** s'exécutera si la condition est fausse. La condition est-elle **vraie** ou **fausse** ?
 
   --- /feedback ---
 
-- ( ) There will be an error because you cannot pass a list as an **argument**.
+- ( ) Il y aura une erreur car tu ne peux pas transmettre une liste comme un **argument**.
 
   --- feedback ---
 
-Not quite, you **can** pass a list as an argument so this wouldn't cause an error.
+Pas tout à fait, tu **peux** transmettre une liste comme argument afin que cela ne provoque pas d'erreur.
 
   --- /feedback ---
 
-- ( ) There will be an error because `Apple` in the print function doesn't match `apple` in the list.
+- ( ) Il y aura une erreur car `Pomme` dans la fonction print ne correspond pas à `pomme` dans la liste.
 
   --- feedback ---
 
-I can see what you did there. However, if you take a look at the **list items** on **line 1** then you will see that they are all in **lower case**. Then, take a look at the **condition** on **line 6** and you will see that it is also looking for a lower-case word. This means the condition will be **true**.
+Je peux voir ce que tu as fait là. Cependant, si tu jettes un œil aux **éléments de la liste** à la **ligne 1** alors tu verras qu'ils sont tous en **minuscules**. Ensuite, jette un œil à la **condition** à la **ligne 6** et tu verras qu'elle recherche également un mot minuscule. Cela signifie que la condition sera **vraie**.
 
   --- /feedback ---
 
 - (x)
 ```python
-Not an apple
-Apple found!
-Not an apple
+Pas une pomme
+Pomme trouvée !
+Pas une pomme
 ```
 
   --- feedback ---
 
-Correct, the **list** will be **passed** to the function. The function will then check each item in the list and find the `apple` item. This will result in the message `Apple found!` being displayed the second time through the loop.
+Correct, la **liste** sera **transmise** à la fonction. La fonction vérifiera ensuite chaque élément de la liste et trouvera l'élément `pomme` . Le message `Pomme trouvée !` s'affichera lors du deuxième passage dans la boucle.
 
   --- /feedback ---
 
