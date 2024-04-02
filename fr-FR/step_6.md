@@ -1,17 +1,17 @@
-## Encode a message
+## Coder un message
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Use the dictionary to encode text by placing shapes for each character in the message.
+Utilise le dictionnaire pour coder du texte en plaçant des formes pour chaque caractère du message.
 </div>
 <div>
-![Image showing three different randomised pictures of orange squares, grey triangles, and blue circles.](images/random-art.png)
+![Image montrant trois images aléatoires différentes de carrés orange, de triangles gris et de cercles bleus.](images/random-art.png)
 </div>
 </div>
 
 --- task ---
 
-**Remove** the test shape calls in your `draw()` function by **commenting them out** with a hashtag at the start of each line:
+**Supprime** les appels de forme de test dans ta fonction `draw()` en **les commentant** avec un hashtag au début de chaque ligne :
 
 --- code ---
 ---
@@ -27,17 +27,17 @@ line_highlights:
 --- /task ---
 
 
---- task --- **Choose** what text you will ask the user to provide to be encoded. It could be their:
-+ Name
-+ Favourite song lyric
-+ Favourite quote
+--- task --- **Choisis** le texte que tu demanderas à l'utilisateur de fournir à coder. Il pourrait s'agir de leur :
++ Nom
++ Paroles de chansons préférées
++ Citation préférée
 
 --- /task ---
 
 --- task ---
 
-**Create** an `input()` call for the user to be able to type in their message when the program runs.  
-This needs to go before your `run()` call, outside of any function definitions.
+**Crée** un appel `input()` pour que l'utilisateur puisse saisir son message lorsque le programme s'exécute.  
+Cela doit être placé avant ton appel `run()` , en dehors de toute définition de fonction.
 
 --- code ---
 ---
@@ -50,7 +50,7 @@ name = input()
 run() --- /code ---
 
 
-Add a `print` statement before the `input()` call, to prompt the user to enter some text when the program runs:
+Ajoute une instruction `print` avant l'appel `input()` pour inviter l'utilisateur à entrer du texte lorsque le programme s'exécute :
 
 --- code ---
 ---
@@ -66,7 +66,7 @@ run() --- /code ---
 
 --- task ---
 
-In the `draw()` function (after your dictionary), call the global variable you just declared and make sure that all the letters are the same case.
+Dans la fonction `draw()` (après ton dictionnaire), appelle la variable globale que tu viens de déclarer et assure-toi que toutes les lettres sont la même casse.
 
 --- code ---
 ---
@@ -79,14 +79,14 @@ name = name.lower()
 
 --- /code ---
 
-If your dictionary is in lower case, you should use `name.lower()`, but if you entered the letters in upper case you should use `name.upper()`.
+Si ton dictionnaire est en minuscule, tu dois utiliser `nom.lower()`, mais si tu as entré les lettres en majuscule, tu dois utiliser `nom.upper()`.
 
 
 --- /task ---
 
 --- task ---
 
-**Create** a list to hold the series of letters in the message ready to encode, then populate the list by using `append` to add the coded dictionary values for each letter. **Append** literally means **add to the end** of something.
+**Crée** une liste pour contenir la série de lettres dans le message prête à être codée, puis remplis la liste en utilisant `append` pour ajouter les valeurs codées du dictionnaire pour chaque lettre. **Append** signifie littéralement **ajouter à la fin** de quelque chose.
 
 --- code ---
 ---
@@ -106,7 +106,7 @@ for letter in name: message.append(code[letter]) # add the encoded letter to the
 
 --- task ---
 
-**Create** a for loop that will print each item in your `message` list and then run your code to see the output.
+**Crée** une boucle for qui imprimera chaque élément de ta liste de `messages` , puis exécute ton code pour voir le résultat.
 
 --- code ---
 ---
@@ -119,7 +119,7 @@ for item in message: print(item) --- /code ---
 
 --- task ---
 
-**Edit** your for loop so that it will individually check the list of coded values based on the first term in each entry, then pass the information into your shape functions to draw a shape for each letter and place it on your canvas.
+**Modifie** ta boucle for afin qu'elle vérifie individuellement la liste des valeurs codées en fonction du premier terme de chaque entrée, puis transmette les informations dans tes fonctions de forme pour dessiner une forme pour chaque lettre et place-la sur ton canevas.
 
 --- code ---
 ---
@@ -130,17 +130,17 @@ for item in message: if item[0] == 'shape 1': hape_1(item[1], item[2]) elif item
 
 --- /code ---
 
-**Optional**: If you have chosen to place your shapes in a line instead of in random locations then add the code for placing shapes in a line.
+**Facultatif** : si tu as choisi de placer tes formes sur une ligne plutôt que dans des emplacements aléatoires alors ajoute le code pour placer les formes dans une ligne.
 
 --- collapse ---
 ---
-title: Place shapes in a line
+title : Placer des formes sur une ligne
 ---
-If you are using specific coordinates to place your shapes, you will need to change the global `startx` and `starty` values inside your `for` loop and pass them back into your functions each time.
+Si tu utilises des coordonnées spécifiques pour placer tes formes, tu devras modifier les valeurs globales `startx` et `starty` à l'intérieur de ta boucle `for` et les repasser à tes fonctions à chaque fois.
 
-You need the `x` coordinate of each shape to change by the `size` of the last shape, to make sure they line up nicely.
+Tu as besoin que la coordonnée `x` de chaque forme soit modifiée par la `taille` de la dernière forme, pour t'assurer qu'elles s'alignent bien.
 
-You will also need to check whether your next shape is about to be drawn outside your window by calling the `size_check()` function you created earlier (which will move the next shape to the 'next line' on your window):
+Tu devras également vérifier si ta prochaine forme est sur le point d'être dessinée en dehors de ta fenêtre en appelant la fonction `taille_test()` que tu as créée précédemment (qui déplacera la forme suivante vers la « ligne suivante » sur ta fenêtre) :
 
 --- code ---
 ---
@@ -157,41 +157,41 @@ for item in message: if item[0] == 'shape 1': shape_1(item[1], item[2]) startx +
 
 --- task ---
 
-**Test** your code to see if it displays your chosen images on the screen. At this point they should all appear in the way you expect.
+**Teste** ton code pour voir s'il affiche les images que tu as choisies à l'écran. À ce stade, elles devraient toutes apparaître comme prévu.
 
-![A screenshot of the output of the example project. There is a dark blue background, blue squares, blue circles, and orange triangles. The text input reads "example text here".](images/shape-functions3.png){:width="400px"}
+![Une capture d'écran de la sortie de l'exemple de projet. Il y a un arrière-plan bleu foncé, des carrés bleus, des cercles bleus et des triangles orange. La saisie de texte indique "exemple de texte ici".](images/shape-functions3.png){:width="400px"}
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Débogage :**
 
 --- collapse ---
 ---
-title: I get an error about `name` referenced before assignment
+title : J'obtiens une erreur concernant le `nom` référencé avant l'attribution
 ---
-Make sure you have `name` set up as a `global` variable in your draw function.
+Assure-toi d'avoir le `nom` configuré en tant que `variable globale` dans ta fonction de dessin.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My art doesn't look as I expected
+title : Mon œuvre ne ressemble pas à ce à quoi je m'attendais
 ---
-Make sure your arguments are called in the right order in your function calls and match the order in your function definitions, and you are using the correct indexes for the lists.
+Assure-toi que tes arguments sont appelés dans le bon ordre dans tes appels de fonction et correspondent à l'ordre dans tes définitions de fonction, et que tu utilises les index corrects pour les listes.
 
 `def shape_2(size, color):`
 
-This function places size first and color second.
+Cette fonction place la taille en premier et la couleur en second.
 
-When calling `shape_2` you need to pass arguments in, in the same order as they are in the definition.
+Lorsque tu appelles `forme_2` tu dois passer des arguments, dans le même ordre que dans la définition.
 
-`shape_2(item[1], item[2])` is calling the shape_2 function with a size of `item[1]` and a colour of `item[2]`.
+`forme_2(element[1], element[2])` appelle la fonction forme_2 avec une taille de `element[1]` et une couleur de `element[2]`.
 
 `['shape 1', 20, -11696205]`
 
-Here, `item[1]` would be `20` and `item[2]` would be `-11696205`.
+Ici, `element[1]` serait `20` et `element[2]` serait `-11696205`.
 
 --- /collapse ---
 
