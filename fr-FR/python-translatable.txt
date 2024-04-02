@@ -1,68 +1,68 @@
-blue
+bleu
 
-draw_background
+dessine_arriere_plan
 
-red
+rouge
 
-green
+vert
 
-shape_1
+forme_1
 
-shape_2
+forme_2
 
-shape_3
+forme_3
 
-colour
+couleur
 
-outline
+contour
 
-object
+objet
 
-purple
+violet
 
-purple_planet
+planete_violette
 
 orange
 
-orange_planet
+planete_orange
 
-green
+vert
 
-green_planet
+planete_verte
 
-grey
+gris
 
-grey_moon
+lune_grise
 
-draw_emoji
+dessin_emoji
 
 emoji
 
-colour_1
+couleur_1
 
-colour_2
+couleur_2
 
-size
+taille
 
 startx
 
 starty
 
-size_check
+taille_test
 
 code
 
-shape 1
+forme 1
 
-shape 2
+forme 2
 
-shape 3
+forme 3
 
-pink
+rose
 
-yellow
+jaune
 
-astronaut
+astronaute
 
 orange
 
@@ -70,32 +70,32 @@ satellite
 
 astropi
 
-primary_1
+primaire_1
 
-primary_2
+primaire_2
 
-complementary_2
+complementaire_2
 
-name
+nom
 
 message
 
-letter
+lettre
 
-item
+element
 
 instructions
 
-food
+nourriture
 
-fries
+frites
 
-apple
+pomme
 
-pasta
+pates
 
-find_apple
+trouver_pomme
 
-Apple found!
+Pomme trouvée !
 
-Not an apple
+Pas une pomme
