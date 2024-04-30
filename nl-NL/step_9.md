@@ -1,13 +1,13 @@
-## Share
+## Delen
 
-If you are in a club, why not **share** your project with friends?
+Als je lid bent van een club, waarom zou je je project dan niet **delen** met vrienden?
 
-You could also show your family how your project works.
+Je kunt jouw familie ook laten zien hoe jouw project werkt.
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Inspireer de Raspberry Pi Foundation-gemeenschap met jouw project!
 
-To submit your project to our [Encoded art – Community](https://wke.lt/w/s/1Giqvf){:target="_blank"} studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Om jouw project in te dienen bij onze [Gecodeerde kunst – Community](https://wke.lt/w/s/1Giqvf){:target="_blank"} studio, vul je [dit formulier in](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank "}.
 
 --- /task ---
