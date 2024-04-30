@@ -1,10 +1,10 @@
-## What next?
+## Wat kun je verder nog doen?
 
-If you are following the [More Python](https://projects.raspberrypi.org/en/raspberrypi/more-python) path, you can move on to the [Mapping data](https://projects.raspberrypi.org/en/projects/mapping-data) project. In this project, you will make a map that plots different data points from around the world.
+Als je het pad [Meer Python](https://projects.raspberrypi.org/en/raspberrypi/more-python) volgt, kun je doorgaan naar het project [Gegevens in kaart brengen](https://projects.raspberrypi.org/en/projects/mapping-data). In dit project maak je een kaart waarop verschillende datapunten van over de hele wereld zijn weergegeven.
 
 --- print-only ---
 
-![A screenshot of the Mapping data project. An image of the world appears with data points made up of small squares.](images/mapping-data.png)
+![Een schermafbeelding van het Gegevens in kaart brengen-project. Er verschijnt een beeld van de wereld met datapunten die bestaan uit kleine vierkantjes.](images/mapping-data.png)
 
 --- /print-only ---
 
@@ -15,4 +15,4 @@ If you are following the [More Python](https://projects.raspberrypi.org/en/raspb
 
 --- /no-print ---
 
-If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python&curriculum%5B%5D=%202).
+Als je meer plezier wilt hebben bij het verkennen van Python, dan kun je een van [deze projecten](https://projects.raspberrypi.org/en/projects?software%5B%5D=python&curriculum%5B%5D=%202) uitproberen.
