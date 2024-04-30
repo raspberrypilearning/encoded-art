@@ -4,43 +4,43 @@ from p5 import *
 from random import randint, seed
 
 
-def shape_1(size, colour):  # Each shape can have a different size and colour based on the parameters
+def vorm_1(grootte, kleur): # Elke vorm kan een verschillende grootte en kleur hebben op basis van de parameters
 
-    # Draws a circle with a thick outline
+    # Tekent een cirkel met een dikke omtrek
 
     x = randint(0, 400)
     y = randint(0, 400)
-    fill(colour)
-    ellipse(x, y, size, size)
+    fill(kleur)
+    ellipse(x, y, grootte, grootte)
     fill(Color(251, 168, 57))
-    ellipse(x, y, size - 20, size - 20)
+    ellipse(x, y, grootte - 20, grootte - 20)
 
 
-def shape_2(size, colour):
+def vorm_2(grootte, kleur):
 
-    # Draws a rectangle
-
-    x = randint(0, 400)
-    y = randint(0, 400)
-    fill(colour)
-    rect(x, y, size, size)
-
-
-def shape_3(size, colour):  # Size isn't used for this function but two parameters must be passed
-
-    # Draws a triangle
+    # Tekent een rechthoek
 
     x = randint(0, 400)
     y = randint(0, 400)
-    fill(colour)
+    fill(kleur)
+    rect(x, y, grootte, grootte)
+
+
+def vorm_3(grootte, kleur): # Grootte wordt niet gebruikt voor deze functie, maar twee parameters moeten worden doorgegeven
+
+    # Tekent een driehoek
+
+    x = randint(0, 400)
+    y = randint(0, 400)
+    fill(kleur)
     triangle(x, y, x+50, y-100, x+100, y)
 
-# Set up the background
+# Stel de achtergrond in
 
 
-def draw_background():
+def teken_achtergrond():
 
-    # Background colour
+    # Achtergrondkleur
     fill(Color(5, 55, 93))
     rect(0, 0, 400, 400)
 
@@ -52,85 +52,85 @@ def setup():
 
 def draw():
 
-    # -- My colour palette -- ## Using primary, secondary and complementary colours
+    # -- Mijn kleurenpalet -- ## Primaire, secundaire en complementaire kleuren gebruiken
 
-    # Primary colours
+    # Primaire kleuren
 
-    primary_1 = Color(14, 92, 151)
-    primary_2 = Color(77, 135, 179)
-    primary_3 = Color(45, 111, 161)
-    primary_4 = Color(8, 71, 120)
-    primary_5 = Color(5, 55, 93)
+    primair_1 = Color(14, 92, 151)
+    primair_2 = Color(77, 135, 179)
+    primair_3 = Color(45, 111, 161)
+    primair_4 = Color(8, 71, 120)
+    primair_5 = Color(5, 55, 93)
 
-    # Secondary colours
+    # Secundaire kleuren
 
-    secondary_1 = Color(29, 29, 164)
-    secondary_2 = Color(92, 92, 191)
-    secondary_3 = Color(60, 60, 176)
+    secundair_1 = Color(29, 29, 164)
+    secundair_2 = Color(92, 92, 191)
+    secundair_3 = Color(60, 60, 176)
 
-    # Complementary colours
+    # Complementaire kleuren
 
-    complementary_1 = Color(234, 137, 8)
-    complementary_2 = Color(255, 188, 99)
-    complementary_3 = Color(251, 168, 57)
+    complementair_1 = Color(234, 137, 8)
+    complementair_2 = Color(255, 188, 99)
+    complementair_3 = Color(251, 168, 57)
 
-    # Dictionary of letters and their encoded shape with size and colour options
+    # Dictionary van letters en hun gecodeerde vorm met grootte- en kleuropties
 
     code = {
-        'a': ['shape 1', 150, primary_1],
-        'b': ['shape 3', 50, complementary_3],
-        'c': ['shape 3', 75, secondary_1],
-        'd': ['shape 2', 80, secondary_1],
-        'e': ['shape 1', 20, primary_2],
-        'f': ['shape 2', 80, secondary_2],
-        'g': ['shape 1', 10, secondary_2],
-        'h': ['shape 2', 300, secondary_3],
-        'i': ['shape 1', 200, primary_3],
-        'j': ['shape 3', 90, secondary_3],
-        'k': ['shape 1', 12, complementary_1],
-        'l': ['shape 2', 43, complementary_1],
-        'm': ['shape 1', 93, complementary_2],
-        'n': ['shape 2', 64, complementary_2],
-        'o': ['shape 1', 85, primary_4],
-        'p': ['shape 2', 10, primary_3],
-        'q': ['shape 1', 45, primary_3],
-        'r': ['shape 1', 70, primary_4],
-        's': ['shape 1', 36, primary_4],
-        't': ['shape 3', 74, primary_1],
-        'u': ['shape 1', 58, primary_3],
-        'v': ['shape 2', 78, primary_1],
-        'w': ['shape 1', 24, primary_4],
-        'x': ['shape 2', 14, primary_4],
-        'y': ['shape 3', 67, secondary_2],
-        'z': ['shape 2', 70, complementary_2],
-        ' ': ['shape 1', 25, complementary_1],
+        'a': ['vorm 1', 150, primair_1],
+        'b': ['vorm 3', 50, complementair_3],
+        'c': ['vorm 3', 75, secundair_1],
+        'd': ['vorm 2', 80, secundair_1],
+        'e': ['vorm 1', 20, primair_2],
+        'f': ['vorm 2', 80, secundair_2],
+        'g': ['vorm 1', 10, secundair_2],
+        'h': ['vorm 2', 300, secundair_3],
+        'i': ['vorm 1', 200, primair_3],
+        'j': ['vorm 3', 90, secundair_3],
+        'k': ['vorm 1', 12, complementair_1],
+        'l': ['vorm 2', 43, complementair_1],
+        'm': ['vorm 1', 93, complementair_2],
+        'n': ['vorm 2', 64, complementair_2],
+        'o': ['vorm 1', 85, primair_4],
+        'p': ['vorm 2', 10, primair_3],
+        'q': ['vorm 1', 45, primair_3],
+        'r': ['vorm 1', 70, primair_4],
+        's': ['vorm 1', 36, primair_4],
+        't': ['vorm 3', 74, primaire_1],
+        'u': ['vorm 1', 58, primair_3],
+        'v': ['vorm 2', 78, primair_1],
+        'w': ['vorm 1', 24, primair_4],
+        'x': ['vorm 2', 14, primair_4],
+        'y': ['vorm 3', 67, secundair_2],
+        'z': ['vorm 2', 70, complementair_2],
+        ' ': ['vorm 1', 25, complementair_1],
 
     }
 
-    global name
+    global naam
 
-    seed(10)  # Generate the same random numbers each time
+    seed(10) # Genereer telkens dezelfde willekeurige getallen
     no_stroke()
-    draw_background()
+    teken_achtergrond()
 
-    name = name.lower()  # Change the input to lowercase
+    naam = naam.lower() # Wijzig de invoer naar kleine letters
 
-    message = []  # Initialise the message list
+    bericht = [] # Initialiseer de berichtenlijst
 
-    for letter in name:
-        # Encode each letter with a shape and add it to a list
-        message.append(code[letter])
+    for letter in naam:
+        # Codeer elke letter met een vorm en voeg deze toe aan een lijst
+        bericht.append(code[letter])
 
-    for item in message:  # For each letter, draw the chosen shape
-        if item[0] == 'shape 1':
-            shape_1(item[1], item[2])
-        elif item[0] == 'shape 2':
-            shape_2(item[1], item[2])
-        elif item[0] == 'shape 3':
-            shape_3(item[1], item[2])
+    for item in bericht: # Teken voor elke letter de gekozen vorm
+        if item[0] == 'vorm 1':
+            vorm_1(item[1], item[2])
+        elif item[0] == 'vorm 2':
+            vorm_2(item[1], item[2])
+        elif item[0] == 'vorm 3':
+            vorm_3(item[1], item[2])
 
 
-print('Enter your name to make some encoded artwork:')
-name = input()
+print('Voer je naam in om gecodeerde illustraties te maken:')
+naam = input()
 
 run(frame_rate=10)
