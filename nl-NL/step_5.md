@@ -1,23 +1,23 @@
-## Build your dictionary
+## Bouw je dictionary
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create the dictionary that will encode each letter of the alphabet with a shape. 
+Maak de dictionary die elke letter van het alfabet met een vorm codeert. 
 </div>
 <div>
-![Three Kawaii fruits are placed randomly on the canvas.](images/dictionary.PNG){:width="300px"}
+![Drie Kawaii-vruchten worden willekeurig op het canvas geplaatst.](images/dictionary.PNG){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-**Define** your **dictionary** in the `draw()` function. Make sure that you give it a suitable name and place the dictionary below your colour palette but above the rest of the code you have added.
+**Definieer** je **dictionary** in de functie `draw()`. Zorg ervoor dat je het een passende naam geeft en plaats je dictionary onder je kleurenpalet maar boven de rest van de code die je hebt toegevoegd.
 
 --- collapse ---
 ---
-title: Define a dictionary
+title: Definieer een dictionary
 ---
-Here is some example code of a dictionary being defined:
+Hier is wat voorbeeldcode van een ditionary die wordt gedefinieerd:
 
 --- code ---
 ---
@@ -36,13 +36,13 @@ code = {
 
 --- task ---
 
-**Add** all of the letters of the alphabet as **keys** in the dictionary. Be careful with the syntax that you use. It is very easy to miss out a colon `:` or a comma `,`.
+**Voeg** alle letters van het alfabet toe als **sleutels** in het woordenboek. Wees voorzichtig met de syntax die je gebruikt. Het is heel gemakkelijk om een dubbele punt `:` of een komma `,` over het hoofd te zien.
 
 --- collapse ---
 ---
-title: Add keys to a dictionary
+title: Sleutels toevoegen aan een dictionary
 ---
-Here is some example code showing **keys** being added to a **dictionary**:
+Hier is wat voorbeeldcode die **sleutels** laat zien die worden toegevoegd aan een **dictionary**:
 
 --- code ---
 ---
@@ -53,7 +53,7 @@ code = { 'a': , 'b': , 'c': , 'd': , 'e': , 'f': , 'g': , 'h': , 'i': , 'j': , '
 
 } --- /code ---
 
-**Notice** that the data pairing has not been entered yet. You will do this in the next task.
+**Merk op** dat de datakoppeling nog niet is ingevoerd. Dit doe je in de volgende opdracht.
 
 --- /collapse ---
 
@@ -61,18 +61,18 @@ code = { 'a': , 'b': , 'c': , 'd': , 'e': , 'f': , 'g': , 'h': , 'i': , 'j': , '
 
 --- task ---
 
-Each letter of the alphabet needs to be **paired** with your chosen **shape** and any arguments that you need to pass into the function. You can do this by entering this data into a list.
+Elke letter van het alfabet moet **gecombineerd worden** met de door jou gekozen **vorm** en eventuele argumenten die je nodig hebt om in de functie door te geven. Dit kun je doen door deze gegevens in een lijst in te voeren.
 
-The list will need to contain:
-+ The name of the shape function as string, for example `'shape_1'`
-+ The values of the arguments that your shape function needs, for example `100` for the size of the shape
+De lijst moet het volgende bevatten:
++ De naam van de vormfunctie als string, bijvoorbeeld `'vorm_1'`
++ De waarden van de argumenten die jouw vormfunctie nodig heeft, bijvoorbeeld `100` voor de grootte van de vorm
 
 --- collapse ---
 ---
-title: Pair a list with your dictionary keys
+title: Koppel een lijst met je dictionary sleutels
 ---
 
-Here is an example of a **list** being paired with the letters of the alphabet. You can see that each list has **three** items: the **function name**, the **size** value, and the chosen `object` to display.
+Hier is een voorbeeld van een **lijst** die wordt gecombineerd met de letters van het alfabet. Je kunt zien dat elke lijst **drie** items bevat: de **functienaam**, de **grootte** waarde en het gekozen `object` om weer te geven.
 
 --- code ---
 ---
@@ -90,22 +90,22 @@ line_highlights:
 
 --- task ---
 
-**Debug:** **Run** and **test** your code. It shouldn't appear to be any different at this stage. This is an opportunity to see if you have any **syntax errors** in your dictionary.
+**Debug:** **Run** en **Test** je code. In dit stadium zou het niet anders moeten zijn. Dit is een kans om te zien of je **syntaxfouten** in je dictionary hebt.
 
 --- collapse ---
 ---
-title: Fix syntax errors
+title: Syntaxfouten herstellen
 ---
 
-If your code has syntax errors, then look very carefully at the structure of your dictionary. There should be:
-+ Curly brackets `{}` at the start and end of the dictionary
-+ Apostrophies `'` surrounding the keys (letters of the alphabet)
-+ A colon `:` between the key and the list
-+ The list should have a square bracket `[]` on either side
-+ Each list item should be separated by a comma `,`
-+ There should be a comma `,` at the end of each **key–value pair**
+Als je code syntaxfouten heeft, kijk dan heel goed naar de structuur van je dictionary. Er zou moeten zijn:
++ Accolades `{}` aan het begin en einde van de dictionary
++ Aanhalingstekens `'` om de sleutels (letters van het alfabet)
++ Een dubbele punt `:` tussen de sleutel en de lijst
++ De lijst moet aan elke kant een vierkante haak `[]` hebben
++ Elk lijstitem moet worden gescheiden door een komma `,`
++ Er moet een komma `,` staan aan het einde van elk **sleutel-waardepaar**
 
-You can double-check your syntax by taking a look at the example code in **Pair a list with your dictionary keys** above.
+Je kunt je syntax nog eens controleren door naar de voorbeeldcode te kijken in **Koppel een lijst met je dictionary sleutels** hierboven.
 
 
 --- /collapse ---
