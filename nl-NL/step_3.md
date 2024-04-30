@@ -1,34 +1,34 @@
-## Draw your shapes
+## Teken je vormen
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Set up your shape functions so that you can use them in your encoded artwork. 
+Definieer je vorm-functies in zodat je ze in je gecodeerde bestanden kunt gebruiken. 
 </div>
 <div>
-![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle, and an orange triangle.](images/shape-functions.PNG){:width="300px"}
+![Een schermafbeelding van de uitvoer van het voorbeeldproject. Er is een donkerblauwe achtergrond, een blauw vierkant, een blauwe cirkel en een oranje driehoek.](images/shape-functions.PNG){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Decide how many unique **shapes** you would like your artwork to have. The example projects have **three** unique shapes. These are then modified using the parameters of the function. You might like to have more than three, the decision is yours!
+Bepaal hoeveel unieke **vormen** je in je kunstwerk wilt hebben. De voorbeeldprojecten hebben **drie** unieke vormen. Deze worden vervolgens gewijzigd met behulp van de parameters van de functie. Misschien wil je er meer dan drie hebben, de beslissing is aan jou!
 
-Here are some ideas:
-+ Three shape functions that load images of either butterflies, snails, or birds
-+ Three shape functions that draw squares, circles, and triangles
-+ Five shape functions, each one draws a unique animal
+Hier zijn enkele ideeën:
++ Drie vormfuncties die afbeeldingen van vlinders, slakken of vogels laden
++ Drie vormfuncties die vierkanten, cirkels en driehoeken tekenen
++ Vijf vormfuncties, elk tekent een uniek dier
 
 --- /task ---
 
 --- task ---
 
-**Define** each shape function in preparation for adding in the code that will be needed to draw each shape. Make sure that you define your shape functions **above** your `draw()` function.
+**Definieer** elke vorm-functie ter voorbereiding op het toevoegen van de code die nodig is om elke vorm te tekenen. Zorg ervoor dat je de vorm-functies **hierboven** definieert van je `draw()` functie.
 
 --- collapse ---
 ---
-title: Define your functions
+title: Definieer je functies
 ---
-You can define your functions in the following way:
+Je kunt de functies op de volgende manier definiëren:
 
 --- code ---
 ---
@@ -50,22 +50,22 @@ def shape_3():
 
 --- task ---
 
-Decide which **parameters** your functions will need. Here are some ideas:
-+ A `colour` parameter to allow you to modify the colour of the shapes that you have created
-+ A `size` parameter to allow you to adjust the size of the shape or image.
-+ An `outline` parameter that adds a different colour to the edge of a drawing
+Bepaal welke **parameters** je functies nodig hebben. Hier zijn enkele ideeën:
++ Een `kleur` parameter waarmee je de kleur van de vormen die je hebt gemaakt kunt wijzigen
++ Een `grootte` parameter om de grootte van de vorm of afbeelding aan te passen.
++ Een `omtrek` parameter die een andere kleur toevoegt aan de rand van een tekening
 
 --- /task ---
 
 --- task ---
 
-**Add** your chosen **parameters** inside the round brackets of each of your **shape** functions.
+**Voeg** de door jou gekozen **parameters** toe binnen de ronde haakjes van elk van je **vorm** functies.
 
 --- collapse ---
 ---
-title: Add parameters to your functions
+title: Voeg parameters toe aan je functies
 ---
-You can add parameters to your functions in the following way:
+Je kunt parameters aan je functies toevoegen op de volgende manier:
 
 --- code ---
 ---
@@ -87,17 +87,17 @@ def shape_3(object, colour):
 
 --- task ---
 
-**Add** in the code for each of your shape functions so that the drawing or image will appear when the function is **called**.
+**Voeg** de code toe in elke vorm-functie, zodat de tekening of afbeelding verschijnt wanneer de functie wordt **aangeroepen**.
 
-Choose: What does your shape look like? Your shape could be:
-  - An image provided in the starter project
-  - An emoji 🎈 or text
-  - Drawn using a series of geometric shapes
+Kies: Hoe ziet jouw vorm eruit? Je vorm kan zijn:
+  - Een afbeelding in het startproject
+  - Een emoji 🎈 of tekst
+  - Getekend met behulp van een reeks geometrische vormen
 
 
-In the [Make a face project](https://projects.raspberrypi.org/en/projects/make-a-face/0){:target="_blank"}, you learnt how to use a group of geometric shapes to create some fun faces. You can use your skills from that project to help you draw your images.
+In het project [Een gezicht maken](https://projects.raspberrypi.org/en/projects/make-a-face/0){:target="_blank"} heb je geleerd hoe je een groep geometrische vormen kunt gebruiken om leuke gezichten te creëren. Je kunt je vaardigheden uit dat project gebruiken om je te helpen je afbeeldingen te tekenen.
 
-### Shapes
+### Vormen
 
 [[[processing-python-ellipse]]]
 
@@ -111,7 +111,7 @@ In the [Make a face project](https://projects.raspberrypi.org/en/projects/make-a
 
 [[[processing-rotation]]]
 
-### Colours and effects
+### Kleuren en effecten
 
 [[[generic-theory-simple-colours]]]
 
@@ -121,9 +121,9 @@ In the [Make a face project](https://projects.raspberrypi.org/en/projects/make-a
 
 [[[processing-tint]]]
 
-### Examples
+### Voorbeelden
 
-Here is some sample code for drawing a square in your encoded art project:
+Hier is wat voorbeeldcode voor het tekenen van een vierkant in je gecodeerde kunstproject:
 
 --- code ---
 ---
@@ -137,16 +137,16 @@ def shape_2(colour, size):
 
 --- /code ---
 
-**Notice** that the parameters that are defined in the function above are then used to draw the shape.
+**Merk op** dat de parameters die zijn gedefinieerd in de functie hierboven daarna worden gebruikt om de vorm te tekenen.
 
 --- collapse ---
 ---
-title: Load an image
+title: Laad een afbeelding
 ---
 
-The [Lost in space](https://editor.raspberrypi.org/en/projects/lost-in-space){:target="_blank"} example project loads images to create the encoded artwork.
+Het voorbeeldproject [Verdwaald in de ruimte](https://editor.raspberrypi.org/en/projects/lost-in-space){:target="_blank"} laadt afbeeldingen om gecodeerde bestanden te maken.
 
-**Remember** that you will need code to display the image:
+**Onthoud** dat je code nodig hebt om de afbeelding weer te geven:
 
 --- code ---
 ---
@@ -166,7 +166,7 @@ def shape_1(size, colour):
 
 --- /code ---
 
-You will also need code to **load** the image in the `setup()` function:
+Je hebt ook code nodig om de afbeelding te **laden** in de `setup()` functie:
 
 --- code ---
 ---
@@ -194,12 +194,12 @@ def setup():
 --- collapse ---
 
 ---
-title: Use emoji characters
+title: Emoji-tekens gebruiken
 ---
 
-You can use emoji characters in the p5 text() function to use an emoji to represent your player.
+Je kunt emoji-tekens gebruiken in de p5-functie text() om een emoji als speler te gebruiken.
 
-Here’s an example:
+Hier is een voorbeeld:
 
 --- code ---
 ---
@@ -218,11 +218,11 @@ def draw_emoji(emoji, size): #snake text_size(size) #Controls the size of the em
 
 --- task ---
 
-To **test** that your shape functions work correctly, you will need to **call** them from the `draw()` function. Remember that you can use the `#` to comment out lines of code so that you only see one shape at a time.
+Om **te testen** of je vorm-functies correct werken, moet je ze **aanroepen** vanuit de `draw()` functie. Houd er rekening mee dat je `#` kunt gebruiken om coderegels van commentaar te voorzien, zodat je slechts één vorm tegelijk ziet.
 
-Make sure that you add in the arguments for your chosen parameters!
+Zorg ervoor dat je de argumenten voor je gekozen parameters toevoegt!
 
-The example below take two or three arguments.
+In het onderstaande voorbeeld zijn twee of drie argumenten nodig.
 
 --- code ---
 ---
@@ -236,48 +236,48 @@ line_highlights:
 
 --- /code ---
 
-**Notice** that the variable names for the chosen `colour` have been placed in the first parameter and some values have been added for the chosen `size` in the second parameter.
+**Merk op** dat de namen van de variabelen voor de gekozen `kleur` in de eerste parameter zijn geplaatst en dat er enkele waarden zijn toegevoegd voor de gekozen `grootte` in de tweede parameter.
 
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">Prototyping</span> involves making a draft of what you think your final project might achieve. The focus of prototyping is to make a simplified version of the final product quickly, to allow you to test if it is a workable solution to the problem.
+<span style="color: #0faeb0">Prototyping</span> houdt in dat je een concept maakt van wat je denkt dat je uiteindelijke project zou kunnen bereiken. Het doel van prototypen is om snel een vereenvoudigde versie van het eindproduct te maken, zodat je kunt testen of het een werkbare oplossing voor het probleem is.
 </p>
 
 --- task ---
 
-**Test** your code to see if it displays your chosen images on the screen. At this point, they might all appear on top of each other. You could **call** each function separately to see them more clearly.
+**Test** je code om te zien of de door jou gekozen afbeeldingen op het scherm worden weergegeven. Op dit moment kunnen ze misschien allemaal boven aan elkaar komen te staan. Je zou elke functie afzonderlijk kunnen **aanroepen** om ze duidelijker te zien.
 
-![A screenshot of the output of the example project. There is a dark blue background, a blue square, a blue circle, and an orange triangle.](images/shape-functions.PNG)
+![Een schermafbeelding van de uitvoer van het voorbeeldproject. Er is een donkerblauwe achtergrond, een blauw vierkant, een blauwe cirkel en een oranje driehoek.](images/shape-functions.PNG)
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Fouten oplossen:**
 
 --- collapse ---
 ---
-title: You see an error about arguments
+title: Je ziet een fout over argumenten
 ---
-+ When you **defined** your function, you decided how many **parameters** it needed. You need to make sure that when you call the function, it has the same number of **arguments**.
++ Toen je je functie **definieerde**, besloot je hoeveel **parameters** deze nodig had. Je moet ervoor zorgen dat wanneer je de functie aanroept, deze hetzelfde aantal **argumenten** heeft.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Only one shape appears
+title: Slechts één vorm wordt weergegeven
 ---
-+ Check that you have **called** each shape function.
-+ The shapes might be there, but on top of each other. To change this, you could call one function at a time by commenting out the other two function calls with a hashtag `#`.
++ Controleer of je elke vorm-functie **aangeroepen** hebt.
++ De vormen zijn er wel, maar misschien staan ze bovenop elkaar. Om dit te veranderen kun je één functie tegelijk aanroepen door op de andere twee functieaanroepen even in comments te veranderen met een hashtag `#`.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The drawings are not the right shape/size
+title: De tekeningen zijn niet de juiste vorm/grootte
 ---
-+ Check that you have entered your **arguments** in the function call in the same order as the **parameters** in the function.
++ Controleer of je de **argumenten** in de functie in dezelfde volgorde hebt ingevoerd als de **parameters** in de functie.
 
 --- /collapse ---
 
