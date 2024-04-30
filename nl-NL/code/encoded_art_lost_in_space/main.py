@@ -3,138 +3,138 @@
 from p5 import *
 from random import randint, seed
 
-# Draw a planet based on chosen size and colour
+# Teken een planeet op basis van de gekozen grootte en kleur
 
 
-def shape_1(size, colour):
-
-    x = randint(0, 400)
-    y = randint(0, 400)
-    if colour == 'purple':
-        image(purple_planet, x, y, size, size)
-    elif colour == 'orange':
-        image(orange_planet, x, y, size, size)
-    elif colour == 'green':
-        image(green_planet, x, y, size, size)
-    elif colour == 'grey':
-        image(grey_moon, x, y, size, size)
-
-# Draw a space object based on chosen object and size
-
-
-def shape_2(size, object):
+def vorm_1(grootte, kleur):
 
     x = randint(0, 400)
     y = randint(0, 400)
-    if object == 'satellite':
-        image(satellite, x, y, size, size)
+    if kleur == 'paars':
+        image(paarse_planeet, x, y, grootte, grootte)
+    elif kleur == 'oranje':
+        image(oranje_planeet, x, y, grootte, grootte)
+    elif kleur == 'groen':
+        image(groene_planeet, x, y, grootte, grootte)
+    elif kleur == 'grijs':
+        image(grijze_maan, x, y, grootte, grootte)
+
+# Teken een ruimteobject op basis van het gekozen object en de grootte
+
+
+def vorm_2(grootte, kleur):
+
+    x = randint(0, 400)
+    y = randint(0, 400)
+    if object == 'satelliet':
+        image(satelliiet, x, y, grootte, grootte)
     elif object == 'astronaut':
-        image(astronaut, x, y, size, size)
+        image(astronaut, x, y, grootte, grootte)
     elif object == 'astropi':
-        image(astropi, x, y, size, size)
+        image(astropi, x, y, grootte, grootte)
 
-# Draw a star based on chosen colour and size
+# Teken een ster op basis van de gekozen kleur en afmeting
 
 
-def shape_3(size, colour):
+def vorm_3(grootte, kleur):
 
     x = randint(0, 400)
     y = randint(0, 400)
-    if colour == 'yellow':
-        image(yellow_star, x, y, size, size)
-    elif colour == 'pink':
-        image(pink_star, x, y, size, size)
-    elif colour == 'blue':
-        image(blue_star, x, y, size, size)
+    if kleur == 'geel':
+        image(gele_ster, x, y, grootte, grootte)
+    elif kleur == 'roze':
+        image(roze_ster, x, y, grootte, grootte)
+    elif kleur == 'blauw':
+        image(blauwe_ster, x, y, grootte, grootte)
 
-# Adds a background colour
+# Voegt een achtergrondkleur toe
 
 
-def draw_background():
+def teken_achtergrond():
 
-    # Background colour
+    # Achtergrondkleur
     fill(Color(0, 0, 0))
     rect(0, 0, 400, 400)
 
 
 def setup():
 
-    # Allow other functions to access the images
-    global purple_planet, orange_planet, green_planet, astropi, astronaut, satellite
-    global grey_moon, yellow_star, pink_star, blue_star
+    # Geef andere functies toegang tot de afbeeldingen
+    global paarse_planeet, oranje_planeet, groene_planeet, astropi, astronaut, satelliet
+    global grijze_maan, gele_ster, roze_ster, blauwe_ster
 
     size(400, 400)
 
-    # Load the images needed into variables
-    purple_planet = load_image('purple_planet.png')
-    orange_planet = load_image('orange_planet.png')
-    green_planet = load_image('green_planet.png')
+    # Laad de benodigde afbeeldingen in variabelen
+    paarse_planeet = load_image('purple_planet.png')
+    oranje_planeet = load_image('orange_planet.png')
+    groene_planeet = load_image('green_planet.png')
     astropi = load_image('astropi.png')
     astronaut = load_image('astronaut.png')
-    satellite = load_image('satellite.png')
-    grey_moon = load_image('moon.png')
-    yellow_star = load_image('yellow_star.png')
-    pink_star = load_image('pink_star.png')
-    blue_star = load_image('blue_star.png')
+    satelliet = load_image('satellite.png')
+    grijze_maan = load_image('moon.png')
+    gele_ster = load_image('yellow_star.png')
+    roze_ster = load_image('pink_star.png')
+    blauwe_ster = load_image('blue_star.png')
 
 
 def draw():
 
-    # Dictionary of letters and their encoded shape
+    # Dictionary van letters en hun gecodeerde vorm
     code = {
-        'a': ['shape 3', 150, 'pink'],
-        'b': ['shape 3', 50, 'yellow'],
-        'c': ['shape 2', 75, 'astronaut'],
-        'd': ['shape 2', 80, 'astropi'],
-        'e': ['shape 1', 20, 'orange'],
-        'f': ['shape 2', 80, 'satellite'],
-        'g': ['shape 1', 10, 'purple'],
-        'h': ['shape 1', 300, 'green'],
-        'i': ['shape 1', 200, 'orange'],
-        'j': ['shape 2', 90, 'astropi'],
-        'k': ['shape 1', 12, 'purple'],
-        'l': ['shape 3', 43, 'pink'],
-        'm': ['shape 1', 93, 'orange'],
-        'n': ['shape 1', 64, 'green'],
-        'o': ['shape 3', 85, 'blue'],
-        'p': ['shape 2', 10, 'astropi'],
-        'q': ['shape 3', 45, 'blue'],
-        'r': ['shape 1', 70, 'purple'],
-        's': ['shape 1', 36, 'orange'],
-        't': ['shape 2', 74, 'astronaut'],
-        'u': ['shape 1', 58, 'grey'],
-        'v': ['shape 3', 78, 'yellow'],
-        'w': ['shape 1', 24, 'orange'],
-        'x': ['shape 2', 14, 'astropi'],
-        'y': ['shape 1', 67, 'purple'],
-        'z': ['shape 2', 70, 'astropi'],
-        ' ': ['shape 3', 25, 'pink'],
+        'a': ['vorm 3', 150, 'roze'],
+        'b': ['vorm 3', 50, 'geel'],
+        'c': ['vorm 2', 75, 'astronaut'],
+        'd': ['vorm 2', 80, 'astropi'],
+        'e': ['vorm 1', 20, 'oranje'],
+        'f': ['vorm 2', 80, 'satelliet'],
+        'g': ['vorm 1', 10, 'paars'],
+        'h': ['vorm 1', 300, 'groen'],
+        'i': ['vorm 1', 200, 'oranje'],
+        'j': ['vorm 2', 90, 'astropi'],
+        'k': ['vorm 1', 12, 'paars'],
+        'l': ['vorm 3', 43, 'roze'],
+        'm': ['vorm 1', 93, 'oranje'],
+        'n': ['vorm 1', 64, 'groen'],
+        'o': ['vorm 3', 85, 'blauw'],
+        'p': ['vorm 2', 10, 'astropi'],
+        'q': ['vorm 3', 45, 'blauw'],
+        'r': ['vorm 1', 70, 'paars'],
+        's': ['vorm 1', 36, 'oranje'],
+        't': ['vorm 2', 74, 'astronaut'],
+        'u': ['vorm 1', 58, 'grijs'],
+        'v': ['vorm 3', 78, 'geel'],
+        'w': ['vorm 1', 24, 'oranje'],
+        'x': ['vorm 2', 14, 'astropi'],
+        'y': ['vorm 1', 67, 'paars'],
+        'z': ['vorm 2', 70, 'astropi'],
+        ' ': ['vorm 3', 25, 'roze'],
     }
 
-    global name
+    global naam
 
-    seed(10)  # Generate the same random numbers each time
+    seed(10) # Genereer telkens dezelfde willekeurige getallen
     no_stroke()
-    draw_background()
+    teken_achtergrond()
 
-    name = name.lower()  # Change the input to lowercase
+    naam = naam.lower() # Wijzig de invoer naar kleine letters
 
-    message = []  # Initialise the message list
+    bericht = [] # Initialiseer de berichtenlijst
 
-    for letter in name:
-        # Encode each letter with a shape and add it to a list
-        message.append(code[letter])
+    for letter in naam:
+        # Codeer elke letter met een vorm en voeg deze toe aan een lijst
+        bericht.append(code[letter])
 
-    for item in message:  # For each letter in the message, draw a shape
-        if item[0] == 'shape 1':
-            shape_1(item[1], item[2])
-        elif item[0] == 'shape 2':
-            shape_2(item[1], item[2])
-        elif item[0] == 'shape 3':
-            shape_3(item[1], item[2])
+    for item in bericht: # Voor elke letter in het bericht, teken een vorm
+        if item[0] == 'vorm 1':
+            vorm_1(item[1], item[2])
+        elif item[0] == 'vorm 2':
+            vorm_2(item[1], item[2])
+        elif item[0] == 'vorm 3':
+            vorm_3(item[1], item[2])
 
 
-print('Enter your name to make some encoded artwork:')
-name = input()
+print('Voer je naam in om gecodeerde illustraties te maken:')
+naam = input()
 
 run(frame_rate=10)
