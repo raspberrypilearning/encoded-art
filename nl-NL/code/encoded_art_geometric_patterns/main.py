@@ -1,11 +1,11 @@
 #!/bin/python3
 
-# PROTOTYPE FOUR
+# PROTOTYPE VIER
 
 from p5 import *
 
 
-def size_check():  # Check to see if you've gone off the side of the window
+def grootte_controle(): # Controleer of je buiten de zijkant van het venster bent gegaan
 
     global startx
     global starty
@@ -14,50 +14,50 @@ def size_check():  # Check to see if you've gone off the side of the window
         starty += 80
 
 
-def shape_1(size, colour):  # Draw a diamond
+def vorm_1(grootte, kleur): # Teken een diamant
 
     global startx
     global starty
     x1 = startx
-    y1 = starty + 40  # Move to centre of stripe
-    x2 = x1 + (size/2)
-    y2 = y1 + (size/2)
-    x3 = x1 + size
+    y1 = starty + 40 # Ga naar het midden van de streep
+    x2 = x1 + (grootte/2)
+    y2 = y1 + (grootte/2)
+    x3 = x1 + grootte
     y3 = y1
-    x4 = x1 + (size/2)
-    y4 = y1 - (size/2)
-    fill(colour)
+    x4 = x1 + (grootte/2)
+    y4 = y1 - (grootte/2)
+    fill(kleur)
     quad(x1, y1, x2, y2, x3, y3, x4, y4)
 
 
-def shape_2(size, colour):  # Draw a square
+def vorm_2(grootte, kleur): # Teken een vierkant
 
     global startx
     global starty
     x = startx
     y = starty
-    fill(colour)
-    rect(x, y, size, size)
+    fill(kleur)
+    rect(x, y, grootte, grootte)
 
 
-def shape_3(size, colour):  # Draw a triangle
+def vorm_3(grootte, kleur): # Teken een driehoek
 
     global startx
     global starty
     x1 = startx
     y1 = starty
-    x2 = x1 + (size/2)
-    y2 = y1 + size
-    x3 = x1 + size
+    x2 = x1 + (grootte/2)
+    y2 = y1 + grootte
+    x3 = x1 + grootte
     y3 = y1
-    fill(colour)
+    fill(kleur)
     triangle(x1, y1, x2, y2, x3, y3)
 
 
-# Adds a background colour
-def draw_background():
+# Voegt een achtergrondkleur toe
+def teken_achtergrond():
 
-    # Background colours
+    # Achtergrondkleuren
     fill(Color(0, 0, 255))
     rect(0, 0, 400, 80)
     fill(Color(0, 127, 127))
@@ -77,93 +77,93 @@ def setup():
 
 def draw():
 
-    # -- My colour palette --
+    # -- Mijn kleurenpalet --
 
-    # Primary colours
+    # Primaire kleuren
 
-    primary_1 = Color(246, 32, 100)
-    primary_2 = Color(247, 0, 79)
-    primary_3 = Color(234, 0, 75)
-    primary_4 = Color(196, 0, 63)
-    primary_5 = Color(4, 0, 1)
+    primair_1 = Color(246, 32, 100)
+    primair_2 = Color(247, 0, 79)
+    primair_3 = Color(234, 0, 75)
+    primair_4 = Color(196, 0, 63)
+    primair_5 = Color(4, 0, 1)
 
-    # Secondary colours
+    # Secundaire kleuren
 
-    secondary_1 = Color(255, 198, 33)
-    secondary_2 = Color(255, 190, 0)
-    secondary_3 = Color(55, 190, 0)
+    secundair_1 = Color(255, 198, 33)
+    secundair_2 = Color(255, 190, 0)
+    secundair_3 = Color(55, 190, 0)
 
-    # Complementary colours
+    # Complementaire kleuren
 
-    complementary_1 = Color(59, 63, 230)
-    complementary_2 = Color(5, 9, 154)
-    complementary_3 = Color(133, 246, 32)
+    complementair_1 = Color(59, 63, 230)
+    complementair_2 = Color(5, 9, 154)
+    complementair_3 = Color(133, 246, 32)
 
     code = {
-        'a': ['shape 1', 80, primary_1],
-        'b': ['shape 2', 50, complementary_3],
-        'c': ['shape 3', 75, secondary_1],
-        'd': ['shape 2', 80, secondary_1],
-        'e': ['shape 1', 20, primary_2],
-        'f': ['shape 3', 80, secondary_2],
-        'g': ['shape 1', 10, secondary_2],
-        'h': ['shape 2', 38, secondary_3],
-        'i': ['shape 3', 23, primary_3],
-        'j': ['shape 2', 76, secondary_3],
-        'k': ['shape 1', 12, complementary_1],
-        'l': ['shape 3', 43, complementary_1],
-        'm': ['shape 1', 64, complementary_2],
-        'n': ['shape 2', 64, complementary_2],
-        'o': ['shape 3', 85, primary_4],
-        'p': ['shape 2', 10, primary_3],
-        'q': ['shape 1', 45, primary_3],
-        'r': ['shape 3', 70, primary_4],
-        's': ['shape 1', 36, primary_4],
-        't': ['shape 2', 74, primary_1],
-        'u': ['shape 3', 58, primary_3],
-        'v': ['shape 2', 78, primary_1],
-        'w': ['shape 1', 24, primary_4],
-        'x': ['shape 3', 14, primary_4],
-        'y': ['shape 1', 67, secondary_2],
-        'z': ['shape 2', 70, complementary_2],
-        ' ': ['shape 3', 25, complementary_1],
+        'a': ['vorm 1', 80, primair_1],
+        'b': ['vorm 2', 50, complementair_3],
+        'c': ['vorm 3', 75, secundair_1],
+        'd': ['vorm 2', 80, secundair_1],
+        'e': ['vorm 1', 20, primair_2],
+        'f': ['vorm 3', 80, secundair_2],
+        'g': ['vorm 1', 10, secundair_2],
+        'h': ['vorm 2', 38, secundair_3],
+        'i': ['vorm 3', 23, primair_3],
+        'j': ['vorm 2', 76, secundair_3],
+        'k': ['vorm 1', 12, complementair_1],
+        'l': ['vorm 3', 43, complementair_1],
+        'm': ['vorm 1', 64, complementair_2],
+        'n': ['vorm 2', 64, complementair_2],
+        'o': ['vorm 3', 85, primair_4],
+        'p': ['vorm 2', 10, primair_3],
+        'q': ['vorm 1', 45, primair_3],
+        'r': ['vorm 3', 70, primair_4],
+        's': ['vorm 1', 36, primair_4],
+        't': ['vorm 2', 74, primair_1],
+        'u': ['vorm 3', 58, primair_3],
+        'v': ['vorm 2', 78, primair_1],
+        'w': ['vorm 1', 24, primair_4],
+        'x': ['vorm 3', 14, primair_4],
+        'y': ['vorm 1', 67, secundair_2],
+        'z': ['vorm 2', 70, complementair_2],
+        ' ': ['vorm 3', 25, complementair_1],
 
     }
 
-    global name, startx, starty
+    global naam, startx, starty
     startx = 0
     starty = 0
 
     no_stroke()
-    draw_background()
+    teken_achtergrond()
 
-    name = name.lower()  # Change the input to lowercase
+    naam = naam.lower() # Wijzig de invoer naar kleine letters
 
-    message = []  # Initialise the message list
+    bericht = [] # Initialiseer de berichtenlijst
 
-    for letter in name:
-        # Encode each letter with a shape and add it to a list
-        message.append(code[letter])
+    for letter in naam:
+        # Codeer elke letter met een vorm en voeg deze toe aan een lijst
+        bericht.append(code[letter])
 
-    for item in message:
-        if item[0] == 'shape 1':
-            shape_1(item[1], item[2])  # Draw shape
-            # Translate next starting x co-ord by width of shape
+    for item in bericht:
+        if item[0] == 'vorm 1':
+            vorm_1(item[1], item[2]) # Teken vorm
+            # Vertaal de volgende start-x-coördinaten op basis van de breedte van de vorm
             startx += item[1]
-            size_check()  # Check to see if you've gone off the side of the window
+            grootte_controle() # Controleer of je over de zijkant van het venster bent gegaan
 
-        elif item[0] == 'shape 2':
-            shape_2(item[1], item[2])
+        elif item[0] == 'vorm 2':
+            vorm_2(item[1], item[2])
             startx += item[1]
-            size_check()
+            grootte_controle()
 
-        elif item[0] == 'shape 3':
-            shape_3(item[1], item[2])
+        elif item[0] == 'vorm 3':
+            vorm_3(item[1], item[2])
             startx += item[1]
-            size_check()
+            grootte_controle()
 
 
-print('Enter your name to make some encoded artwork:')
-name = input()
+print('Voer je naam in om gecodeerde illustraties te maken:')
+naam = input()
 
 run(frame_rate=10)
