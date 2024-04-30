@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Vraag 2 van 3
 ---
 
-Your Encoded art project used parameters in functions to create customisations of shapes. The code below also uses a function with parameters. What will be the output of this code when it is run?
+Je Gecodeerde kunst-project gebruikt parameters in functies om verschilende, aangepaste vormen te maken. De onderstaande code gebruikt ook een functie met parameters. Wat zal de uitvoer zijn van deze code wanneer deze wordt uitgevoerd?
 
 --- code ---
 ---
@@ -28,40 +28,40 @@ find_apple(food)
 
 --- choices ---
 
-- ( ) `Apple found!`
+- ( ) `Appel gevonden!`
 
   --- feedback ---
 
-Almost. Those two print functions are part of a selection statement. This means that **line 7** will run if the condition is true and **line 9** will run if the condition is false. Is the condition **true** or **false**?
+Bijna. Deze twee printfuncties maken deel uit van een selectiestatement. Dit betekent dat **regel 7** wordt uitgevoerd als de voorwaarde waar is en **regel 9** wordt uitgevoerd als de voorwaarde onwaar is. Is de voorwaarde **waar** of **onwaar**?
 
   --- /feedback ---
 
-- ( ) There will be an error because you cannot pass a list as an **argument**.
+- ( ) Er zal een fout optreden omdat je een lijst niet kunt doorgeven als een **argument**.
 
   --- feedback ---
 
-Not quite, you **can** pass a list as an argument so this wouldn't cause an error.
+Niet helemaal, je **kunt** een lijst als argument gebruiken zonder dat dit een fout veroorzaakt.
 
   --- /feedback ---
 
-- ( ) There will be an error because `Apple` in the print function doesn't match `apple` in the list.
+- ( ) Er zal een fout optreden omdat `Appel` in de afdrukfunctie niet overeenkomt met `appel` in de lijst.
 
   --- feedback ---
 
-I can see what you did there. However, if you take a look at the **list items** on **line 1** then you will see that they are all in **lower case**. Then, take a look at the **condition** on **line 6** and you will see that it is also looking for a lower-case word. This means the condition will be **true**.
+Ik begrijp wat je daar hebt gedaan. Als je echter naar de **lijstitems** op **regel 1** kijkt, zul je zien dat ze allemaal in **kleine letters staan**. Kijk dan eens naar de **voorwaarde** op **regel 6** en je zult zien dat er ook naar een woord in kleine letters wordt gezocht. Dit betekent dat de voorwaarde **waar** zal zijn.
 
   --- /feedback ---
 
 - (x)
 ```python
-Not an apple
-Apple found!
-Not an apple
+Geen appel
+Appel gevonden!
+Geen appel
 ```
 
   --- feedback ---
 
-Correct, the **list** will be **passed** to the function. The function will then check each item in the list and find the `apple` item. This will result in the message `Apple found!` being displayed the second time through the loop.
+Correct, de **lijst** wordt **doorgegeven** aan de functie. De functie controleert vervolgens elk item in de lijst en vindt het `appel` item. Dit resulteert in het bericht `Appel gevonden!` dat wordt weergegeven als de lus de tweede keer wordt doorlopen.
 
   --- /feedback ---
 
