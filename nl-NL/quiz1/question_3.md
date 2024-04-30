@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Vraag 3 van 3
 ---
 
-You have created a function to draw a shape. This is the function that you have created:
+Je hebt een functie gemaakt om een vorm te tekenen. Dit is de functie die je hebt gemaakt:
 
 --- code ---
 ---
@@ -20,7 +20,7 @@ def shape_1(colour, size):
     ellipse(x, y, size, size)
 --- /code ---
 
-You have also created a function call that is used to draw the shape in the colour that you have chosen:
+Je hebt ook een functieaanroep gemaakt die wordt gebruikt om de vorm te tekenen in de kleur die je hebt gekozen:
 
 --- code ---
 ---
@@ -29,35 +29,35 @@ line_highlights:
 ---
 red = Color(255, 0, 0)
 
-shape_1(red)
+vorm_1(rood)
 
 --- /code ---
 
-Why do you get an error message when the code runs?
+Waarom krijg je een foutmelding als de code wordt uitgevoerd?
 
 --- choices ---
 
-- ( ) Colour is spelt incorrectly.
+- ( ) Color is verkeerd gespeld.
 
   --- feedback ---
 
-Good try! However, Python uses American English, so `color` is the correct identifier for assigning colour values. In other English speaking countries, **colour** is spelt with a **u**.
+Goed geprobeerd! Python gebruikt echter Amerikaans-Engels, dus `Color` is de juiste identificatie voor het toewijzen van kleurwaarden. In andere Engelssprekende landen wordt **Colour** gespeld met een **u**.
 
   --- /feedback ---
 
-- ( ) On **line 85**, `red` should have apostrophes `''` either side.
+- ( ) Op **regel 85** moet `rood` aanhalingstekens `''` aan weerszijden hebben.
 
   --- feedback ---
 
-Not quite. `red` is a variable so the apostrophes are not needed in this scenario.
+Niet helemaal. `rood` is een variabele, dus de aanhalingstekens zijn in dit scenario niet nodig.
 
   --- /feedback ---
 
-- (x) The function that you created has **two** parameters. This means that you need to pass two **arguments** to the function. You only have **one** at the moment.
+- (x) De functie die je hebt gemaakt bevat **twee** parameters. Dit betekent dat je twee **argumenten** aan de functie moet doorgeven. Je hebt er slechts **één** op dit moment.
 
   --- feedback ---
 
-Well spotted! If a function has **two parameters**, then **two arguments** must be passed into it when it is called.
+Goed gezien! Als een functie **twee parameters**heeft, dan moeten **twee argumenten** eraan worden doorgegeven wanneer deze wordt aangeroepen.
 
   --- /feedback ---
 
