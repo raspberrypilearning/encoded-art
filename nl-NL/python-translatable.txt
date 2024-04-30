@@ -1,101 +1,101 @@
-blue
+blauw
 
-draw_background
+teken_achtergrond
 
-red
+rood
 
-green
+groen
 
-shape_1
+vorm_1
 
-shape_2
+vorm_2
 
-shape_3
+vorm_3
 
-colour
+kleur
 
-outline
+omtrek
 
 object
 
-purple
+paars
 
-purple_planet
+paarse_planeet
 
-orange
+oranje
 
-orange_planet
+oranje_planeet
 
-green
+groen
 
-green_planet
+groene_planeet
 
-grey
+grijs
 
-grey_moon
+grijze_maan
 
-draw_emoji
+teken_emoji
 
 emoji
 
-colour_1
+kleur_1
 
-colour_2
+kleur_2
 
-size
+grootte
 
 startx
 
 starty
 
-size_check
+grootte_controle
 
 code
 
-shape 1
+vorm 1
 
-shape 2
+vorm 2
 
-shape 3
+vorm 3
 
-pink
+roze
 
-yellow
+geel
 
 astronaut
 
-orange
+oranje
 
-satellite
+satelliet
 
 astropi
 
-primary_1
+primair_1
 
-primary_2
+primair_2
 
-complementary_2
+complementair_2
 
-name
+naam
 
-message
+bericht
 
 letter
 
 item
 
-instructions
+instructies
 
-food
+voedsel
 
-fries
+frieten
 
-apple
+appel
 
 pasta
 
-find_apple
+vind_appel
 
-Apple found!
+Appel gevonden!
 
-Not an apple
+Geen appel
