@@ -1,17 +1,17 @@
-## Encode a message
+## Codeer een bericht
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Use the dictionary to encode text by placing shapes for each character in the message.
+Gebruik de dictionary om tekst te coderen door vormen voor elk teken in het bericht te plaatsen.
 </div>
 <div>
-![Image showing three different randomised pictures of orange squares, grey triangles, and blue circles.](images/random-art.png)
+![Afbeelding toont drie verschillende willekeurige afbeeldingen van oranje vierkanten, grijze driehoeken en blauwe cirkels.](images/random-art.png)
 </div>
 </div>
 
 --- task ---
 
-**Remove** the test shape calls in your `draw()` function by **commenting them out** with a hashtag at the start of each line:
+**Verwijder** de testvormaanroepen in je `draw()` functie door **ze te te veranderen in commentaar** met een hashtag aan het begin van elke regel:
 
 --- code ---
 ---
@@ -27,17 +27,17 @@ line_highlights:
 --- /task ---
 
 
---- task --- **Choose** what text you will ask the user to provide to be encoded. It could be their:
-+ Name
-+ Favourite song lyric
-+ Favourite quote
+--- task --- **Kies** welke tekst je de gebruiker zal vragen om te laten coderen. Het zou kunnen zijn:
++ Hun naam
++ Hun favoriete songtekst
++ Hun favoriete quote
 
 --- /task ---
 
 --- task ---
 
-**Create** an `input()` call for the user to be able to type in their message when the program runs.  
-This needs to go before your `run()` call, outside of any function definitions.
+**Maak** een `input()</1<br x-id="2" />>-aanroep zodat de gebruiker zijn of haar bericht kan typen wanneer het programma wordt uitgevoerd.<2/>
+Dit moet vóór je <code>run()` aanroep gebeuren, buiten eventuele functiedefinities.
 
 --- code ---
 ---
@@ -50,7 +50,7 @@ name = input()
 run() --- /code ---
 
 
-Add a `print` statement before the `input()` call, to prompt the user to enter some text when the program runs:
+Voeg een `print`-instructie toe vóór de `input()`-aanroep, om de gebruiker te vragen wat tekst in te voeren wanneer het programma wordt uitgevoerd:
 
 --- code ---
 ---
@@ -66,7 +66,7 @@ run() --- /code ---
 
 --- task ---
 
-In the `draw()` function (after your dictionary), call the global variable you just declared and make sure that all the letters are the same case.
+In de functie `draw()` (na je dictionary), roep je de global variabele aan die je zojuist hebt gedeclareerd en zorg je ervoor dat alle letters op dezelfde manier zijn weergegeven (allemaal kleine of grote letters).
 
 --- code ---
 ---
@@ -79,14 +79,14 @@ name = name.lower()
 
 --- /code ---
 
-If your dictionary is in lower case, you should use `name.lower()`, but if you entered the letters in upper case you should use `name.upper()`.
+Als je dictionary in kleine letters is, moet je `naam.lower()` gebruiken, maar als je de letters in hoofdletters hebt ingevoerd, moet je `naam.upper()` gebruiken.
 
 
 --- /task ---
 
 --- task ---
 
-**Create** a list to hold the series of letters in the message ready to encode, then populate the list by using `append` to add the coded dictionary values for each letter. **Append** literally means **add to the end** of something.
+**Maak** een lijst om de reeks letters in het bericht klaar te houden om te coderen, vul vervolgens de lijst in met behulp van `append` om de gecodeerde dictionary waarden toe te voegen voor elke letter. **Append** betekent letterlijk **toevoegen aan het einde** van iets.
 
 --- code ---
 ---
@@ -106,7 +106,7 @@ for letter in name: message.append(code[letter]) # add the encoded letter to the
 
 --- task ---
 
-**Create** a for loop that will print each item in your `message` list and then run your code to see the output.
+**Maak** een for-lus die elk item in je `berichten` lijst afdrukt en voer vervolgens je code uit om de uitvoer te zien.
 
 --- code ---
 ---
@@ -119,7 +119,7 @@ for item in message: print(item) --- /code ---
 
 --- task ---
 
-**Edit** your for loop so that it will individually check the list of coded values based on the first term in each entry, then pass the information into your shape functions to draw a shape for each letter and place it on your canvas.
+**Bewerk** je for-lus zodat deze individueel de lijst met gecodeerde waarden controleert op basis van de eerste term in elke invoer, en vervolgens de informatie doorgeeft aan je vormfuncties om voor elke letter een vorm te tekenen en deze op je canvas te plaatsen.
 
 --- code ---
 ---
@@ -130,17 +130,17 @@ for item in message: if item[0] == 'shape 1': hape_1(item[1], item[2]) elif item
 
 --- /code ---
 
-**Optional**: If you have chosen to place your shapes in a line instead of in random locations then add the code for placing shapes in a line.
+**Optioneel**: Als je ervoor hebt gekozen om je vormen op een lijn te plaatsen in plaats van op willekeurige locaties, voeg dan de code toe voor het plaatsen van vormen op een lijn.
 
 --- collapse ---
 ---
-title: Place shapes in a line
+title: Plaats vormen in een lijn
 ---
-If you are using specific coordinates to place your shapes, you will need to change the global `startx` and `starty` values inside your `for` loop and pass them back into your functions each time.
+Als je specifieke coördinaten gebruikt om je vormen te plaatsen, moet je de global `startx` en `starty` waarden binnen je `for` lus veranderen en elke keer weer aan je functies doorgeven.
 
-You need the `x` coordinate of each shape to change by the `size` of the last shape, to make sure they line up nicely.
+Je hebt de `x` coördinaat van elke vorm nodig om te veranderen met de `grootte` van de laatste vorm, om er zeker van te zijn dat ze mooi op één lijn liggen.
 
-You will also need to check whether your next shape is about to be drawn outside your window by calling the `size_check()` function you created earlier (which will move the next shape to the 'next line' on your window):
+Je moet ook controleren of je volgende vorm niet wordt getekend buiten je venster door de `grootte_controle()` functie aan te roepen die je eerder hebt gemaakt (deze zal de volgende vorm naar de 'volgende lijn' in je venster verplaatsen):
 
 --- code ---
 ---
@@ -157,41 +157,41 @@ for item in message: if item[0] == 'shape 1': shape_1(item[1], item[2]) startx +
 
 --- task ---
 
-**Test** your code to see if it displays your chosen images on the screen. At this point they should all appear in the way you expect.
+**Test** je code om te zien of de door jou gekozen afbeeldingen op het scherm worden weergegeven. Nu moeten ze allemaal verschijnen zoals jij het verwacht.
 
-![A screenshot of the output of the example project. There is a dark blue background, blue squares, blue circles, and orange triangles. The text input reads "example text here".](images/shape-functions3.png){:width="400px"}
+![Een schermafbeelding van de uitvoer van het voorbeeldproject. Er is een donkerblauwe achtergrond, blauwe vierkanten, blauwe cirkels en oranje driehoeken. De tekstinvoer luidt "voorbeeldtekst hier".](images/shape-functions3.png){:width="400px"}
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Fouten oplossen:**
 
 --- collapse ---
 ---
-title: I get an error about `name` referenced before assignment
+title: Ik krijg een foutmelding over `naam` waarnaar wordt verwezen vóór de toewijzing
 ---
-Make sure you have `name` set up as a `global` variable in your draw function.
+Zorg ervoor dat je `naam` hebt ingesteld als een `global` variabele in je tekenfunctie.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My art doesn't look as I expected
+title: Mijn kunst ziet er niet uit zoals ik had verwacht
 ---
-Make sure your arguments are called in the right order in your function calls and match the order in your function definitions, and you are using the correct indexes for the lists.
+Zorg ervoor dat je argumenten in de juiste volgorde worden aangeroepen in je functieaanroepen en dat de volgorde overeenkomt met je functiedefinities, en je de juiste indexen voor de lijsten hebt gebruikt.
 
 `def shape_2(size, color):`
 
-This function places size first and color second.
+Deze functie plaatst de grootte op de eerste plaats en de kleur op de tweede plaats.
 
-When calling `shape_2` you need to pass arguments in, in the same order as they are in the definition.
+Wanneer je `vorm_2` aanroept, moet je argumenten doorgeven, in dezelfde volgorde als in de definitie.
 
-`shape_2(item[1], item[2])` is calling the shape_2 function with a size of `item[1]` and a colour of `item[2]`.
+`vorm_2(item[1], item[2])` roept de vorm_2 functie aan met een grootte van `item[1]` en een kleur `item[2]`.
 
 `['shape 1', 20, -11696205]`
 
-Here, `item[1]` would be `20` and `item[2]` would be `-11696205`.
+Hier, zou `item[1]` `20` zijn en `item[2]` `-11696205`.
 
 --- /collapse ---
 
