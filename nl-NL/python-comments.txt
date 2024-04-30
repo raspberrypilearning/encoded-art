@@ -1,23 +1,23 @@
-400 by 400 works well for an art canvas
+400 bij 400 werkt goed voor een kunstcanvas
 
-Red = 50, Green = 70, Blue = 206
+Rood = 50, Groen = 70, Blauw = 206
 
-Background colour
+Achtergrondkleur
 
-Allow other functions to access the images
+Geef andere functies toegang tot de afbeeldingen
 
-Load the images needed into variables
+Laad de benodigde afbeeldingen in variabelen
 
-Position around the centre
+Positie rond het midden
 
-snake
+slang
 
-Controls the size of the emoji
+Bepaalt de grootte van de emoji
 
-Type some text and press Enter to generate an encoded artwork:
+Typ wat tekst en druk op Enter om een gecodeerde illustratie te genereren:
 
-list for the encoded letters
+lijst voor de gecodeerde letters
 
-add the encoded letter to the list
+voeg de gecodeerde letter toe aan de lijst
 
-Check to see if you've gone off the side of the window
+Controleer of je over de zijkant van het venster bent gegaan
