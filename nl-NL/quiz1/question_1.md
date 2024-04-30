@@ -1,17 +1,17 @@
-## Quick quiz
+## Snelle quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Beantwoord de drie vragen. Er zijn tips om je naar het juiste antwoord te leiden.
 
-When you have answered each question, click on **Check my answer**.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Vraag 1 van 3
 ---
-In your Encoded art project you used lists and dictionaries to encode a shape to a letter. The code below uses **lists** and **dictionaries**. What will be the output of this code when it is run?
+In je Gecodeerde kunst-project heb je lijsten en dictionaries (woordenboeken) gebruikt om een vorm tot een letter te coderen. De code hieronder gebruikt **lijsten** en **dictionaries**. Wat zal de uitvoer zijn van deze code wanneer deze wordt uitgevoerd?
 
 --- code ---
 ---
@@ -28,11 +28,11 @@ print(instructions[0])
 
 --- choices ---
 
-- ( ) `'Green, 4'`
+- ( ) `'Groen, 4'`
 
   --- feedback ---
 
-Almost, the value in the square brackets `[]` on **line 9** represents a single item from a list.
+Bijna juist, de waarde tussen vierkante haken `[]` op **regel 9** vertegenwoordigt maar één item uit een lijst.
 
   --- /feedback ---
 
@@ -40,15 +40,15 @@ Almost, the value in the square brackets `[]` on **line 9** represents a single 
 
   --- feedback ---
 
-Not quite, this is the name of the **key** that has been accessed on **line 7**. Think about the data that is **paired** with the key.
+Niet helemaal, dit is de naam van de **sleutel** die gebruikt is op **regel 7**. Denk aan de data die **gekoppeld is** aan de sleutel.
 
   --- /feedback ---
 
-- (x) `Green`
+- (x) `Groen`
 
   --- feedback ---
 
-Correct! A new list called `instructions` is created that will hold the items `'Green'` and `4`. The print function is then used to print the first item in that list, which is `Green`.
+Juist! Er wordt een nieuwe lijst gemaakt met de naam `instructies` die de items `'Groen'` en `4`bevat. De print functie wordt dan gebruikt om het eerste item af te drukken in die lijst, wat `Groen` is.
 
   --- /feedback ---
 
@@ -56,7 +56,7 @@ Correct! A new list called `instructions` is created that will hold the items `'
 
   --- feedback ---
 
-You are very close. The print function will display an item from the `instructions` list, but not this one.
+Je bent heel dichtbij. De printfunctie toont een item uit de `instructies` lijst, maar niet deze.
 
   --- /feedback ---
 
