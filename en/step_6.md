@@ -157,7 +157,7 @@ line_highlights: 2-7
 ---
 for item in message:
     if item[0] == 'shape 1':
-        hape_1(item[1], item[2])
+        shape_1(item[1], item[2])
     elif item[0] == 'shape 2':
         shape_2(item[1], item[2])
     elif item[0] == 'shape 3':

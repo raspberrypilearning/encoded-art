@@ -1,0 +1,23 @@
+400 bij 400 werkt goed voor een kunstcanvas
+
+Rood = 50, Groen = 70, Blauw = 206
+
+Achtergrondkleur
+
+Geef andere functies toegang tot de afbeeldingen
+
+Laad de benodigde afbeeldingen in variabelen
+
+Positie rond het midden
+
+slang
+
+Bepaalt de grootte van de emoji
+
+Typ wat tekst en druk op Enter om een gecodeerde illustratie te genereren:
+
+lijst voor de gecodeerde letters
+
+voeg de gecodeerde letter toe aan de lijst
+
+Controleer of je over de zijkant van het venster bent gegaan
