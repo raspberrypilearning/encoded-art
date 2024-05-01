@@ -126,7 +126,7 @@ for item in message: print(item) --- /code ---
 language: python filename: main.py - draw() line_numbers: false line_number_start:
 line_highlights: 2-7
 ---
-for item in message: if item[0] == 'shape 1': hape_1(item[1], item[2]) elif item[0] == 'shape 2': shape_2(item[1], item[2]) elif item[0] == 'shape 3': shape_3(item[1], item[2])
+for item in message: if item[0] == 'shape 1': shape_1(item[1], item[2]) elif item[0] == 'shape 2': shape_2(item[1], item[2]) elif item[0] == 'shape 3': shape_3(item[1], item[2])
 
 --- /code ---
 
