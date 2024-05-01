@@ -96,7 +96,7 @@ def draw():
         'q': ['vorm 1', 45, primair_3],
         'r': ['vorm 1', 70, primair_4],
         's': ['vorm 1', 36, primair_4],
-        't': ['vorm 3', 74, primaire_1],
+        't': ['vorm 3', 74, primair_1],
         'u': ['vorm 1', 58, primair_3],
         'v': ['vorm 2', 78, primair_1],
         'w': ['vorm 1', 24, primair_4],
