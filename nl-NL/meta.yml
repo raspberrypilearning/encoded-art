@@ -1,0 +1,32 @@
+---
+title: Gecodeerde kunst
+hero_image: images/banner.png
+description: Maak een gecodeerd kunstwerk op basis van de naam van de gebruiker.
+meta_title: Python programmeer projecten voor kinderen en tieners | Gecodeerde kunst
+meta_description: Leer Python met de programmeerprojecten van de Raspberry Pi Foundation voor kinderen en tieners. Gebruik Python om een gecodeerd kunstwerk te maken op basis van de naam van de gebruiker.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-11-03"
+steps:
+  - title: Wat ga je maken
+  - title: Een thema kiezen
+  - title: Teken je vormen
+    completion:
+      - engaged
+  - title: Plaats je vormen
+  - title: Bouw je dictionary
+  - title: Codeer een bericht
+    completion:
+      - internal
+  - title: Snelle quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Verbeter je project
+  - title: Deel
+  - title: Wat kun je verder nog doen?
