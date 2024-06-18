@@ -146,7 +146,7 @@ def draw():
     blauw = Color(0,0,255)
     
     no_stroke()
-    teken_achtergrond(red)
+    teken_achtergrond(rood)
 
 --- /code ---
 
